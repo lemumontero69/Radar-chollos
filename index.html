@@ -1,0 +1,26 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Radar de chollos Amazon</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:0;background:#f4f4f6;color:#111}
+header{background:#131921;color:#fff;padding:14px 16px;position:sticky;top:0}
+h1{font-size:18px;margin:0}small{color:#bbb}
+.c{background:#fff;margin:10px;padding:12px;border-radius:12px;box-shadow:0 1px 3px #0002}
+.c.e{border:2px solid #d00}.t{font-size:14px;margin-bottom:8px}
+.p{font-size:22px;font-weight:700}.o{color:#777;text-decoration:line-through;margin-left:8px}
+.d{background:#d00;color:#fff;border-radius:6px;padding:2px 8px;font-weight:700;float:right}
+a.b{display:block;text-align:center;background:#ff9900;color:#111;padding:10px;border-radius:8px;margin-top:10px;text-decoration:none;font-weight:700}
+</style></head><body>
+<header><h1>🔥 Radar de chollos Amazon</h1><small id="u">Cargando…</small></header>
+<div id="l"></div>
+<script>
+fetch("deals.json?"+Date.now()).then(r=>r.json()).then(d=>{
+ document.getElementById("u").textContent="Actualizado: "+d.actualizado;
+ const f=n=>n.toLocaleString("es-ES",{style:"currency",currency:"EUR"});
+ document.getElementById("l").innerHTML=d.chollos.length?d.chollos.map(x=>
+  `<div class="c ${x.error?"e":""}"><span class="d">-${x.descuento}%</span>
+  <div class="t">${x.error?"⚠️ Posible error de precio<br>":""}${x.titulo}</div>
+  <span class="p">${f(x.precio)}</span><span class="o">${f(x.antes)}</span>
+  <a class="b" href="${x.url}" target="_blank" rel="noopener">Ver en Amazon</a></div>`).join(""):"<p style='padding:16px'>Ahora mismo no hay chollos.</p>";
+}).catch(()=>document.getElementById("u").textContent="Aún no hay datos");
+</script></body></html>
