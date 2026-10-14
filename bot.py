@@ -7,6 +7,8 @@ BUSQUEDAS = ["televisor 4k", "televisor oled", "smartphone", "iphone", "samsung 
              "portatil", "monitor", "tablet", "auriculares bluetooth", "consola", "camara"]
 PAGINAS = 2            # paginas de resultados por busqueda
 MIN_DESCUENTO = 50     # % minimo para aparecer en la lista
+MAX_DESC_LISTA = 90    # por encima, el precio tachado se considera dato erroneo
+MIN_PRECIO_ANTES = 50  # ignora productos baratos (accesorios, jabones...)
 ERROR_PRECIO = 70      # % desde el que se marca como posible error de precio
 HEAD = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
         "Accept-Language": "es-ES,es;q=0.9"}
@@ -23,7 +25,7 @@ def buscar(q, pag):
     for it in BeautifulSoup(r.text, "html.parser").select('div[data-component-type="s-search-result"]'):
         asin = it.get("data-asin")
         ahora = it.select_one("span.a-price:not(.a-text-price) span.a-offscreen")
-        antes = it.select_one("span.a-price.a-text-price span.a-offscreen")
+        antes = it.select_one("span.a-price.a-text-price[data-a-strike='true'] span.a-offscreen")
         t = it.select_one("h2")
         if not (asin and ahora and t): continue
         p = num(ahora.text)
@@ -53,8 +55,9 @@ def main():
                 h = hist.get(asin, {"max": p})
                 h["max"] = max(h.get("max", p), p); h["ult"] = p
                 hist[asin] = h
-                d_lista = round((1 - p / o) * 100) if o and o > p else 0
-                d_hist = round((1 - p / h["max"]) * 100) if h["max"] > p else 0
+                d_lista = round((1 - p / o) * 100) if o and o > p and o >= MIN_PRECIO_ANTES else 0
+                if d_lista > MAX_DESC_LISTA: d_lista = 0
+                d_hist = round((1 - p / h["max"]) * 100) if h["max"] > p and h["max"] >= MIN_PRECIO_ANTES else 0
                 d = max(d_lista, d_hist)
                 if d >= MIN_DESCUENTO:
                     vistos[asin] = {"asin": asin, "titulo": titulo, "precio": p,
