@@ -1,0 +1,35 @@
+{
+ "actualizado": "14/10/2026 22:24 UTC",
+ "chollos": [
+  {
+   "asin": "B001YJHXD8",
+   "titulo": "Siemens SZ73100 - Cesto para cubertería, accesorio para lavavajillas",
+   "precio": 16.53,
+   "antes": 16530.0,
+   "descuento": 100,
+   "error": true,
+   "motivo": "precio tachado",
+   "url": "https://www.amazon.es/dp/B001YJHXD8"
+  },
+  {
+   "asin": "B096RFTPRB",
+   "titulo": "Líquido vajilla a mano ecocert",
+   "precio": 18.39,
+   "antes": 1532.5,
+   "descuento": 99,
+   "error": true,
+   "motivo": "precio tachado",
+   "url": "https://www.amazon.es/dp/B096RFTPRB"
+  },
+  {
+   "asin": "B09B7WLWW3",
+   "titulo": "Dirty Labs Detergente y potenciador para lavavajillas, aroma Aestival, 48 cargas (1 libra), ultra limpio, sin ",
+   "precio": 69.89,
+   "antes": 4368.13,
+   "descuento": 98,
+   "error": true,
+   "motivo": "precio tachado",
+   "url": "https://www.amazon.es/dp/B09B7WLWW3"
+  }
+ ]
+}
