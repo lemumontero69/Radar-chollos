@@ -1,4 +1,15 @@
 {
- "actualizado": "15/10/2026 13:44 UTC",
- "chollos": []
+ "actualizado": "15/10/2026 14:23 UTC",
+ "chollos": [
+  {
+   "asin": "B08NX9DPTC",
+   "titulo": "Samsung Galaxy Note20 5G, 256GB, Mystic Gray (Reacondicionado)",
+   "precio": 244.54,
+   "antes": 499.99,
+   "descuento": 51,
+   "error": false,
+   "motivo": "precio tachado",
+   "url": "https://www.amazon.es/dp/B08NX9DPTC"
+  }
+ ]
 }
