@@ -1,4 +1,15 @@
 {
- "actualizado": "17/10/2026 23:24 UTC",
- "chollos": []
+ "actualizado": "17/10/2026 23:50 UTC",
+ "chollos": [
+  {
+   "asin": "B0FJYZCSNF",
+   "titulo": "Cuisinart® Chef’s Classic™ batería de cocina 11 piezas | Inducción | Base de aluminio | Mangos Cool Grip™ | Me",
+   "precio": 99.09,
+   "antes": 206.53,
+   "descuento": 52,
+   "error": false,
+   "motivo": "precio tachado",
+   "url": "https://www.amazon.es/dp/B0FJYZCSNF"
+  }
+ ]
 }
