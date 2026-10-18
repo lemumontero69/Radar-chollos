@@ -1,35 +1,4 @@
 {
- "actualizado": "18/10/2026 02:31 UTC",
- "chollos": [
-  {
-   "asin": "B0HL78JYTN",
-   "titulo": "Auriculares de Conducción Ósea Auriculares Oreja Abierta Inalámbricos",
-   "precio": 30.57,
-   "antes": 107.43,
-   "descuento": 72,
-   "error": true,
-   "motivo": "precio tachado",
-   "url": "https://www.amazon.es/dp/B0HL78JYTN"
-  },
-  {
-   "asin": "B0HFVM432Q",
-   "titulo": "Auriculares Inalámbricos Bluetooth, Cascos Inalambricos Sonido HiFi Estéreo, Auriculares Bluetooth 5.4, Cancel",
-   "precio": 22.99,
-   "antes": 79.99,
-   "descuento": 71,
-   "error": true,
-   "motivo": "precio tachado",
-   "url": "https://www.amazon.es/dp/B0HFVM432Q"
-  },
-  {
-   "asin": "B09TFJJY3W",
-   "titulo": "Auriculares Inalambricos, Auriculares Bluetooth 5.3 Deportivos con Gancho de la Oreja, 60H de Reproducción, Pa",
-   "precio": 32.99,
-   "antes": 79.99,
-   "descuento": 59,
-   "error": false,
-   "motivo": "precio tachado",
-   "url": "https://www.amazon.es/dp/B09TFJJY3W"
-  }
- ]
+ "actualizado": "18/10/2026 03:02 UTC",
+ "chollos": []
 }
