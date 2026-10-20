@@ -1,4 +1,25 @@
 {
- "actualizado": "20/10/2026 04:39 UTC",
- "chollos": []
+ "actualizado": "20/10/2026 05:13 UTC",
+ "chollos": [
+  {
+   "asin": "B0BTJ8ZXG5",
+   "titulo": "Sony WH-CH520 Auriculares de diadema inalámbricos Bluetooth, diseño ligero, 50 h de batería, carga rápida, ecu",
+   "precio": 22.23,
+   "antes": 57.84,
+   "descuento": 62,
+   "error": false,
+   "motivo": "precio tachado",
+   "url": "https://www.amazon.es/dp/B0BTJ8ZXG5"
+  },
+  {
+   "asin": "B0BTJ9WHL9",
+   "titulo": "Sony WH-CH520 Auriculares Bluetooth con 50 h de batería, sonido DSEE y micrófono integrado, Beige",
+   "precio": 24.71,
+   "antes": 57.84,
+   "descuento": 57,
+   "error": false,
+   "motivo": "precio tachado",
+   "url": "https://www.amazon.es/dp/B0BTJ9WHL9"
+  }
+ ]
 }
