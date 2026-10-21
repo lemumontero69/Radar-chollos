@@ -1,4 +1,55 @@
 {
- "actualizado": "21/10/2026 15:06 UTC",
- "chollos": []
+ "actualizado": "21/10/2026 15:43 UTC",
+ "chollos": [
+  {
+   "asin": "B0BTJ8ZXG5",
+   "titulo": "Sony WH-CH520 Auriculares de diadema inalámbricos Bluetooth, diseño ligero, 50 h de batería, carga rápida, ecu",
+   "precio": 22.23,
+   "antes": 57.84,
+   "descuento": 62,
+   "error": false,
+   "motivo": "precio tachado",
+   "url": "https://www.amazon.es/dp/B0BTJ8ZXG5"
+  },
+  {
+   "asin": "B0BTJCRW9L",
+   "titulo": "Sony WH-CH520 Auriculares Bluetooth con 50 h de batería, sonido DSEE y micrófono integrado, Blanco",
+   "precio": 22.23,
+   "antes": 57.84,
+   "descuento": 62,
+   "error": false,
+   "motivo": "precio tachado",
+   "url": "https://www.amazon.es/dp/B0BTJCRW9L"
+  },
+  {
+   "asin": "B0BTJ9WHL9",
+   "titulo": "Sony WH-CH520 Auriculares Bluetooth con 50 h de batería, sonido DSEE y micrófono integrado, Beige",
+   "precio": 24.71,
+   "antes": 57.84,
+   "descuento": 57,
+   "error": false,
+   "motivo": "precio tachado",
+   "url": "https://www.amazon.es/dp/B0BTJ9WHL9"
+  },
+  {
+   "asin": "B0FKG6TDRR",
+   "titulo": "CMF Headphone Pro - Auriculares Bluetooth de Diadema Over-Ear – hasta 100h de Batería, Hi-Res con LDAC, Audio ",
+   "precio": 41.31,
+   "antes": 87.17,
+   "descuento": 53,
+   "error": false,
+   "motivo": "histórico",
+   "url": "https://www.amazon.es/dp/B0FKG6TDRR"
+  },
+  {
+   "asin": "B093C6G1BB",
+   "titulo": "TCL Tab 10S 4G - Tablet de 10.1\" FHD, Octa-Core, 3GB de RAM, Memoria de 32GB Ampliable a 256GB por MicroSD, 80",
+   "precio": 99.62,
+   "antes": 206.6,
+   "descuento": 52,
+   "error": false,
+   "motivo": "precio tachado",
+   "url": "https://www.amazon.es/dp/B093C6G1BB"
+  }
+ ]
 }
