@@ -1,65 +1,35 @@
 {
- "actualizado": "22/10/2026 14:33 UTC",
+ "actualizado": "22/10/2026 15:13 UTC",
  "chollos": [
   {
-   "asin": "B0HG9WVK81",
-   "titulo": "EUQQ Auriculares Inalámbricos Bluetooth 6.1 con ENC, 36h Autonomía, IP7",
-   "precio": 16.99,
-   "antes": 69.99,
-   "descuento": 76,
-   "error": true,
-   "motivo": "precio tachado",
-   "url": "https://www.amazon.es/dp/B0HG9WVK81"
-  },
-  {
-   "asin": "B0HMW3MHKR",
-   "titulo": "Auriculares Inalambricos Bluetooth 5.4, Auriculares Bluetooth HiFi Estéreo con HD Mic, Auriculares in ear IP7,",
-   "precio": 23.99,
-   "antes": 89.99,
-   "descuento": 73,
-   "error": true,
-   "motivo": "precio tachado",
-   "url": "https://www.amazon.es/dp/B0HMW3MHKR"
-  },
-  {
-   "asin": "B0HLDG7C7R",
-   "titulo": "Auriculares Inalámbricos Deportivos, 60H, 28 Modos EQ por App, HiFi Estéreo",
-   "precio": 19.99,
-   "antes": 59.99,
-   "descuento": 67,
+   "asin": "B0BTJ8ZXG5",
+   "titulo": "Sony WH-CH520 Auriculares de diadema inalámbricos Bluetooth, diseño ligero, 50 h de batería, carga rápida, ecu",
+   "precio": 22.23,
+   "antes": 57.84,
+   "descuento": 62,
    "error": false,
    "motivo": "precio tachado",
-   "url": "https://www.amazon.es/dp/B0HLDG7C7R"
+   "url": "https://www.amazon.es/dp/B0BTJ8ZXG5"
   },
   {
-   "asin": "B0HFND3JHX",
-   "titulo": "Qecnato Auriculares Bluetooth Deportivos 75H, Inalámbricos Bluetooth 5.4, HiFi Estéreo, HD Micrófono, Pantalla",
-   "precio": 23.99,
-   "antes": 69.99,
-   "descuento": 66,
+   "asin": "B0BTJ9WHL9",
+   "titulo": "Sony WH-CH520 Auriculares Bluetooth con 50 h de batería, sonido DSEE y micrófono integrado, Beige",
+   "precio": 24.71,
+   "antes": 57.84,
+   "descuento": 57,
    "error": false,
    "motivo": "precio tachado",
-   "url": "https://www.amazon.es/dp/B0HFND3JHX"
+   "url": "https://www.amazon.es/dp/B0BTJ9WHL9"
   },
   {
-   "asin": "B0CHYDX493",
-   "titulo": "Auriculares Inalámbricos, Auriculares Bluetooth 5.4 HiFi, 50H con 4 HD Mic",
-   "precio": 23.99,
-   "antes": 59.99,
-   "descuento": 60,
+   "asin": "B0FKG6TDRR",
+   "titulo": "CMF Headphone Pro - Auriculares Bluetooth de Diadema Over-Ear – hasta 100h de Batería, Hi-Res con LDAC, Audio ",
+   "precio": 41.31,
+   "antes": 87.17,
+   "descuento": 53,
    "error": false,
-   "motivo": "precio tachado",
-   "url": "https://www.amazon.es/dp/B0CHYDX493"
-  },
-  {
-   "asin": "B09TFJJY3W",
-   "titulo": "Auriculares Inalambricos, Auriculares Bluetooth 5.3 Deportivos con Gancho de la Oreja, 60H de Reproducción, Pa",
-   "precio": 32.99,
-   "antes": 79.99,
-   "descuento": 59,
-   "error": false,
-   "motivo": "precio tachado",
-   "url": "https://www.amazon.es/dp/B09TFJJY3W"
+   "motivo": "histórico",
+   "url": "https://www.amazon.es/dp/B0FKG6TDRR"
   }
  ]
 }
