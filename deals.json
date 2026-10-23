@@ -1,4 +1,15 @@
 {
- "actualizado": "23/10/2026 09:47 UTC",
- "chollos": []
+ "actualizado": "23/10/2026 10:21 UTC",
+ "chollos": [
+  {
+   "asin": "B0GCH6XRT8",
+   "titulo": "TCL Crystal Clip Auriculares Inalámbricos | Open Ear OWS | 28h Autonomía | IP54 | Bluetooth 5.4 | Multipoint 2",
+   "precio": 32.72,
+   "antes": 66.11,
+   "descuento": 51,
+   "error": false,
+   "motivo": "precio tachado",
+   "url": "https://www.amazon.es/dp/B0GCH6XRT8"
+  }
+ ]
 }
