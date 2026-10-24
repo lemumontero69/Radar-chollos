@@ -1,4 +1,15 @@
 {
- "actualizado": "24/10/2026 03:27 UTC",
- "chollos": []
+ "actualizado": "24/10/2026 04:03 UTC",
+ "chollos": [
+  {
+   "asin": "B092ZX4FZ8",
+   "titulo": "SMARTPHONE XIAOMI REDMI 9AT 6,53'' HD+ 2GB/32GB DUAL SIM GRANITE GRAY - UK (Reacondicionado)",
+   "precio": 110.23,
+   "antes": 335.0,
+   "descuento": 67,
+   "error": false,
+   "motivo": "precio tachado",
+   "url": "https://www.amazon.es/dp/B092ZX4FZ8"
+  }
+ ]
 }
