@@ -1,37 +1,33 @@
-import json, os, re, time, random, requests
-TOPIC = os.environ.get('NTFY_TOPIC')
-from bs4 import BeautifulSoup
+import json, os, sys, time, requests
 
-BUSQUEDAS = ["televisor 4k", "televisor oled", "smartphone", "iphone", "samsung galaxy",
-             "xiaomi", "lavadora", "frigorifico", "lavavajillas", "horno", "robot aspirador",
-             "portatil", "monitor", "tablet", "auriculares bluetooth", "consola", "camara"]
-PAGINAS = 2            # paginas de resultados por busqueda
-MIN_DESCUENTO = 50     # % minimo para aparecer en la lista
-MAX_DESC_LISTA = 90    # por encima, el precio tachado se considera dato erroneo
-MIN_PRECIO_ANTES = 50  # ignora productos baratos (accesorios, jabones...)
-ERROR_PRECIO = 70      # % desde el que se marca como posible error de precio
-HEAD = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
-        "Accept-Language": "es-ES,es;q=0.9"}
+KEY = os.environ.get("KEEPA_KEY")
+TOPIC = os.environ.get("NTFY_TOPIC")
 
-def num(txt):
-    m = re.search(r"[\d.]+,\d{2}|\d+", txt.replace("\xa0", ""))
-    return float(m.group().replace(".", "").replace(",", ".")) if m else None
+DOMINIO = 9                  # 9 = amazon.es
+TIPOS_PRECIO = [0, 1]        # 0 = vendido por Amazon, 1 = nuevo de otros vendedores
+PAGINAS = 2                  # 150 ofertas por pagina
+MIN_DESCUENTO = 50           # % minimo para aparecer en la lista
+ERROR_PRECIO = 70            # % desde el que se marca como posible error de precio
+PRECIO_MIN, PRECIO_MAX = 2000, 600000   # en centimos: de 20 EUR a 6.000 EUR
+PRECIO_ANTES_MIN = 3000      # ignora productos cuyo precio normal sea menor de 30 EUR
+SOLO_CATEGORIAS = True       # pon False para vigilar todas las categorias
+CATEGORIAS = ["electr", "inform", "hogar", "cocina", "videojuego", "foto",
+              "camara", "c\u00e1mara", "electrodom", "bricolaje"]
 
-def buscar(q, pag):
-    r = requests.get("https://www.amazon.es/s", params={"k": q, "page": pag}, headers=HEAD, timeout=20)
+def pedir(tipo, pag):
+    q = {"page": pag, "domainId": DOMINIO, "priceTypes": [tipo], "dateRange": 0,
+         "isRangeEnabled": True, "currentRange": [PRECIO_MIN, PRECIO_MAX],
+         "deltaPercentRange": [MIN_DESCUENTO, 100], "isFilterEnabled": False,
+         "filterErotic": True, "sortType": 4}
+    try:
+        r = requests.post("https://api.keepa.com/deal", params={"key": KEY}, json=q, timeout=60)
+    except Exception as e:
+        print("Aviso red", e); return None
     if r.status_code != 200:
-        print("Aviso", q, pag, r.status_code); return []
-    out = []
-    for it in BeautifulSoup(r.text, "html.parser").select('div[data-component-type="s-search-result"]'):
-        asin = it.get("data-asin")
-        ahora = it.select_one("span.a-price:not(.a-text-price) span.a-offscreen")
-        antes = it.select_one("span.a-price.a-text-price[data-a-strike='true'] span.a-offscreen")
-        t = it.select_one("h2")
-        if not (asin and ahora and t): continue
-        p = num(ahora.text)
-        o = num(antes.text) if antes else None
-        if p: out.append((asin, t.get_text(strip=True)[:110], p, o))
-    return out
+        print("Aviso Keepa", tipo, pag, r.status_code, r.text[:200]); return None
+    d = r.json()
+    print("tokens restantes:", d.get("tokensLeft"))
+    return d.get("deals") or {}
 
 def avisar(x):
     if not TOPIC: return
@@ -44,34 +40,46 @@ def avisar(x):
         print("ntfy fallo", e)
 
 def main():
+    if not KEY:
+        print("Falta el secreto KEEPA_KEY"); sys.exit(1)
     previos = set()
     if os.path.exists("deals.json"):
         previos = {c["asin"] for c in json.load(open("deals.json", encoding="utf-8")).get("chollos", [])}
-    hist = json.load(open("prices.json")) if os.path.exists("prices.json") else {}
-    vistos = {}
-    for q in BUSQUEDAS:
-        for pag in range(1, PAGINAS + 1):
-            for asin, titulo, p, o in buscar(q, pag):
-                h = hist.get(asin, {"max": p})
-                h["max"] = max(h.get("max", p), p); h["ult"] = p
-                hist[asin] = h
-                d_lista = round((1 - p / o) * 100) if o and o > p and o >= MIN_PRECIO_ANTES else 0
-                if d_lista > MAX_DESC_LISTA: d_lista = 0
-                d_hist = round((1 - p / h["max"]) * 100) if h["max"] > p and h["max"] >= MIN_PRECIO_ANTES else 0
-                d = max(d_lista, d_hist)
-                if d >= MIN_DESCUENTO:
-                    vistos[asin] = {"asin": asin, "titulo": titulo, "precio": p,
-                        "antes": o if d_lista >= d_hist else h["max"], "descuento": d,
-                        "error": d >= ERROR_PRECIO,
-                        "motivo": "histórico" if d_hist > d_lista else "precio tachado",
-                        "url": f"https://www.amazon.es/dp/{asin}"}
-            time.sleep(random.uniform(3, 7))
+    vistos, cats_vistas, ok = {}, {}, False
+    for tipo in TIPOS_PRECIO:
+        for pag in range(PAGINAS):
+            deals = pedir(tipo, pag)
+            if deals is None: break
+            ok = True
+            nombres = dict(zip(deals.get("categoryIds", []), deals.get("categoryNames", [])))
+            dr = deals.get("dr", [])
+            for dl in dr:
+                try:
+                    cur, avg = dl["current"][tipo], dl["avg"][0][tipo]
+                except (KeyError, IndexError, TypeError):
+                    continue
+                if cur <= 0 or avg < PRECIO_ANTES_MIN or cur >= avg: continue
+                d = round((1 - cur / avg) * 100)
+                if d < MIN_DESCUENTO: continue
+                cat = nombres.get(dl.get("rootCat"), "?")
+                cats_vistas[cat] = cats_vistas.get(cat, 0) + 1
+                if SOLO_CATEGORIAS and not any(c in cat.lower() for c in CATEGORIAS): continue
+                asin = dl["asin"]
+                if asin in vistos and vistos[asin]["descuento"] >= d: continue
+                vistos[asin] = {"asin": asin, "titulo": (dl.get("title") or "")[:110],
+                    "precio": cur / 100, "antes": avg / 100, "descuento": d,
+                    "error": d >= ERROR_PRECIO, "categoria": cat,
+                    "url": f"https://www.amazon.es/dp/{asin}"}
+            if len(dr) < 150: break
+            time.sleep(1)
+    if not ok:
+        print("Keepa no respondio; se conserva la lista anterior"); sys.exit(1)
+    print("categorias vistas:", cats_vistas)
     lista = sorted(vistos.values(), key=lambda x: (not x["error"], -x["descuento"]))
     for x in lista:
         if x["error"] and x["asin"] not in previos: avisar(x)
     json.dump({"actualizado": time.strftime("%d/%m/%Y %H:%M UTC", time.gmtime()), "chollos": lista},
               open("deals.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    json.dump(hist, open("prices.json", "w"))
     print(len(lista), "chollos")
 
 main()
