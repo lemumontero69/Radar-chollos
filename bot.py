@@ -14,20 +14,41 @@ SOLO_CATEGORIAS = True       # pon False para vigilar todas las categorias
 CATEGORIAS = ["electr", "inform", "hogar", "cocina", "videojuego", "foto",
               "camara", "c\u00e1mara", "electrodom", "bricolaje"]
 
+NIVEL = 0   # consulta usada: 0 = completa, 1 = intermedia, 2 = minima
+
+def consulta(tipo, pag, nivel):
+    base = {"page": pag, "domainId": DOMINIO, "priceTypes": [tipo], "dateRange": 0}
+    if nivel == 2:
+        return base
+    base.update({"isRangeEnabled": True, "deltaPercentRange": [MIN_DESCUENTO, 100], "sortType": 4})
+    if nivel == 1:
+        return base
+    base.update({"currentRange": [PRECIO_MIN, PRECIO_MAX], "deltaRange": [0, 1000000],
+                 "deltaLastRange": None, "salesRankRange": None, "titleSearch": None,
+                 "excludeCategories": [], "includeCategories": [], "minRating": -1,
+                 "isLowest": False, "isLowestOffer": False, "isOutOfStock": False,
+                 "isFilterEnabled": False, "filterErotic": True, "hasReviews": False,
+                 "singleVariation": False})
+    return base
+
 def pedir(tipo, pag):
-    q = {"page": pag, "domainId": DOMINIO, "priceTypes": [tipo], "dateRange": 0,
-         "isRangeEnabled": True, "currentRange": [PRECIO_MIN, PRECIO_MAX],
-         "deltaPercentRange": [MIN_DESCUENTO, 100], "isFilterEnabled": False,
-         "filterErotic": True, "sortType": 4}
-    try:
-        r = requests.post("https://api.keepa.com/deal", params={"key": KEY}, json=q, timeout=60)
-    except Exception as e:
-        print("Aviso red", e); return None
-    if r.status_code != 200:
-        print("Aviso Keepa", tipo, pag, r.status_code, r.text[:200]); return None
-    d = r.json()
-    print("tokens restantes:", d.get("tokensLeft"))
-    return d.get("deals") or {}
+    global NIVEL
+    while NIVEL <= 2:
+        try:
+            r = requests.post("https://api.keepa.com/deal", params={"key": KEY},
+                              json=consulta(tipo, pag, NIVEL), timeout=60)
+        except Exception as e:
+            print("Aviso red", e); return None
+        if r.status_code == 400 and NIVEL < 2:
+            print("Consulta nivel", NIVEL, "rechazada (400); pruebo una mas sencilla")
+            NIVEL += 1
+            continue
+        if r.status_code != 200:
+            print("Aviso Keepa", tipo, pag, r.status_code, r.text[:300]); return None
+        d = r.json()
+        print("nivel", NIVEL, "| tokens restantes:", d.get("tokensLeft"))
+        return d.get("deals") or {}
+    return None
 
 def avisar(x):
     if not TOPIC: return
@@ -58,7 +79,7 @@ def main():
                     cur, avg = dl["current"][tipo], dl["avg"][0][tipo]
                 except (KeyError, IndexError, TypeError):
                     continue
-                if cur <= 0 or avg < PRECIO_ANTES_MIN or cur >= avg: continue
+                if cur < PRECIO_MIN or cur > PRECIO_MAX or avg < PRECIO_ANTES_MIN or cur >= avg: continue
                 d = round((1 - cur / avg) * 100)
                 if d < MIN_DESCUENTO: continue
                 cat = nombres.get(dl.get("rootCat"), "?")
