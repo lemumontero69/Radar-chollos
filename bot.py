@@ -19,6 +19,9 @@ SOLO_CATEGORIAS = True       # pon False para vigilar todas las categorias
 CATEGORIAS = ["electr", "inform", "videojuego", "foto", "camara", "c\u00e1mara",
               "hogar", "cocina", "electrodom", "coche", "moto"]
 CATS = []    # ids de esas categorias (se descubren en cada ejecucion)
+EXCLUIR_TITULO = ["funda", "cubierta", "cubre", "lona", "toldo", "parasol", "alfombrilla",
+                  "limpia", "ambientador", "protector", "pegatina", "adhesivo", "vinilo",
+                  "cera ", "pulid", "aceite", "aditivo", "cable", "soporte", "organizador"]
 
 NIVEL = 0   # consulta usada: 0 = completa, 1 = intermedia, 2 = minima
 
@@ -124,6 +127,7 @@ def main():
                 if cur < PRECIO_MIN or cur > PRECIO_MAX or avg < PRECIO_ANTES_MIN or cur >= avg: continue
                 d = round((1 - cur / avg) * 100)
                 if d < MIN_DESCUENTO or d > MAX_DESCUENTO: continue
+                if any(p in (dl.get("title") or "").lower() for p in EXCLUIR_TITULO): continue
                 cat = nombres.get(dl.get("rootCat"), "?")
                 cats_vistas[cat] = cats_vistas.get(cat, 0) + 1
                 if SOLO_CATEGORIAS and not any(c in cat.lower() for c in CATEGORIAS): continue
