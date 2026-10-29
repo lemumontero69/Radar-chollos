@@ -7,26 +7,37 @@ PO_USER = os.environ.get("PUSHOVER_USER")
 TG_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TG_CHAT = os.environ.get("TELEGRAM_CHAT_ID")
 
-DOMINIO = 9                  # 9 = amazon.es
-TIPOS_PRECIO = [0, 1]        # 0 = vendido por Amazon, 1 = nuevo de otros vendedores
-PAGINAS = 2                  # 150 ofertas por pagina
+# mercado: (dominio Amazon, codigo, tipos de precio, paginas). Gasta tokens: no abuses.
+MERCADOS = [("www.amazon.es", "ES", 9, [0, 1], 2),
+            ("www.amazon.de", "DE", 3, [0], 1),
+            ("www.amazon.fr", "FR", 4, [0], 1),
+            ("www.amazon.it", "IT", 8, [0], 1)]
+# tipo de precio: 0 = vendido por Amazon, 1 = nuevo de otros vendedores
 MIN_DESCUENTO = 80           # % minimo para aparecer en la lista
 MAX_DESCUENTO = 99           # por encima se considera dato roto
 ERROR_PRECIO = 80            # % desde el que se marca como posible error de precio
 PRECIO_MIN, PRECIO_MAX = 100, 600000    # en centimos: de 1 EUR a 6.000 EUR
 PRECIO_ANTES_MIN = 10000     # ignora productos cuyo precio normal sea menor de 100 EUR
 SOLO_CATEGORIAS = True       # pon False para vigilar todas las categorias
-CATEGORIAS = ["electr", "inform", "videojuego", "foto", "camara", "c\u00e1mara",
-              "hogar", "cocina", "electrodom", "coche", "moto"]
-CATS = []    # ids de esas categorias (se descubren en cada ejecucion)
-EXCLUIR_TITULO = ["funda", "cubierta", "cubre", "lona", "toldo", "parasol", "alfombrilla",
-                  "limpia", "ambientador", "protector", "pegatina", "adhesivo", "vinilo",
-                  "cera ", "pulid", "aceite", "aditivo", "cable", "soporte", "organizador"]
+CATEGORIAS = [  # trozos del nombre de categoria en espanol, aleman, frances e italiano
+    "electr", "inform", "videojuego", "foto", "camara", "c\u00e1mara", "hogar", "cocina",
+    "electrodom", "coche", "moto", "bricolaje", "herramientas",
+    "computer", "k\u00fcche", "haushalt", "baumarkt", "auto", "kamera", "games",
+    "high-tech", "informatique", "cuisine", "maison", "bricolage", "jeux vid", "appareil",
+    "elettronica", "informatica", "casa e cucina", "fai da te", "videogiochi", "fotocamera"]
+EXCLUIR_TITULO = [
+    "funda", "cubierta", "cubre", "lona", "toldo", "parasol", "alfombrilla", "limpia",
+    "ambientador", "protector", "pegatina", "adhesivo", "vinilo", "cera ", "pulid", "aceite",
+    "aditivo", "cable", "soporte", "organizador", "brocas", "puntas", "juego de puntas",
+    "abdeckung", "schutzh", "plane", "autoabdeck", "kabel", "halterung", "reiniger",
+    "housse", "b\u00e2che", "pare-soleil", "c\u00e2ble", "support", "nettoyant",
+    "copriauto", "telo", "cavo", "supporto", "detergente", "custodia"]
+CATS = []    # ids de categorias del mercado actual (se descubren en cada ejecucion)
 
 NIVEL = 0   # consulta usada: 0 = completa, 1 = intermedia, 2 = minima
 
-def consulta(tipo, pag, nivel):
-    base = {"page": pag, "domainId": DOMINIO, "priceTypes": [tipo], "dateRange": 0}
+def consulta(dom, tipo, pag, nivel):
+    base = {"page": pag, "domainId": dom, "priceTypes": [tipo], "dateRange": 0}
     if nivel == 2:
         return base
     base.update({"isRangeEnabled": True, "deltaPercentRange": [MIN_DESCUENTO, 100], "sortType": 4})
@@ -43,12 +54,12 @@ def consulta(tipo, pag, nivel):
         base["includeCategories"] = CATS
     return base
 
-def pedir(tipo, pag):
+def pedir(dom, tipo, pag):
     global NIVEL
     while NIVEL <= 2:
         try:
             r = requests.post("https://api.keepa.com/deal", params={"key": KEY},
-                              json=consulta(tipo, pag, NIVEL), timeout=60)
+                              json=consulta(dom, tipo, pag, NIVEL), timeout=60)
         except Exception as e:
             print("Aviso red", e); return None
         if r.status_code == 400 and NIVEL < 2:
@@ -56,7 +67,7 @@ def pedir(tipo, pag):
             NIVEL += 1
             continue
         if r.status_code != 200:
-            print("Aviso Keepa", tipo, pag, r.status_code, r.text[:300]); return None
+            print("Aviso Keepa", dom, tipo, pag, r.status_code, r.text[:300]); return None
         d = r.json()
         print("nivel", NIVEL, "| tokens restantes:", d.get("tokensLeft"))
         return d.get("deals") or {}
@@ -104,48 +115,54 @@ def main():
             prev = json.load(open("deals.json", encoding="utf-8"))
         except Exception:
             prev = {}
-    previos = {c["asin"] for c in prev.get("chollos", [])}
+    previos = {c.get("clave", "9:" + c["asin"]) for c in prev.get("chollos", [])}
     vistos, cats_vistas, ok = {}, {}, False
     global CATS
-    d0 = pedir(TIPOS_PRECIO[0], 0)
-    if d0 is not None and NIVEL == 0:
-        CATS = [i for i, n in zip(d0.get("categoryIds", []), d0.get("categoryNames", []))
-                if any(c in n.lower() for c in CATEGORIAS)]
-        print("categorias elegidas:", CATS)
-    for tipo in TIPOS_PRECIO:
-        for pag in range(PAGINAS):
-            deals = pedir(tipo, pag)
-            if deals is None: break
-            ok = True
-            nombres = dict(zip(deals.get("categoryIds", []), deals.get("categoryNames", [])))
-            dr = deals.get("dr", [])
-            for dl in dr:
-                try:
-                    cur, avg = dl["current"][tipo], dl["avg"][0][tipo]
-                except (KeyError, IndexError, TypeError):
-                    continue
-                if cur < PRECIO_MIN or cur > PRECIO_MAX or avg < PRECIO_ANTES_MIN or cur >= avg: continue
-                d = round((1 - cur / avg) * 100)
-                if d < MIN_DESCUENTO or d > MAX_DESCUENTO: continue
-                if any(p in (dl.get("title") or "").lower() for p in EXCLUIR_TITULO): continue
-                cat = nombres.get(dl.get("rootCat"), "?")
-                cats_vistas[cat] = cats_vistas.get(cat, 0) + 1
-                if SOLO_CATEGORIAS and not any(c in cat.lower() for c in CATEGORIAS): continue
-                asin = dl["asin"]
-                if asin in vistos and vistos[asin]["descuento"] >= d: continue
-                vistos[asin] = {"asin": asin, "titulo": (dl.get("title") or "")[:110],
-                    "precio": cur / 100, "antes": avg / 100, "descuento": d,
-                    "error": d >= ERROR_PRECIO, "categoria": cat,
-                    "url": f"https://www.amazon.es/dp/{asin}"}
-            if len(dr) < 150: break
-            time.sleep(1)
+    for host, cod, dom, tipos, paginas in MERCADOS:
+        d0 = pedir(dom, tipos[0], 0)
+        if d0 is None:
+            print("Aviso: mercado", cod, "sin respuesta"); continue
+        CATS = []
+        if NIVEL == 0:
+            CATS = [i for i, n in zip(d0.get("categoryIds", []), d0.get("categoryNames", []))
+                    if any(c in n.lower() for c in CATEGORIAS)]
+        print(cod, "categorias elegidas:", CATS)
+        for tipo in tipos:
+            for pag in range(paginas):
+                deals = pedir(dom, tipo, pag)
+                if deals is None: break
+                ok = True
+                nombres = dict(zip(deals.get("categoryIds", []), deals.get("categoryNames", [])))
+                dr = deals.get("dr", [])
+                for dl in dr:
+                    try:
+                        cur, avg = dl["current"][tipo], dl["avg"][0][tipo]
+                    except (KeyError, IndexError, TypeError):
+                        continue
+                    if cur < PRECIO_MIN or cur > PRECIO_MAX or avg < PRECIO_ANTES_MIN or cur >= avg: continue
+                    d = round((1 - cur / avg) * 100)
+                    if d < MIN_DESCUENTO or d > MAX_DESCUENTO: continue
+                    if any(p in (dl.get("title") or "").lower() for p in EXCLUIR_TITULO): continue
+                    cat = nombres.get(dl.get("rootCat"), "?")
+                    cats_vistas[cod + " " + cat] = cats_vistas.get(cod + " " + cat, 0) + 1
+                    if SOLO_CATEGORIAS and not any(c in cat.lower() for c in CATEGORIAS): continue
+                    asin = dl["asin"]; clave = f"{dom}:{asin}"
+                    if clave in vistos and vistos[clave]["descuento"] >= d: continue
+                    pref = "" if cod == "ES" else f"[{cod}] "
+                    vistos[clave] = {"clave": clave, "asin": asin, "mercado": cod,
+                        "titulo": pref + (dl.get("title") or "")[:105],
+                        "precio": cur / 100, "antes": avg / 100, "descuento": d,
+                        "error": d >= ERROR_PRECIO, "categoria": cat,
+                        "url": f"https://{host}/dp/{asin}"}
+                if len(dr) < 150: break
+                time.sleep(1)
     if not ok:
         print("Keepa no respondio; se conserva la lista anterior"); sys.exit(1)
     print("categorias vistas:", cats_vistas)
     lista = sorted(vistos.values(), key=lambda x: (not x["error"], -(x["antes"] - x["precio"])))
     for x in lista:
-        if x["error"] and x["asin"] not in previos: avisar(x)
-    firma = lambda l: [(c["asin"], c["precio"]) for c in l]
+        if x["error"] and x["clave"] not in previos: avisar(x)
+    firma = lambda l: [(c.get("clave", c["asin"]), c["precio"]) for c in l]
     if firma(lista) == firma(prev.get("chollos", [])) and time.time() - prev.get("ts", 0) < 3300:
         print(len(lista), "chollos (sin cambios, no se guarda)"); return
     json.dump({"actualizado": time.strftime("%d/%m/%Y %H:%M UTC", time.gmtime()), "ts": int(time.time()),
