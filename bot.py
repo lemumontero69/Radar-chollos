@@ -6,13 +6,15 @@ TOPIC = os.environ.get("NTFY_TOPIC")
 DOMINIO = 9                  # 9 = amazon.es
 TIPOS_PRECIO = [0, 1]        # 0 = vendido por Amazon, 1 = nuevo de otros vendedores
 PAGINAS = 2                  # 150 ofertas por pagina
-MIN_DESCUENTO = 50           # % minimo para aparecer en la lista
-ERROR_PRECIO = 70            # % desde el que se marca como posible error de precio
-PRECIO_MIN, PRECIO_MAX = 2000, 600000   # en centimos: de 20 EUR a 6.000 EUR
-PRECIO_ANTES_MIN = 3000      # ignora productos cuyo precio normal sea menor de 30 EUR
+MIN_DESCUENTO = 80           # % minimo para aparecer en la lista
+MAX_DESCUENTO = 99           # por encima se considera dato roto
+ERROR_PRECIO = 80            # % desde el que se marca como posible error de precio
+PRECIO_MIN, PRECIO_MAX = 100, 600000    # en centimos: de 1 EUR a 6.000 EUR
+PRECIO_ANTES_MIN = 10000     # ignora productos cuyo precio normal sea menor de 100 EUR
 SOLO_CATEGORIAS = True       # pon False para vigilar todas las categorias
-CATEGORIAS = ["electr", "inform", "hogar", "cocina", "videojuego", "foto",
-              "camara", "c\u00e1mara", "electrodom", "bricolaje"]
+CATEGORIAS = ["electr", "inform", "videojuego", "foto", "camara", "c\u00e1mara",
+              "hogar", "cocina", "electrodom", "coche", "moto"]
+CATS = []    # ids de esas categorias (se descubren en cada ejecucion)
 
 NIVEL = 0   # consulta usada: 0 = completa, 1 = intermedia, 2 = minima
 
@@ -29,6 +31,9 @@ def consulta(tipo, pag, nivel):
                  "isLowest": False, "isLowestOffer": False, "isOutOfStock": False,
                  "isFilterEnabled": False, "filterErotic": True, "hasReviews": False,
                  "singleVariation": False})
+    if CATS:
+        base["isFilterEnabled"] = True
+        base["includeCategories"] = CATS
     return base
 
 def pedir(tipo, pag):
@@ -67,6 +72,12 @@ def main():
     if os.path.exists("deals.json"):
         previos = {c["asin"] for c in json.load(open("deals.json", encoding="utf-8")).get("chollos", [])}
     vistos, cats_vistas, ok = {}, {}, False
+    global CATS
+    d0 = pedir(TIPOS_PRECIO[0], 0)
+    if d0 is not None and NIVEL == 0:
+        CATS = [i for i, n in zip(d0.get("categoryIds", []), d0.get("categoryNames", []))
+                if any(c in n.lower() for c in CATEGORIAS)]
+        print("categorias elegidas:", CATS)
     for tipo in TIPOS_PRECIO:
         for pag in range(PAGINAS):
             deals = pedir(tipo, pag)
@@ -81,7 +92,7 @@ def main():
                     continue
                 if cur < PRECIO_MIN or cur > PRECIO_MAX or avg < PRECIO_ANTES_MIN or cur >= avg: continue
                 d = round((1 - cur / avg) * 100)
-                if d < MIN_DESCUENTO: continue
+                if d < MIN_DESCUENTO or d > MAX_DESCUENTO: continue
                 cat = nombres.get(dl.get("rootCat"), "?")
                 cats_vistas[cat] = cats_vistas.get(cat, 0) + 1
                 if SOLO_CATEGORIAS and not any(c in cat.lower() for c in CATEGORIAS): continue
@@ -96,7 +107,7 @@ def main():
     if not ok:
         print("Keepa no respondio; se conserva la lista anterior"); sys.exit(1)
     print("categorias vistas:", cats_vistas)
-    lista = sorted(vistos.values(), key=lambda x: (not x["error"], -x["descuento"]))
+    lista = sorted(vistos.values(), key=lambda x: (not x["error"], -(x["antes"] - x["precio"])))
     for x in lista:
         if x["error"] and x["asin"] not in previos: avisar(x)
     json.dump({"actualizado": time.strftime("%d/%m/%Y %H:%M UTC", time.gmtime()), "chollos": lista},
