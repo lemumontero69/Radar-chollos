@@ -68,9 +68,13 @@ def avisar(x):
 def main():
     if not KEY:
         print("Falta el secreto KEEPA_KEY"); sys.exit(1)
-    previos = set()
+    prev = {}
     if os.path.exists("deals.json"):
-        previos = {c["asin"] for c in json.load(open("deals.json", encoding="utf-8")).get("chollos", [])}
+        try:
+            prev = json.load(open("deals.json", encoding="utf-8"))
+        except Exception:
+            prev = {}
+    previos = {c["asin"] for c in prev.get("chollos", [])}
     vistos, cats_vistas, ok = {}, {}, False
     global CATS
     d0 = pedir(TIPOS_PRECIO[0], 0)
@@ -110,8 +114,11 @@ def main():
     lista = sorted(vistos.values(), key=lambda x: (not x["error"], -(x["antes"] - x["precio"])))
     for x in lista:
         if x["error"] and x["asin"] not in previos: avisar(x)
-    json.dump({"actualizado": time.strftime("%d/%m/%Y %H:%M UTC", time.gmtime()), "chollos": lista},
-              open("deals.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    firma = lambda l: [(c["asin"], c["precio"]) for c in l]
+    if firma(lista) == firma(prev.get("chollos", [])) and time.time() - prev.get("ts", 0) < 3300:
+        print(len(lista), "chollos (sin cambios, no se guarda)"); return
+    json.dump({"actualizado": time.strftime("%d/%m/%Y %H:%M UTC", time.gmtime()), "ts": int(time.time()),
+               "chollos": lista}, open("deals.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(len(lista), "chollos")
 
 main()
