@@ -1,4 +1,405 @@
 {
- "actualizado": "28/10/2026 22:00 UTC",
- "chollos": []
+ "actualizado": "29/10/2026 09:21 UTC",
+ "chollos": [
+  {
+   "asin": "B0CLMDSTTX",
+   "titulo": "Sleepy Town Sábanas de cama tamaño King, juego de sábanas de 4 piezas, extra suaves, cómodas y refrescantes, d",
+   "precio": 84.42,
+   "antes": 3742.36,
+   "descuento": 98,
+   "error": true,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0CLMDSTTX"
+  },
+  {
+   "asin": "B0HD7QYMR9",
+   "titulo": "APC Easy UPS, 700 VA, Torre, 230 V, 2 Tomas CEE 7/3 Schuko, AVR",
+   "precio": 245.84,
+   "antes": 2016.1,
+   "descuento": 88,
+   "error": true,
+   "categoria": "Electrónica",
+   "url": "https://www.amazon.es/dp/B0HD7QYMR9"
+  },
+  {
+   "asin": "B0HD7TF4Q3",
+   "titulo": "APC Easy UPS, 900 VA, Torre, 230 V, 2 Tomas CEE 7/3 Schuko, AVR",
+   "precio": 249.56,
+   "antes": 1914.21,
+   "descuento": 87,
+   "error": true,
+   "categoria": "Electrónica",
+   "url": "https://www.amazon.es/dp/B0HD7TF4Q3"
+  },
+  {
+   "asin": "B0H7K8YFPR",
+   "titulo": "4CONVY Cajas de Almacenaje de Ropa para Armario con Cremallera y Estructura Metálica - Cajas Organizadoras Ríg",
+   "precio": 77.91,
+   "antes": 545.13,
+   "descuento": 86,
+   "error": true,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0H7K8YFPR"
+  },
+  {
+   "asin": "B00UOQJCH2",
+   "titulo": "Greenstar 28791 - Adaptable a plena capacidad husqvarna",
+   "precio": 24.53,
+   "antes": 101.35,
+   "descuento": 76,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B00UOQJCH2"
+  },
+  {
+   "asin": "B0052IPC12",
+   "titulo": "Ivy Classic 45702 2,54 cm # 2 Phillips acr Insert Bit, impacto Plus, 100-Pack",
+   "precio": 37.9,
+   "antes": 133.77,
+   "descuento": 72,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0052IPC12"
+  },
+  {
+   "asin": "B012BLLV44",
+   "titulo": "Sunex 4638 3/4-inch Drive Impacto Profundo SAE juego de llaves de vaso, SAE, 6 cantos, CR-MO, 14 unidades)",
+   "precio": 49.39,
+   "antes": 176.66,
+   "descuento": 72,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B012BLLV44"
+  },
+  {
+   "asin": "B07N1J9T68",
+   "titulo": "Moen Gibson 6145BL - Grifo de lavabo de baño moderno con placa opcional, color negro mate",
+   "precio": 57.52,
+   "antes": 202.63,
+   "descuento": 72,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B07N1J9T68"
+  },
+  {
+   "asin": "B0001GS136",
+   "titulo": "Bahco Serruchos para plásticos/laminados/madera/metales blandos",
+   "precio": 31.0,
+   "antes": 98.84,
+   "descuento": 69,
+   "error": false,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0001GS136"
+  },
+  {
+   "asin": "B0087AQ3TC",
+   "titulo": "Moen Voss 6903 - Grifo de baño de arco alto con ensamblaje de drenaje, cromado",
+   "precio": 64.75,
+   "antes": 193.61,
+   "descuento": 67,
+   "error": false,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0087AQ3TC"
+  },
+  {
+   "asin": "B0F2G7W33Q",
+   "titulo": "Ansell AlphaTec 58-008 Guantes de Trabajo de Seguridad, Protección Mecánica, Talla 10 (XL), Verde (10 Pares)",
+   "precio": 98.38,
+   "antes": 295.1,
+   "descuento": 67,
+   "error": false,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0F2G7W33Q"
+  },
+  {
+   "asin": "B0G5YWP6J8",
+   "titulo": "Paoletti Galaxy Par De Cortinas con Ojales – Cortinas De Chenilla Opulentas Forradas Opacas (Rubor – 117x183cm",
+   "precio": 23.0,
+   "antes": 67.31,
+   "descuento": 66,
+   "error": false,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0G5YWP6J8"
+  },
+  {
+   "asin": "B08LW5XQM5",
+   "titulo": "Flash Furniture Lincoln - Taburete Industrial con Marco de Acero plomizo y Asiento de Madera rústica",
+   "precio": 60.9,
+   "antes": 168.93,
+   "descuento": 64,
+   "error": false,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B08LW5XQM5"
+  },
+  {
+   "asin": "B0D4VXY3LX",
+   "titulo": "LG A9K-CORE2S - Aspirador Escoba, Sistema Kompressor, Doble Batería, 200W",
+   "precio": 143.42,
+   "antes": 382.87,
+   "descuento": 63,
+   "error": false,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0D4VXY3LX"
+  },
+  {
+   "asin": "B01M7NRUH1",
+   "titulo": "VCNY Home Juego de Ropa de Cama Reversible súper Suave con Fundas a Juego, Estaciones, Microfibra de algodón y",
+   "precio": 32.34,
+   "antes": 86.98,
+   "descuento": 63,
+   "error": false,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B01M7NRUH1"
+  },
+  {
+   "asin": "B0BK1941WK",
+   "titulo": "HAGER Polo ADC975D",
+   "precio": 51.22,
+   "antes": 129.13,
+   "descuento": 60,
+   "error": false,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0BK1941WK"
+  },
+  {
+   "asin": "B07Q1YTNZZ",
+   "titulo": "Bosch Professional Best - Broca de diamante en seco (para cerámica, X-LOCK, Dry Speed, Ø 65 mm, longitud de tr",
+   "precio": 36.14,
+   "antes": 89.8,
+   "descuento": 60,
+   "error": false,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B07Q1YTNZZ"
+  },
+  {
+   "asin": "B0DFYY9LBL",
+   "titulo": "Regulador LED empotrable blanco, compatible con diversos sistemas de iluminación, ideal para crear ambientes p",
+   "precio": 28.5,
+   "antes": 69.38,
+   "descuento": 59,
+   "error": false,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0DFYY9LBL"
+  },
+  {
+   "asin": "B0FQ2WQTNS",
+   "titulo": "PETTI ARTIGIANI ITALIANI - Cubresofá Multiuso de Microfibra Antimanchas, Diseño 06 Floral 22, Lavable y Protec",
+   "precio": 20.38,
+   "antes": 48.47,
+   "descuento": 58,
+   "error": false,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0FQ2WQTNS"
+  },
+  {
+   "asin": "B0CTXGKVDG",
+   "titulo": "Cruzamiento eléctrico, color marfil, con características técnicas específicas, ideal para instalaciones eléctr",
+   "precio": 27.98,
+   "antes": 66.09,
+   "descuento": 58,
+   "error": false,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0CTXGKVDG"
+  },
+  {
+   "asin": "B09ZD2GYL3",
+   "titulo": "Linenspa Estructura Cama Estilo Contemporáneo – Somier con patas 135x190 cm – Cama de Metal con Lamas de Acero",
+   "precio": 52.34,
+   "antes": 125.32,
+   "descuento": 58,
+   "error": false,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B09ZD2GYL3"
+  },
+  {
+   "asin": "B0CWH5LD4Y",
+   "titulo": "YASHE Gofrera de Corazón, 10 Gofres, Placas Antiadherentes, 1200W",
+   "precio": 39.99,
+   "antes": 94.84,
+   "descuento": 58,
+   "error": false,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0CWH5LD4Y"
+  },
+  {
+   "asin": "B07282DHSK",
+   "titulo": "HAGER Berker Cristal de Medio Placa 109509 Cristal Serie Marco para Interruptores 4011334440321",
+   "precio": 37.92,
+   "antes": 88.24,
+   "descuento": 57,
+   "error": false,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B07282DHSK"
+  },
+  {
+   "asin": "B081234VGV",
+   "titulo": "FANTON FME84001TC - Interruptor/desviador 10AX 250V TC",
+   "precio": 30.0,
+   "antes": 69.91,
+   "descuento": 57,
+   "error": false,
+   "categoria": "Electrónica",
+   "url": "https://www.amazon.es/dp/B081234VGV"
+  },
+  {
+   "asin": "B0CP8YRN36",
+   "titulo": "Agujas de punto Pony Perfect de madera de 35 cm y 11 mm - 1 unidad",
+   "precio": 21.78,
+   "antes": 50.44,
+   "descuento": 57,
+   "error": false,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0CP8YRN36"
+  },
+  {
+   "asin": "B0B8BC2MV1",
+   "titulo": "Lush Decor Juego de Funda de edredón Reversible de 3 Piezas de algodón, Turquesa y Azul Marino, matrimonial/Qu",
+   "precio": 40.02,
+   "antes": 90.34,
+   "descuento": 56,
+   "error": false,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0B8BC2MV1"
+  },
+  {
+   "asin": "B0BTK99WP9",
+   "titulo": "DKD Home Decor Juego de 2 mesas de la Marca, Color Dorado, de Metal y Espejo (40 x 40 x 55 centímetros)",
+   "precio": 78.77,
+   "antes": 180.07,
+   "descuento": 56,
+   "error": false,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0BTK99WP9"
+  },
+  {
+   "asin": "B0DM27W21Q",
+   "titulo": "furn. Dawn Cortinas Opacas Texturizadas con Cinta Fruncidora – Par con Forro Térmico (Negro - Ancho 229 x Alto",
+   "precio": 44.71,
+   "antes": 97.56,
+   "descuento": 54,
+   "error": false,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0DM27W21Q"
+  },
+  {
+   "asin": "B00Z6TWQ52",
+   "titulo": "BKL ELECTRONIC Audio Adapt KLINKENSTECKER 35MM 4 POLIG",
+   "precio": 23.88,
+   "antes": 50.67,
+   "descuento": 53,
+   "error": false,
+   "categoria": "Electrónica",
+   "url": "https://www.amazon.es/dp/B00Z6TWQ52"
+  },
+  {
+   "asin": "B0FQ2SBLH4",
+   "titulo": "PETTI ARTIGIANI ITALIANI - Cubresofá Multiuso de Microfibra Antimanchas, Diseño 05 Floral 4, Lavable y Protect",
+   "precio": 23.26,
+   "antes": 48.67,
+   "descuento": 52,
+   "error": false,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0FQ2SBLH4"
+  },
+  {
+   "asin": "B0CTTPFG1Z",
+   "titulo": "Monkey Ladder Caja Externa M.2 NVMe PCIe USB 3.1 Gen2 Negra, Alta Velocidad, Almacenamiento Portable, Ideal pa",
+   "precio": 31.29,
+   "antes": 65.01,
+   "descuento": 52,
+   "error": false,
+   "categoria": "Informática",
+   "url": "https://www.amazon.es/dp/B0CTTPFG1Z"
+  },
+  {
+   "asin": "B07MDGXT3Q",
+   "titulo": "CAJA METÁLICA SUPERFÍCIE 8 MECANISMO K45",
+   "precio": 44.41,
+   "antes": 91.57,
+   "descuento": 52,
+   "error": false,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B07MDGXT3Q"
+  },
+  {
+   "asin": "B08LNCPN55",
+   "titulo": "Metabo 343412100 - Interruptor de protección para motor (14 A)",
+   "precio": 23.84,
+   "antes": 49.81,
+   "descuento": 52,
+   "error": false,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B08LNCPN55"
+  },
+  {
+   "asin": "B0F8RCLXY5",
+   "titulo": "Engrasadores hidráulicos rectos DIN 71412 tipo H1, de alta presión, compactos y robustos, ideales para lubrica",
+   "precio": 20.04,
+   "antes": 41.85,
+   "descuento": 52,
+   "error": false,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0F8RCLXY5"
+  },
+  {
+   "asin": "B0GS6YJBG4",
+   "titulo": "Bosch 25x Hoja de sierra de calar EXPERT Wood 2-side clean T308BOP",
+   "precio": 45.01,
+   "antes": 93.68,
+   "descuento": 52,
+   "error": false,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0GS6YJBG4"
+  },
+  {
+   "asin": "B0F1THQJBZ",
+   "titulo": "AROEVE Plancha Vertical Vapor 1300W Plancha de Vapor portátil, Depósito Grande de 260 ml, 2 Modos de Vapor, Co",
+   "precio": 35.99,
+   "antes": 73.95,
+   "descuento": 51,
+   "error": false,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0F1THQJBZ"
+  },
+  {
+   "asin": "B0FQ2VGLLJ",
+   "titulo": "PETTI ARTIGIANI ITALIANI - Cubresofá Multiuso de Microfibra Antimanchas, Diseño 06 Floral 20, Lavable y Protec",
+   "precio": 20.85,
+   "antes": 42.91,
+   "descuento": 51,
+   "error": false,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0FQ2VGLLJ"
+  },
+  {
+   "asin": "B0F1P5KL6P",
+   "titulo": "WIN REST Colchón Muelles Ensacados 180X180, Efecto Frio, Disipa el Calor Corporal, Modelo Wave, Altura 29 cm, ",
+   "precio": 237.51,
+   "antes": 480.08,
+   "descuento": 51,
+   "error": false,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0F1P5KL6P"
+  },
+  {
+   "asin": "B003A6I0FS",
+   "titulo": "Vogt Verbindungstechnik 460509D 2,50 mm² x 9 mm, parcialmente aislado, azul, 100 unidades",
+   "precio": 25.57,
+   "antes": 50.82,
+   "descuento": 50,
+   "error": false,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B003A6I0FS"
+  },
+  {
+   "asin": "B0F8LPPH6D",
+   "titulo": "Discos de papel autoadhesivo (Pack de 50) con alta adherencia, ideal para manualidades, acabados de superficie",
+   "precio": 20.41,
+   "antes": 40.76,
+   "descuento": 50,
+   "error": false,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0F8LPPH6D"
+  }
+ ]
 }
