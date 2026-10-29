@@ -2,6 +2,10 @@ import json, os, sys, time, requests
 
 KEY = os.environ.get("KEEPA_KEY")
 TOPIC = os.environ.get("NTFY_TOPIC")
+PO_TOKEN = os.environ.get("PUSHOVER_TOKEN")
+PO_USER = os.environ.get("PUSHOVER_USER")
+TG_TOKEN = os.environ.get("TELEGRAM_TOKEN")
+TG_CHAT = os.environ.get("TELEGRAM_CHAT_ID")
 
 DOMINIO = 9                  # 9 = amazon.es
 TIPOS_PRECIO = [0, 1]        # 0 = vendido por Amazon, 1 = nuevo de otros vendedores
@@ -56,16 +60,39 @@ def pedir(tipo, pag):
     return None
 
 def avisar(x):
-    if not TOPIC: return
-    try:
-        requests.post(f"https://ntfy.sh/{TOPIC}",
-            data=f"{x['titulo']}\n{x['precio']:.2f} EUR (antes {x['antes']:.2f} EUR)".encode("utf-8"),
-            headers={"Title": f"Posible error de precio -{x['descuento']}%", "Click": x["url"],
-                     "Priority": "high", "Tags": "rotating_light"}, timeout=15)
-    except Exception as e:
-        print("ntfy fallo", e)
+    texto = f"{x['titulo']}\n{x['precio']:.2f} EUR (antes {x['antes']:.2f} EUR)"
+    titulo = f"Posible error de precio -{x['descuento']}%"
+    if TG_TOKEN and TG_CHAT:
+        try:
+            r = requests.post(f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage", json={
+                "chat_id": TG_CHAT, "text": f"\U0001F6A8 {titulo}\n{texto}\n{x['url']}",
+                "reply_markup": {"inline_keyboard": [[{"text": "Abrir en Amazon", "url": x["url"]}]]}},
+                timeout=15)
+            if r.status_code != 200:
+                print("telegram fallo", r.status_code, r.text[:200])
+        except Exception as e:
+            print("telegram fallo", e)
+    if TOPIC:
+        try:
+            requests.post(f"https://ntfy.sh/{TOPIC}", data=texto.encode("utf-8"),
+                headers={"Title": titulo, "Click": x["url"], "Priority": "urgent",
+                         "Tags": "rotating_light"}, timeout=15)
+        except Exception as e:
+            print("ntfy fallo", e)
+    if PO_TOKEN and PO_USER:   # alarma que suena aunque el movil este en silencio
+        try:
+            requests.post("https://api.pushover.net/1/messages.json", data={
+                "token": PO_TOKEN, "user": PO_USER, "title": titulo, "message": texto,
+                "url": x["url"], "url_title": "Abrir en Amazon", "priority": 2,
+                "retry": 60, "expire": 1800, "sound": "siren"}, timeout=15)
+        except Exception as e:
+            print("pushover fallo", e)
 
 def main():
+    if "--prueba" in sys.argv:
+        avisar({"titulo": "Mensaje de prueba del radar de chollos", "precio": 19.99,
+                "antes": 499.0, "descuento": 96, "url": "https://www.amazon.es"})
+        print("prueba enviada"); return
     if not KEY:
         print("Falta el secreto KEEPA_KEY"); sys.exit(1)
     prev = {}
