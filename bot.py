@@ -19,6 +19,9 @@ ERROR_PRECIO = 80            # % desde el que se marca como posible error de pre
 PRECIO_MIN, PRECIO_MAX = 100, 600000    # en centimos: de 1 EUR a 6.000 EUR
 PRECIO_ANTES_MIN = 10000     # ignora productos cuyo precio normal sea menor de 100 EUR
 SOLO_CATEGORIAS = True       # pon False para vigilar todas las categorias
+STOCK_MIN = 2                # unidades minimas: si Keepa confirma menos, se descarta
+STOCK_DESCONOCIDO_AVISAR = True   # True: avisa aunque Keepa no sepa el stock (lo marca "sin confirmar")
+RECHEQUEO_STOCK = 3600       # segundos hasta volver a mirar el stock de un chollo ya visto
 CATEGORIAS = [  # trozos del nombre de categoria en espanol, aleman, frances e italiano
     "electr", "inform", "videojuego", "foto", "camara", "c\u00e1mara", "hogar", "cocina",
     "electrodom", "coche", "moto", "bricolaje", "herramientas",
@@ -73,8 +76,33 @@ def pedir(dom, tipo, pag):
         return d.get("deals") or {}
     return None
 
+def consultar_stock(dom, asins):
+    """Devuelve {asin: unidades} solo de los productos cuyo stock conoce Keepa (~3 tokens por producto)."""
+    res = {}
+    for i in range(0, len(asins), 40):
+        lote = asins[i:i + 40]
+        try:
+            r = requests.get("https://api.keepa.com/product", params={
+                "key": KEY, "domain": dom, "asin": ",".join(lote), "stats": 1, "stock": 1}, timeout=90)
+        except Exception as e:
+            print("Aviso stock (red)", e); continue
+        if r.status_code != 200:
+            print("Aviso stock", r.status_code, r.text[:200]); continue
+        d = r.json()
+        print("stock | tokens restantes:", d.get("tokensLeft"))
+        for p in d.get("products") or []:
+            st = p.get("stats") or {}
+            a, b = st.get("stockAmazon"), st.get("stockBuyBox")
+            print("stock", p.get("asin"), "amazon:", a, "buybox:", b)
+            vals = [v for v in (a, b) if isinstance(v, (int, float)) and v >= 0]
+            if vals: res[p["asin"]] = int(max(vals))
+        time.sleep(1)
+    return res
+
 def avisar(x):
-    texto = f"{x['titulo']}\n{x['precio']:.2f} EUR (antes {x['antes']:.2f} EUR)"
+    s = x.get("stock")
+    uds = f"Unidades: {s}" if s is not None else "Unidades: sin confirmar"
+    texto = f"{x['titulo']}\n{x['precio']:.2f} EUR (antes {x['antes']:.2f} EUR)\n{uds}"
     titulo = f"Posible error de precio -{x['descuento']}%"
     if TG_TOKEN and TG_CHAT:
         try:
@@ -105,7 +133,7 @@ def avisar(x):
 def main():
     if "--prueba" in sys.argv:
         avisar({"titulo": "Mensaje de prueba del radar de chollos", "precio": 19.99,
-                "antes": 499.0, "descuento": 96, "url": "https://www.amazon.es"})
+                "antes": 499.0, "descuento": 96, "stock": 5, "url": "https://www.amazon.es"})
         print("prueba enviada"); return
     if not KEY:
         print("Falta el secreto KEEPA_KEY"); sys.exit(1)
@@ -159,14 +187,41 @@ def main():
     if not ok:
         print("Keepa no respondio; se conserva la lista anterior"); sys.exit(1)
     print("categorias vistas:", cats_vistas)
+    # stock: se consulta a Keepa solo en chollos nuevos (o vistos hace mas de RECHEQUEO_STOCK)
+    prev_stock = {c.get("clave"): (c.get("stock"), c.get("stock_ts", 0)) for c in prev.get("chollos", [])}
+    ahora = int(time.time())
+    desc_prev = prev.get("descartados", {})   # chollos con poco stock: no se vuelven a consultar enseguida
+    descartados = {k: t for k, t in desc_prev.items() if ahora - t < RECHEQUEO_STOCK}
+    for clave in list(vistos):
+        if clave in descartados: del vistos[clave]
+    por_dom = {}
+    for clave, x in vistos.items():
+        if clave in prev_stock and ahora - prev_stock[clave][1] < RECHEQUEO_STOCK:
+            x["stock"], x["stock_ts"] = prev_stock[clave]
+        else:
+            por_dom.setdefault(int(clave.split(":")[0]), []).append(x["asin"])
+    for dom, asins in por_dom.items():
+        stocks = consultar_stock(dom, asins)
+        for a in asins:
+            vistos[f"{dom}:{a}"]["stock"] = stocks.get(a)
+            vistos[f"{dom}:{a}"]["stock_ts"] = ahora
+    for clave in list(vistos):
+        s = vistos[clave].get("stock")
+        if s is None and not STOCK_DESCONOCIDO_AVISAR:
+            del vistos[clave]
+        elif s is not None and s < STOCK_MIN:
+            print("descartado por poco stock:", clave, s)
+            descartados[clave] = ahora
+            del vistos[clave]
     lista = sorted(vistos.values(), key=lambda x: (not x["error"], -(x["antes"] - x["precio"])))
     for x in lista:
         if x["error"] and x["clave"] not in previos: avisar(x)
-    firma = lambda l: [(c.get("clave", c["asin"]), c["precio"]) for c in l]
-    if firma(lista) == firma(prev.get("chollos", [])) and time.time() - prev.get("ts", 0) < 3300:
+    firma = lambda l: [(c.get("clave", c["asin"]), c["precio"], c.get("stock")) for c in l]
+    if (firma(lista) == firma(prev.get("chollos", [])) and set(descartados) == set(desc_prev)
+            and time.time() - prev.get("ts", 0) < 3300):
         print(len(lista), "chollos (sin cambios, no se guarda)"); return
     json.dump({"actualizado": time.strftime("%d/%m/%Y %H:%M UTC", time.gmtime()), "ts": int(time.time()),
-               "chollos": lista}, open("deals.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+               "descartados": descartados, "chollos": lista}, open("deals.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(len(lista), "chollos")
 
 main()
