@@ -1,6 +1,7 @@
 {
- "actualizado": "31/10/2026 22:00 UTC",
- "ts": 1793484045,
+ "actualizado": "31/10/2026 22:36 UTC",
+ "ts": 1793486179,
+ "descartados": {},
  "chollos": [
   {
    "clave": "4:B0BLYZ5X4G",
@@ -8,11 +9,13 @@
    "mercado": "FR",
    "titulo": "[FR] Purificateur d’air Fellowes AeraMax SE pour bureaux jusqu’à 80 m², filtration HEPA H13, capture 99,95% de",
    "precio": 89.99,
-   "antes": 1151.53,
+   "antes": 1138.19,
    "descuento": 92,
    "error": true,
    "categoria": "Cuisine et Maison",
-   "url": "https://www.amazon.fr/dp/B0BLYZ5X4G"
+   "url": "https://www.amazon.fr/dp/B0BLYZ5X4G",
+   "stock": 1000,
+   "stock_ts": 1793486172
   },
   {
    "clave": "9:B0H8XWYQW6",
@@ -20,11 +23,13 @@
    "mercado": "ES",
    "titulo": "NEEWER Basics Nueva Versión ML02 USB C LED Macro Fotografía Luz, 4W IP54",
    "precio": 76.96,
-   "antes": 969.23,
+   "antes": 957.7,
    "descuento": 92,
    "error": true,
    "categoria": "Electrónica",
-   "url": "https://www.amazon.es/dp/B0H8XWYQW6"
+   "url": "https://www.amazon.es/dp/B0H8XWYQW6",
+   "stock": null,
+   "stock_ts": 1793486172
   },
   {
    "clave": "9:B00STM5QVE",
@@ -32,11 +37,13 @@
    "mercado": "ES",
    "titulo": "HP Enterprise QMH2672 - Adaptador de Red de 16 GB, Canal de Fibra de 16 GB, Color Negro y Verde",
    "precio": 180.93,
-   "antes": 946.67,
+   "antes": 936.43,
    "descuento": 81,
    "error": true,
    "categoria": "Electrónica",
-   "url": "https://www.amazon.es/dp/B00STM5QVE"
+   "url": "https://www.amazon.es/dp/B00STM5QVE",
+   "stock": null,
+   "stock_ts": 1793486172
   },
   {
    "clave": "8:B08284FWV3",
@@ -44,11 +51,13 @@
    "mercado": "IT",
    "titulo": "[IT] Tramontina 20906/024 Trento - Casseruola in ghisa smaltata, 24 cm, 4 litri, colore: Nero",
    "precio": 98.65,
-   "antes": 507.14,
-   "descuento": 81,
+   "antes": 500.53,
+   "descuento": 80,
    "error": true,
    "categoria": "Casa e cucina",
-   "url": "https://www.amazon.it/dp/B08284FWV3"
+   "url": "https://www.amazon.it/dp/B08284FWV3",
+   "stock": 1000,
+   "stock_ts": 1793486172
   },
   {
    "clave": "9:B0DV32T7MD",
@@ -56,11 +65,13 @@
    "mercado": "ES",
    "titulo": "Bujía compatible con Skoda Yeti 5L 2009-2017 de Autoteile Gocht",
    "precio": 72.97,
-   "antes": 387.45,
+   "antes": 383.51,
    "descuento": 81,
    "error": true,
    "categoria": "Coche y moto",
-   "url": "https://www.amazon.es/dp/B0DV32T7MD"
+   "url": "https://www.amazon.es/dp/B0DV32T7MD",
+   "stock": null,
+   "stock_ts": 1793486172
   },
   {
    "clave": "9:B00PIP0U5C",
@@ -68,11 +79,13 @@
    "mercado": "ES",
    "titulo": "Schwaiger F-connettore (8 mm, 4 pcs)",
    "precio": 10.47,
-   "antes": 227.92,
+   "antes": 221.37,
    "descuento": 95,
    "error": true,
    "categoria": "Electrónica",
-   "url": "https://www.amazon.es/dp/B00PIP0U5C"
+   "url": "https://www.amazon.es/dp/B00PIP0U5C",
+   "stock": 1000,
+   "stock_ts": 1793486172
   },
   {
    "clave": "3:B0FP9XLD49",
@@ -80,11 +93,13 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI BILSTEIN Sensor, Raddrehzahl 198386 Hinterachse rechts",
    "precio": 31.26,
-   "antes": 219.62,
+   "antes": 216.48,
    "descuento": 86,
    "error": true,
    "categoria": "Auto & Motorrad",
-   "url": "https://www.amazon.de/dp/B0FP9XLD49"
+   "url": "https://www.amazon.de/dp/B0FP9XLD49",
+   "stock": 1000,
+   "stock_ts": 1793486172
   },
   {
    "clave": "8:B0BSXRC73Y",
@@ -92,11 +107,13 @@
    "mercado": "IT",
    "titulo": "[IT] ProPart Black compatibile i-SENSYS LBP673,MF752,MF754-7.6K#5098C002",
    "precio": 42.06,
-   "antes": 217.29,
-   "descuento": 81,
+   "antes": 215.06,
+   "descuento": 80,
    "error": true,
    "categoria": "Informatica",
-   "url": "https://www.amazon.it/dp/B0BSXRC73Y"
+   "url": "https://www.amazon.it/dp/B0BSXRC73Y",
+   "stock": null,
+   "stock_ts": 1793486172
   },
   {
    "clave": "9:B0BKQV8WGD",
@@ -104,11 +121,13 @@
    "mercado": "ES",
    "titulo": "ACAUTO Compresor de embrague magnético AC-05DN12",
    "precio": 26.93,
-   "antes": 190.37,
+   "antes": 188.3,
    "descuento": 86,
    "error": true,
    "categoria": "Coche y moto",
-   "url": "https://www.amazon.es/dp/B0BKQV8WGD"
+   "url": "https://www.amazon.es/dp/B0BKQV8WGD",
+   "stock": null,
+   "stock_ts": 1793486172
   },
   {
    "clave": "3:B0CB79PJKX",
@@ -116,23 +135,13 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI BILSTEIN Spurstangenkopf 180541 Vorderachse",
    "precio": 25.65,
-   "antes": 185.02,
+   "antes": 181.37,
    "descuento": 86,
    "error": true,
    "categoria": "Auto & Motorrad",
-   "url": "https://www.amazon.de/dp/B0CB79PJKX"
-  },
-  {
-   "clave": "9:B0CCZS3CVP",
-   "asin": "B0CCZS3CVP",
-   "mercado": "ES",
-   "titulo": "Moto Casco Visera Tornillos, 2pcs Cascos Visera Clip Escudo de bloqueo de reemplazo Visera Tornillos Para",
-   "precio": 21.98,
-   "antes": 121.16,
-   "descuento": 82,
-   "error": true,
-   "categoria": "Coche y moto",
-   "url": "https://www.amazon.es/dp/B0CCZS3CVP"
+   "url": "https://www.amazon.de/dp/B0CB79PJKX",
+   "stock": null,
+   "stock_ts": 1793486172
   }
  ]
 }
