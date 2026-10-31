@@ -1,15 +1,27 @@
 {
- "actualizado": "31/10/2026 19:45 UTC",
- "ts": 1793475916,
+ "actualizado": "31/10/2026 20:54 UTC",
+ "ts": 1793480047,
  "chollos": [
+  {
+   "clave": "9:B0H8XWYQW6",
+   "asin": "B0H8XWYQW6",
+   "mercado": "ES",
+   "titulo": "NEEWER Basics Nueva Versión ML02 USB C LED Macro Fotografía Luz, 4W IP54",
+   "precio": 76.96,
+   "antes": 990.36,
+   "descuento": 92,
+   "error": true,
+   "categoria": "Electrónica",
+   "url": "https://www.amazon.es/dp/B0H8XWYQW6"
+  },
   {
    "clave": "9:B00STM5QVE",
    "asin": "B00STM5QVE",
    "mercado": "ES",
    "titulo": "HP Enterprise QMH2672 - Adaptador de Red de 16 GB, Canal de Fibra de 16 GB, Color Negro y Verde",
    "precio": 180.93,
-   "antes": 985.05,
-   "descuento": 82,
+   "antes": 965.43,
+   "descuento": 81,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B00STM5QVE"
@@ -20,7 +32,7 @@
    "mercado": "IT",
    "titulo": "[IT] Tramontina 20906/024 Trento - Casseruola in ghisa smaltata, 24 cm, 4 litri, colore: Nero",
    "precio": 98.65,
-   "antes": 531.94,
+   "antes": 519.26,
    "descuento": 81,
    "error": true,
    "categoria": "Casa e cucina",
@@ -32,7 +44,7 @@
    "mercado": "ES",
    "titulo": "Schwaiger F-connettore (8 mm, 4 pcs)",
    "precio": 10.47,
-   "antes": 252.5,
+   "antes": 239.94,
    "descuento": 96,
    "error": true,
    "categoria": "Electrónica",
@@ -44,7 +56,7 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI BILSTEIN Sensor, Raddrehzahl 198386 Hinterachse rechts",
    "precio": 31.26,
-   "antes": 231.36,
+   "antes": 225.36,
    "descuento": 86,
    "error": true,
    "categoria": "Auto & Motorrad",
@@ -56,11 +68,23 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI BILSTEIN Spurstangenkopf 180541 Vorderachse",
    "precio": 25.65,
-   "antes": 198.74,
+   "antes": 191.73,
    "descuento": 87,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0CB79PJKX"
+  },
+  {
+   "clave": "3:B00BDMQCEW",
+   "asin": "B00BDMQCEW",
+   "mercado": "DE",
+   "titulo": "[DE] Husky Liners Weatherbeater 99021 Dodge Dartpfeile 2013–2016, vorne und 2. Reihe, Schwarz, 3 Stück",
+   "precio": 41.0,
+   "antes": 201.26,
+   "descuento": 80,
+   "error": true,
+   "categoria": "Auto & Motorrad",
+   "url": "https://www.amazon.de/dp/B00BDMQCEW"
   },
   {
    "clave": "9:B0CCZS3CVP",
@@ -68,8 +92,8 @@
    "mercado": "ES",
    "titulo": "Moto Casco Visera Tornillos, 2pcs Cascos Visera Clip Escudo de bloqueo de reemplazo Visera Tornillos Para",
    "precio": 21.98,
-   "antes": 190.54,
-   "descuento": 88,
+   "antes": 155.08,
+   "descuento": 86,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B0CCZS3CVP"
@@ -80,23 +104,11 @@
    "mercado": "ES",
    "titulo": "VAN WEZEL 7624594 Rejilla de ventilación parachoques Delante, derecha Compatible con SKODA Octavia III Co",
    "precio": 19.63,
-   "antes": 104.72,
+   "antes": 101.16,
    "descuento": 81,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B07HHMDF9G"
-  },
-  {
-   "clave": "9:B00N491BNY",
-   "asin": "B00N491BNY",
-   "mercado": "ES",
-   "titulo": "METZGER AUTOTEILE Zubehörsatz, Scheibenbremsbelag 109-1707",
-   "precio": 18.37,
-   "antes": 101.18,
-   "descuento": 82,
-   "error": true,
-   "categoria": "Coche y moto",
-   "url": "https://www.amazon.es/dp/B00N491BNY"
   }
  ]
 }
