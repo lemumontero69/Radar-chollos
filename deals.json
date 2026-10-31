@@ -1,6 +1,6 @@
 {
- "actualizado": "31/10/2026 23:10 UTC",
- "ts": 1793488242,
+ "actualizado": "31/10/2026 23:44 UTC",
+ "ts": 1793490258,
  "descartados": {},
  "chollos": [
   {
@@ -9,13 +9,13 @@
    "mercado": "FR",
    "titulo": "[FR] Purificateur d’air Fellowes AeraMax SE pour bureaux jusqu’à 80 m², filtration HEPA H13, capture 99,95% de",
    "precio": 89.99,
-   "antes": 1125.6,
+   "antes": 1113.0,
    "descuento": 92,
    "error": true,
    "categoria": "Cuisine et Maison",
    "url": "https://www.amazon.fr/dp/B0BLYZ5X4G",
    "stock": 1000,
-   "stock_ts": 1793486172
+   "stock_ts": 1793490248
   },
   {
    "clave": "9:B0H8XWYQW6",
@@ -23,13 +23,13 @@
    "mercado": "ES",
    "titulo": "NEEWER Basics Nueva Versión ML02 USB C LED Macro Fotografía Luz, 4W IP54",
    "precio": 76.96,
-   "antes": 946.82,
+   "antes": 935.93,
    "descuento": 92,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B0H8XWYQW6",
    "stock": null,
-   "stock_ts": 1793486172
+   "stock_ts": 1793490248
   },
   {
    "clave": "9:B00STM5QVE",
@@ -37,13 +37,13 @@
    "mercado": "ES",
    "titulo": "HP Enterprise QMH2672 - Adaptador de Red de 16 GB, Canal de Fibra de 16 GB, Color Negro y Verde",
    "precio": 180.93,
-   "antes": 926.76,
+   "antes": 917.1,
    "descuento": 80,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B00STM5QVE",
    "stock": null,
-   "stock_ts": 1793486172
+   "stock_ts": 1793490248
   },
   {
    "clave": "8:B08284FWV3",
@@ -51,13 +51,13 @@
    "mercado": "IT",
    "titulo": "[IT] Tramontina 20906/024 Trento - Casseruola in ghisa smaltata, 24 cm, 4 litri, colore: Nero",
    "precio": 98.65,
-   "antes": 494.28,
+   "antes": 488.04,
    "descuento": 80,
    "error": true,
    "categoria": "Casa e cucina",
    "url": "https://www.amazon.it/dp/B08284FWV3",
    "stock": 1000,
-   "stock_ts": 1793486172
+   "stock_ts": 1793490248
   },
   {
    "clave": "9:B0DV32T7MD",
@@ -65,13 +65,13 @@
    "mercado": "ES",
    "titulo": "Bujía compatible con Skoda Yeti 5L 2009-2017 de Autoteile Gocht",
    "precio": 72.97,
-   "antes": 379.78,
+   "antes": 376.05,
    "descuento": 81,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B0DV32T7MD",
    "stock": null,
-   "stock_ts": 1793486172
+   "stock_ts": 1793490248
   },
   {
    "clave": "9:B00PIP0U5C",
@@ -79,13 +79,13 @@
    "mercado": "ES",
    "titulo": "Schwaiger F-connettore (8 mm, 4 pcs)",
    "precio": 10.47,
-   "antes": 215.18,
+   "antes": 208.99,
    "descuento": 95,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B00PIP0U5C",
    "stock": 1000,
-   "stock_ts": 1793486172
+   "stock_ts": 1793490248
   },
   {
    "clave": "3:B0FP9XLD49",
@@ -93,13 +93,13 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI BILSTEIN Sensor, Raddrehzahl 198386 Hinterachse rechts",
    "precio": 31.26,
-   "antes": 213.53,
+   "antes": 210.57,
    "descuento": 85,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0FP9XLD49",
    "stock": 1000,
-   "stock_ts": 1793486172
+   "stock_ts": 1793490248
   },
   {
    "clave": "8:B0BSXRC73Y",
@@ -107,13 +107,27 @@
    "mercado": "IT",
    "titulo": "[IT] ProPart Black compatibile i-SENSYS LBP673,MF752,MF754-7.6K#5098C002",
    "precio": 42.06,
-   "antes": 212.95,
+   "antes": 210.85,
    "descuento": 80,
    "error": true,
    "categoria": "Informatica",
    "url": "https://www.amazon.it/dp/B0BSXRC73Y",
    "stock": null,
-   "stock_ts": 1793486172
+   "stock_ts": 1793490248
+  },
+  {
+   "clave": "9:B0BHXNNXKZ",
+   "asin": "B0BHXNNXKZ",
+   "mercado": "ES",
+   "titulo": "PRASCO Innenkotflügel DA8203604P",
+   "precio": 33.7,
+   "antes": 199.2,
+   "descuento": 83,
+   "error": true,
+   "categoria": "Coche y moto",
+   "url": "https://www.amazon.es/dp/B0BHXNNXKZ",
+   "stock": null,
+   "stock_ts": 1793490248
   },
   {
    "clave": "9:B0BKQV8WGD",
@@ -121,13 +135,13 @@
    "mercado": "ES",
    "titulo": "ACAUTO Compresor de embrague magnético AC-05DN12",
    "precio": 26.93,
-   "antes": 186.34,
-   "descuento": 86,
+   "antes": 184.38,
+   "descuento": 85,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B0BKQV8WGD",
    "stock": null,
-   "stock_ts": 1793486172
+   "stock_ts": 1793490248
   },
   {
    "clave": "3:B0CB79PJKX",
@@ -135,13 +149,27 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI BILSTEIN Spurstangenkopf 180541 Vorderachse",
    "precio": 25.65,
-   "antes": 177.91,
-   "descuento": 86,
+   "antes": 174.46,
+   "descuento": 85,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0CB79PJKX",
    "stock": null,
-   "stock_ts": 1793486172
+   "stock_ts": 1793490248
+  },
+  {
+   "clave": "9:B0GKSVPVXB",
+   "asin": "B0GKSVPVXB",
+   "mercado": "ES",
+   "titulo": "KAMOKA Dichtung, Zylinderkopf 8701225",
+   "precio": 25.76,
+   "antes": 136.09,
+   "descuento": 81,
+   "error": true,
+   "categoria": "Coche y moto",
+   "url": "https://www.amazon.es/dp/B0GKSVPVXB",
+   "stock": null,
+   "stock_ts": 1793490248
   },
   {
    "clave": "9:B0CDLYKCT3",
@@ -149,13 +177,27 @@
    "mercado": "ES",
    "titulo": "ATE Zubehörsatz, Bremsbacken 03.0137-9321.2",
    "precio": 21.68,
-   "antes": 120.6,
+   "antes": 119.43,
    "descuento": 82,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B0CDLYKCT3",
    "stock": null,
    "stock_ts": 1793488240
+  },
+  {
+   "clave": "9:B084NHD1G4",
+   "asin": "B084NHD1G4",
+   "mercado": "ES",
+   "titulo": "SWAG Lagerung, Lenker 90941422",
+   "precio": 19.76,
+   "antes": 102.32,
+   "descuento": 81,
+   "error": true,
+   "categoria": "Coche y moto",
+   "url": "https://www.amazon.es/dp/B084NHD1G4",
+   "stock": null,
+   "stock_ts": 1793490248
   }
  ]
 }
