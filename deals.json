@@ -1,6 +1,6 @@
 {
- "actualizado": "31/10/2026 15:29 UTC",
- "ts": 1793460571,
+ "actualizado": "31/10/2026 16:06 UTC",
+ "ts": 1793462770,
  "chollos": [
   {
    "clave": "9:B0GY687JPC",
@@ -8,7 +8,7 @@
    "mercado": "ES",
    "titulo": "Samsung A576B/DS Galaxy A57 5G, Dual, 128GB 8GB Ram, Impresionante Icyblue",
    "precio": 419.99,
-   "antes": 2145.45,
+   "antes": 2086.6,
    "descuento": 80,
    "error": true,
    "categoria": "Electrónica",
@@ -20,7 +20,7 @@
    "mercado": "ES",
    "titulo": "Correas Compatible con Google Fitbit Air, Correas de Reloj Silicona,Naranja",
    "precio": 10.99,
-   "antes": 1162.36,
+   "antes": 1144.53,
    "descuento": 99,
    "error": true,
    "categoria": "Electrónica",
@@ -32,7 +32,7 @@
    "mercado": "IT",
    "titulo": "[IT] Tramontina 20906/024 Trento - Casseruola in ghisa smaltata, 24 cm, 4 litri, colore: Nero",
    "precio": 98.65,
-   "antes": 578.96,
+   "antes": 572.16,
    "descuento": 83,
    "error": true,
    "categoria": "Casa e cucina",
@@ -44,7 +44,7 @@
    "mercado": "ES",
    "titulo": "Schwaiger F-connettore (8 mm, 4 pcs)",
    "precio": 10.47,
-   "antes": 299.1,
+   "antes": 292.37,
    "descuento": 96,
    "error": true,
    "categoria": "Electrónica",
@@ -56,7 +56,7 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI BILSTEIN Sensor, Raddrehzahl 198386 Hinterachse rechts",
    "precio": 31.26,
-   "antes": 253.63,
+   "antes": 250.41,
    "descuento": 88,
    "error": true,
    "categoria": "Auto & Motorrad",
@@ -68,8 +68,8 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI BILSTEIN Spurstangenkopf 180541 Vorderachse",
    "precio": 25.65,
-   "antes": 224.74,
-   "descuento": 89,
+   "antes": 220.98,
+   "descuento": 88,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0CB79PJKX"
@@ -80,7 +80,7 @@
    "mercado": "FR",
    "titulo": "[FR] MOOG STABILISER LINK, TO-LS-17012, REAR RIGHT, FOR LEXUS RC 2014-, OE-MATCHING QUALITY, STABLE HANDLING",
    "precio": 24.9,
-   "antes": 132.83,
+   "antes": 131.0,
    "descuento": 81,
    "error": true,
    "categoria": "Auto et Moto",
@@ -92,23 +92,11 @@
    "mercado": "IT",
    "titulo": "[IT] Moen 8701 Commercial m-dura Kitchen Faucet 1.5 gpm, Chrome",
    "precio": 21.47,
-   "antes": 108.24,
+   "antes": 106.67,
    "descuento": 80,
    "error": true,
    "categoria": "Fai da te",
    "url": "https://www.amazon.it/dp/B000XHRID2"
-  },
-  {
-   "clave": "4:B074KG65FK",
-   "asin": "B074KG65FK",
-   "mercado": "FR",
-   "titulo": "[FR] Japanparts ru-2362 douilles",
-   "precio": 21.49,
-   "antes": 104.99,
-   "descuento": 80,
-   "error": true,
-   "categoria": "Auto et Moto",
-   "url": "https://www.amazon.fr/dp/B074KG65FK"
   }
  ]
 }
