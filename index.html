@@ -21,6 +21,8 @@ fetch("deals.json?"+Date.now()).then(r=>r.json()).then(d=>{
   `<div class="c ${x.error?"e":""}"><span class="d">-${x.descuento}%</span>
   <div class="t">${x.error?"⚠️ Posible error de precio<br>":""}${x.titulo}</div>
   <span class="p">${f(x.precio)}</span><span class="o">${f(x.antes)}</span>
+  <div style="margin-top:6px;color:#080;font-weight:600">Ahorro: ${f(x.antes-x.precio)}</div>
+  <div style="color:#555;font-size:13px">${x.stock!=null?"Unidades: "+x.stock:"Unidades: sin confirmar"}</div>
   <a class="b" href="${x.url}" target="_blank" rel="noopener">Ver en Amazon</a></div>`).join(""):"<p style='padding:16px'>Ahora mismo no hay chollos.</p>";
 }).catch(()=>document.getElementById("u").textContent="Aún no hay datos");
 </script></body></html>
