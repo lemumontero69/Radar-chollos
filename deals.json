@@ -1,6 +1,6 @@
 {
- "actualizado": "01/11/2026 16:57 UTC",
- "ts": 1793552253,
+ "actualizado": "01/11/2026 18:03 UTC",
+ "ts": 1793556232,
  "descartados": {},
  "chollos": [
   {
@@ -9,14 +9,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric Unidad de viaje NSX400 AC 3P3D 400A 6.3E, negro",
    "precio": 917.3,
-   "antes": 8060.31,
-   "descuento": 89,
+   "antes": 7858.15,
+   "descuento": 88,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5V8PTZ",
    "keepa": "https://keepa.com/#!product/9-B0BG5V8PTZ",
    "stock": null,
-   "stock_ts": 1793552251
+   "stock_ts": 1793556230
   },
   {
    "clave": "9:B0BG5VP2FN",
@@ -24,14 +24,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric Unidad de viaje NSX160 AC 3P3D 160A 6.2E, negro",
    "precio": 569.55,
-   "antes": 6456.43,
+   "antes": 6286.1,
    "descuento": 91,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5VP2FN",
    "keepa": "https://keepa.com/#!product/9-B0BG5VP2FN",
    "stock": null,
-   "stock_ts": 1793552251
+   "stock_ts": 1793556230
   },
   {
    "clave": "9:B0BG5XVJM5",
@@ -39,14 +39,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric ComPacT nueva generación disparador para interruptor de sobrecarga ComPacT NSX 100/160",
    "precio": 400.91,
-   "antes": 3968.39,
-   "descuento": 90,
+   "antes": 3796.4,
+   "descuento": 89,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5XVJM5",
    "keepa": "https://keepa.com/#!product/9-B0BG5XVJM5",
    "stock": null,
-   "stock_ts": 1793552251
+   "stock_ts": 1793556230
   },
   {
    "clave": "9:B00HHUWQNU",
@@ -54,14 +54,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Interruptor protección selector 240v 14ka 2 polos d 16a 70mm",
    "precio": 106.57,
-   "antes": 741.94,
-   "descuento": 86,
+   "antes": 721.42,
+   "descuento": 85,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00HHUWQNU",
    "keepa": "https://keepa.com/#!product/9-B00HHUWQNU",
    "stock": null,
-   "stock_ts": 1793552251
+   "stock_ts": 1793556230
   },
   {
    "clave": "9:B002D5DSQ8",
@@ -69,14 +69,14 @@
    "mercado": "ES",
    "titulo": "Siemens 5sy8 - Interruptor automático 70 25ka curva-c 4 polos 6a",
    "precio": 90.0,
-   "antes": 723.43,
-   "descuento": 88,
+   "antes": 703.33,
+   "descuento": 87,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B002D5DSQ8",
    "keepa": "https://keepa.com/#!product/9-B002D5DSQ8",
    "stock": null,
-   "stock_ts": 1793552251
+   "stock_ts": 1793556230
   },
   {
    "clave": "9:B09HH8X6LJ",
@@ -84,14 +84,14 @@
    "mercado": "ES",
    "titulo": "Rasch 554359 - Papel pintado no tejido en color verde con estructura geométrica y detalles dorados de la ",
    "precio": 29.44,
-   "antes": 204.28,
-   "descuento": 86,
+   "antes": 198.69,
+   "descuento": 85,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B09HH8X6LJ",
    "keepa": "https://keepa.com/#!product/9-B09HH8X6LJ",
    "stock": null,
-   "stock_ts": 1793552251
+   "stock_ts": 1793556230
   }
  ]
 }
