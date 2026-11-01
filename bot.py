@@ -36,6 +36,10 @@ CATEGORIAS = [  # trozos del nombre de categoria en espanol, aleman, frances e i
     # ropa, zapatos y relojes (solo pasan las marcas de MARCAS)
     "ropa", "zapato", "reloj", "bekleidung", "schuhe", "uhren", "vêtement", "chaussures",
     "montres", "abbigliamento", "scarpe", "orologi"]
+CATEGORIAS_COMIDA = [   # alimentacion y bebidas (ES, DE, FR, IT)
+    "aliment", "bebida", "supermercado", "lebensmittel", "getr", "picerie", "boissons"]
+CATEGORIAS += CATEGORIAS_COMIDA
+PRECIO_ANTES_MIN_COMIDA = 2000   # en comida y bebida se vigilan productos cuyo precio normal sea desde 20 EUR
 CATEGORIAS_MARCA = [   # en estas categorias solo se avisa si el titulo contiene una marca de MARCAS
     "ropa", "zapato", "reloj", "bekleidung", "schuhe", "uhren", "vêtement", "chaussures",
     "montres", "abbigliamento", "scarpe", "orologi"]
@@ -206,11 +210,13 @@ def main():
                         rangos = []
                     rk = next((v for v in rangos if v and v > 0), None)
                     if rk is not None and rk > RANK_MAX: continue
-                    if cur < PRECIO_MIN or cur > PRECIO_MAX or avg < PRECIO_ANTES_MIN or cur >= avg: continue
+                    cat = nombres.get(dl.get("rootCat"), "?")
+                    comida = any(c in cat.lower() for c in CATEGORIAS_COMIDA)
+                    minimo = PRECIO_ANTES_MIN_COMIDA if comida else PRECIO_ANTES_MIN
+                    if cur < PRECIO_MIN or cur > PRECIO_MAX or avg < minimo or cur >= avg: continue
                     d = round((1 - cur / avg) * 100)
                     if d < MIN_DESCUENTO or d > MAX_DESCUENTO: continue
-                    if any(p in (dl.get("title") or "").lower() for p in EXCLUIR_TITULO): continue
-                    cat = nombres.get(dl.get("rootCat"), "?")
+                    if not comida and any(p in (dl.get("title") or "").lower() for p in EXCLUIR_TITULO): continue
                     cats_vistas[cod + " " + cat] = cats_vistas.get(cod + " " + cat, 0) + 1
                     if SOLO_CATEGORIAS and not any(c in cat.lower() for c in CATEGORIAS): continue
                     if (any(c in cat.lower() for c in CATEGORIAS_MARCA)
