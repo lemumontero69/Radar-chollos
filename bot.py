@@ -23,6 +23,8 @@ STOCK_MIN = 2                # unidades minimas: si Keepa confirma menos, se des
 STOCK_DESCONOCIDO_AVISAR = True   # True: avisa aunque Keepa no sepa el stock (lo marca "sin confirmar")
 RECHEQUEO_STOCK = 3600       # segundos hasta volver a mirar el stock de un chollo ya visto
 EXIGIR_MES = True            # descarta productos sin al menos un mes de historial de precios
+LISTA_RATIO = 0.5            # si Amazon tiene "precio de lista" y el precio actual supera esta fraccion, no es error
+RANK_MAX = 200000            # descarta productos que casi nunca se venden (ranking medio peor que esto)
 CATEGORIAS = [  # trozos del nombre de categoria en espanol, aleman, frances e italiano
     "electr", "inform", "videojuego", "foto", "camara", "c\u00e1mara", "hogar", "cocina",
     "electrodom", "coche", "moto", "bricolaje", "herramientas",
@@ -122,6 +124,8 @@ def avisar(x):
     s = x.get("stock")
     uds = f"Unidades: {s}" if s is not None else "Unidades: sin confirmar"
     texto = f"{x['titulo']}\n{x['precio']:.2f} EUR (antes {x['antes']:.2f} EUR)\n{uds}"
+    if x.get("keepa"):
+        texto += f"\nHistorial de precios: {x['keepa']}"
     titulo = f"Posible error de precio -{x['descuento']}%"
     if TG_TOKEN and TG_CHAT:
         try:
@@ -191,6 +195,17 @@ def main():
                     validos = [v for v in refs if v and v > 0]
                     if not validos: continue
                     avg = min(validos)   # precio de referencia = el mas bajo de todos los periodos
+                    try:
+                        lista_p = dl["current"][4]    # "precio de lista" (el tachado de Amazon)
+                    except (KeyError, IndexError, TypeError):
+                        lista_p = -1
+                    if lista_p and lista_p > 0 and cur > lista_p * LISTA_RATIO: continue
+                    try:
+                        rangos = [dl["avg"][i][3] for i in (3, 2)]   # ranking medio de ventas
+                    except (KeyError, IndexError, TypeError):
+                        rangos = []
+                    rk = next((v for v in rangos if v and v > 0), None)
+                    if rk is not None and rk > RANK_MAX: continue
                     if cur < PRECIO_MIN or cur > PRECIO_MAX or avg < PRECIO_ANTES_MIN or cur >= avg: continue
                     d = round((1 - cur / avg) * 100)
                     if d < MIN_DESCUENTO or d > MAX_DESCUENTO: continue
@@ -207,7 +222,8 @@ def main():
                         "titulo": pref + (dl.get("title") or "")[:105],
                         "precio": cur / 100, "antes": avg / 100, "descuento": d,
                         "error": d >= ERROR_PRECIO, "categoria": cat,
-                        "url": f"https://{host}/dp/{asin}"}
+                        "url": f"https://{host}/dp/{asin}",
+                        "keepa": f"https://keepa.com/#!product/{dom}-{asin}"}
                 if len(dr) < 150: break
                 time.sleep(1)
     if not ok:
