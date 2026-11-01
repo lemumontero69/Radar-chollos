@@ -1,6 +1,6 @@
 {
- "actualizado": "01/11/2026 21:13 UTC",
- "ts": 1793567616,
+ "actualizado": "01/11/2026 21:50 UTC",
+ "ts": 1793569833,
  "descartados": {},
  "chollos": [
   {
@@ -9,14 +9,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric Unidad de viaje NSX400 AC 3P3D 400A 6.3E, negro",
    "precio": 917.3,
-   "antes": 7276.17,
+   "antes": 7162.84,
    "descuento": 87,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5V8PTZ",
    "keepa": "https://keepa.com/#!product/9-B0BG5V8PTZ",
    "stock": null,
-   "stock_ts": 1793565301
+   "stock_ts": 1793569831
   },
   {
    "clave": "9:B0BG5VP2FN",
@@ -24,14 +24,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric Unidad de viaje NSX160 AC 3P3D 160A 6.2E, negro",
    "precio": 569.55,
-   "antes": 5795.74,
+   "antes": 5700.25,
    "descuento": 90,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5VP2FN",
    "keepa": "https://keepa.com/#!product/9-B0BG5VP2FN",
    "stock": null,
-   "stock_ts": 1793565301
+   "stock_ts": 1793569831
   },
   {
    "clave": "9:B0BG5XVJM5",
@@ -39,14 +39,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric ComPacT nueva generación disparador para interruptor de sobrecarga ComPacT NSX 100/160",
    "precio": 400.91,
-   "antes": 3301.28,
-   "descuento": 88,
+   "antes": 3204.86,
+   "descuento": 87,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5XVJM5",
    "keepa": "https://keepa.com/#!product/9-B0BG5XVJM5",
    "stock": null,
-   "stock_ts": 1793565301
+   "stock_ts": 1793569831
   },
   {
    "clave": "9:B00HHUWQNU",
@@ -54,14 +54,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Interruptor protección selector 240v 14ka 2 polos d 16a 70mm",
    "precio": 106.57,
-   "antes": 662.35,
+   "antes": 650.85,
    "descuento": 84,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00HHUWQNU",
    "keepa": "https://keepa.com/#!product/9-B00HHUWQNU",
    "stock": null,
-   "stock_ts": 1793565301
+   "stock_ts": 1793569831
   },
   {
    "clave": "9:B002D5DSQ8",
@@ -69,14 +69,29 @@
    "mercado": "ES",
    "titulo": "Siemens 5sy8 - Interruptor automático 70 25ka curva-c 4 polos 6a",
    "precio": 90.0,
-   "antes": 645.47,
+   "antes": 634.2,
    "descuento": 86,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B002D5DSQ8",
    "keepa": "https://keepa.com/#!product/9-B002D5DSQ8",
    "stock": null,
-   "stock_ts": 1793565301
+   "stock_ts": 1793569831
+  },
+  {
+   "clave": "9:B014WLVXMQ",
+   "asin": "B014WLVXMQ",
+   "mercado": "ES",
+   "titulo": "Espiroflex transliquid s - Tubo flexible pvc transliquid s diámetro 35 50m",
+   "precio": 15.84,
+   "antes": 255.09,
+   "descuento": 94,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B014WLVXMQ",
+   "keepa": "https://keepa.com/#!product/9-B014WLVXMQ",
+   "stock": 2,
+   "stock_ts": 1793569831
   },
   {
    "clave": "9:B09HH8X6LJ",
@@ -84,14 +99,14 @@
    "mercado": "ES",
    "titulo": "Rasch 554359 - Papel pintado no tejido en color verde con estructura geométrica y detalles dorados de la ",
    "precio": 29.44,
-   "antes": 182.61,
+   "antes": 179.48,
    "descuento": 84,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B09HH8X6LJ",
    "keepa": "https://keepa.com/#!product/9-B09HH8X6LJ",
    "stock": null,
-   "stock_ts": 1793565301
+   "stock_ts": 1793569831
   },
   {
    "clave": "4:B0CB7BWF52",
@@ -99,7 +114,7 @@
    "mercado": "FR",
    "titulo": "[FR] FEBI BILSTEIN Joint axial (barre d'accouplement) 180315 Vorderachse rechts",
    "precio": 24.9,
-   "antes": 169.47,
+   "antes": 167.6,
    "descuento": 85,
    "error": true,
    "categoria": "Auto et Moto",
