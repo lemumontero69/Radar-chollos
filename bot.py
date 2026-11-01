@@ -22,6 +22,7 @@ SOLO_CATEGORIAS = True       # pon False para vigilar todas las categorias
 STOCK_MIN = 2                # unidades minimas: si Keepa confirma menos, se descarta
 STOCK_DESCONOCIDO_AVISAR = True   # True: avisa aunque Keepa no sepa el stock (lo marca "sin confirmar")
 RECHEQUEO_STOCK = 3600       # segundos hasta volver a mirar el stock de un chollo ya visto
+EXIGIR_MES = True            # descarta productos sin al menos un mes de historial de precios
 CATEGORIAS = [  # trozos del nombre de categoria en espanol, aleman, frances e italiano
     "electr", "inform", "videojuego", "foto", "camara", "c\u00e1mara", "hogar", "cocina",
     "electrodom", "coche", "moto", "bricolaje", "herramientas",
@@ -164,9 +165,14 @@ def main():
                 dr = deals.get("dr", [])
                 for dl in dr:
                     try:
-                        cur, avg = dl["current"][tipo], dl["avg"][0][tipo]
+                        cur = dl["current"][tipo]
+                        refs = [dl["avg"][i][tipo] for i in range(4)]   # 48h, semana, mes, 90 dias
                     except (KeyError, IndexError, TypeError):
                         continue
+                    if EXIGIR_MES and (refs[2] or -1) <= 0: continue    # sin historial de un mes: no te fies
+                    validos = [v for v in refs if v and v > 0]
+                    if not validos: continue
+                    avg = min(validos)   # precio de referencia = el mas bajo de todos los periodos
                     if cur < PRECIO_MIN or cur > PRECIO_MAX or avg < PRECIO_ANTES_MIN or cur >= avg: continue
                     d = round((1 - cur / avg) * 100)
                     if d < MIN_DESCUENTO or d > MAX_DESCUENTO: continue
