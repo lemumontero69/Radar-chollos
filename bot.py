@@ -166,10 +166,10 @@ def main():
     vistos, cats_vistas, ok = {}, {}, False
     global CATS
     for host, cod, dom, tipos, paginas in MERCADOS:
+        CATS = []   # sin filtro al descubrir categorias (antes arrastraba las del pais anterior)
         d0 = pedir(dom, tipos[0], 0)
         if d0 is None:
             print("Aviso: mercado", cod, "sin respuesta"); continue
-        CATS = []
         if NIVEL == 0:
             CATS = [i for i, n in zip(d0.get("categoryIds", []), d0.get("categoryNames", []))
                     if any(c in n.lower() for c in CATEGORIAS)]
