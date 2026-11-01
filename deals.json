@@ -1,10 +1,10 @@
 {
- "actualizado": "01/11/2026 04:05 UTC",
- "ts": 1793505941,
+ "actualizado": "01/11/2026 04:54 UTC",
+ "ts": 1793508850,
  "descartados": {
-  "3:B0CB79PJKX": 1793502794,
   "9:B001JGD0TW": 1793505935,
-  "8:B00DG7708E": 1793505935
+  "8:B00DG7708E": 1793505935,
+  "3:B0CB79PJKX": 1793508841
  },
  "chollos": [
   {
@@ -13,7 +13,7 @@
    "mercado": "ES",
    "titulo": "Schneider Electric ComPacT nueva generación disparador para interruptor de sobrecarga ComPacT NSX 100/160",
    "precio": 400.91,
-   "antes": 5980.15,
+   "antes": 5855.06,
    "descuento": 93,
    "error": true,
    "categoria": "Bricolaje y herramientas",
@@ -27,7 +27,7 @@
    "mercado": "ES",
    "titulo": "Schneider Electric ComPacT nueva generación disparador para interruptor de sobrecarga ComPacT NSX 100/160",
    "precio": 458.7,
-   "antes": 2957.88,
+   "antes": 2830.12,
    "descuento": 84,
    "error": true,
    "categoria": "Bricolaje y herramientas",
@@ -41,8 +41,8 @@
    "mercado": "ES",
    "titulo": "Siemens 5sy8 - Interruptor automático 70 25ka curva-c 4 polos 6a",
    "precio": 90.0,
-   "antes": 958.53,
-   "descuento": 91,
+   "antes": 943.92,
+   "descuento": 90,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B002D5DSQ8",
@@ -55,8 +55,8 @@
    "mercado": "ES",
    "titulo": "LEMAN 380700120 - Juego 2 posicionadores de cuchillas guias magneticas para cabezal diam.120",
    "precio": 132.81,
-   "antes": 927.22,
-   "descuento": 86,
+   "antes": 908.94,
+   "descuento": 85,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B07Q148Q34",
@@ -69,13 +69,13 @@
    "mercado": "ES",
    "titulo": "NEEWER Basics Nueva Versión ML02 USB C LED Macro Fotografía Luz, 4W IP54",
    "precio": 76.96,
-   "antes": 852.37,
+   "antes": 837.0,
    "descuento": 91,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B0H8XWYQW6",
    "stock": null,
-   "stock_ts": 1793502794
+   "stock_ts": 1793508841
   },
   {
    "clave": "9:B00HHUWQNU",
@@ -89,7 +89,7 @@
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00HHUWQNU",
    "stock": null,
-   "stock_ts": 1793502794
+   "stock_ts": 1793508841
   },
   {
    "clave": "9:B00HHUU4H0",
@@ -97,7 +97,7 @@
    "mercado": "ES",
    "titulo": "Siemens - Automático magnetotermico 10ka 1 polo c 4a 489-277v",
    "precio": 61.54,
-   "antes": 382.34,
+   "antes": 376.55,
    "descuento": 84,
    "error": true,
    "categoria": "Bricolaje y herramientas",
@@ -111,7 +111,7 @@
    "mercado": "ES",
    "titulo": "Rasch 554359 - Papel pintado no tejido en color verde con estructura geométrica y detalles dorados de la ",
    "precio": 29.44,
-   "antes": 269.61,
+   "antes": 265.54,
    "descuento": 89,
    "error": true,
    "categoria": "Bricolaje y herramientas",
@@ -125,7 +125,7 @@
    "mercado": "ES",
    "titulo": "Masterlock 411BLK - Candado De Zenex",
    "precio": 42.2,
-   "antes": 276.82,
+   "antes": 276.77,
    "descuento": 85,
    "error": true,
    "categoria": "Bricolaje y herramientas",
@@ -139,8 +139,8 @@
    "mercado": "ES",
    "titulo": "Schneider Electric Compartim. P Forma 4a Placa Pasac.5/6Mod marca",
    "precio": 47.25,
-   "antes": 244.7,
-   "descuento": 81,
+   "antes": 241.12,
+   "descuento": 80,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BCWRC6L2",
@@ -148,26 +148,12 @@
    "stock_ts": 1793505935
   },
   {
-   "clave": "3:B0FP9XLD49",
-   "asin": "B0FP9XLD49",
-   "mercado": "DE",
-   "titulo": "[DE] FEBI BILSTEIN Sensor, Raddrehzahl 198386 Hinterachse rechts",
-   "precio": 31.26,
-   "antes": 187.86,
-   "descuento": 83,
-   "error": true,
-   "categoria": "Auto & Motorrad",
-   "url": "https://www.amazon.de/dp/B0FP9XLD49",
-   "stock": 1000,
-   "stock_ts": 1793502794
-  },
-  {
    "clave": "9:B07TB85M16",
    "asin": "B07TB85M16",
    "mercado": "ES",
    "titulo": "RUEDA DE ANDAMIO CONVENCIONAL tubo exterior 47x120 mm para 200 kgs rueda de 200 x 50 mm (CAJA DE 8 UNIDAD",
    "precio": 12.91,
-   "antes": 169.19,
+   "antes": 165.93,
    "descuento": 92,
    "error": true,
    "categoria": "Bricolaje y herramientas",
@@ -176,18 +162,32 @@
    "stock_ts": 1793505935
   },
   {
+   "clave": "3:B0FP9XLD49",
+   "asin": "B0FP9XLD49",
+   "mercado": "DE",
+   "titulo": "[DE] FEBI BILSTEIN Sensor, Raddrehzahl 198386 Hinterachse rechts",
+   "precio": 31.26,
+   "antes": 183.68,
+   "descuento": 83,
+   "error": true,
+   "categoria": "Auto & Motorrad",
+   "url": "https://www.amazon.de/dp/B0FP9XLD49",
+   "stock": 1000,
+   "stock_ts": 1793508841
+  },
+  {
    "clave": "9:B00PIP0U5C",
    "asin": "B00PIP0U5C",
    "mercado": "ES",
    "titulo": "Schwaiger F-connettore (8 mm, 4 pcs)",
    "precio": 10.47,
-   "antes": 161.47,
-   "descuento": 94,
+   "antes": 152.73,
+   "descuento": 93,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B00PIP0U5C",
    "stock": 1000,
-   "stock_ts": 1793502794
+   "stock_ts": 1793508841
   },
   {
    "clave": "9:B0BKQV8WGD",
@@ -195,13 +195,13 @@
    "mercado": "ES",
    "titulo": "ACAUTO Compresor de embrague magnético AC-05DN12",
    "precio": 26.93,
-   "antes": 169.37,
+   "antes": 166.61,
    "descuento": 84,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B0BKQV8WGD",
    "stock": null,
-   "stock_ts": 1793502794
+   "stock_ts": 1793508841
   },
   {
    "clave": "9:B016ETOCNG",
@@ -209,7 +209,7 @@
    "mercado": "ES",
    "titulo": "Siemens sirius atc - Portaplaquita abajo negro inscripción 125x27mm",
    "precio": 17.77,
-   "antes": 158.74,
+   "antes": 157.12,
    "descuento": 89,
    "error": true,
    "categoria": "Bricolaje y herramientas",
@@ -223,8 +223,8 @@
    "mercado": "ES",
    "titulo": "Safetop 82750 - Tapon Auditivo 82750 Track-Fit Par",
    "precio": 12.35,
-   "antes": 108.94,
-   "descuento": 89,
+   "antes": 107.31,
+   "descuento": 88,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B014WLS27K",
@@ -232,18 +232,32 @@
    "stock_ts": 1793505935
   },
   {
+   "clave": "9:B0BL33BM5W",
+   "asin": "B0BL33BM5W",
+   "mercado": "ES",
+   "titulo": "Oldbones Universal Motocicleta Tanque Auxiliar de Combustible Tanque de Gas Botella de Combustible Botell",
+   "precio": 21.98,
+   "antes": 110.99,
+   "descuento": 80,
+   "error": true,
+   "categoria": "Coche y moto",
+   "url": "https://www.amazon.es/dp/B0BL33BM5W",
+   "stock": 22,
+   "stock_ts": 1793508841
+  },
+  {
    "clave": "9:B0CDLYKCT3",
    "asin": "B0CDLYKCT3",
    "mercado": "ES",
    "titulo": "ATE Zubehörsatz, Bremsbacken 03.0137-9321.2",
    "precio": 21.68,
-   "antes": 110.44,
+   "antes": 108.79,
    "descuento": 80,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B0CDLYKCT3",
    "stock": null,
-   "stock_ts": 1793502794
+   "stock_ts": 1793508841
   }
  ]
 }
