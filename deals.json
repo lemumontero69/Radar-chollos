@@ -1,9 +1,7 @@
 {
- "actualizado": "01/11/2026 13:12 UTC",
- "ts": 1793538762,
- "descartados": {
-  "8:B00DG7708E": 1793535323
- },
+ "actualizado": "01/11/2026 13:56 UTC",
+ "ts": 1793541408,
+ "descartados": {},
  "chollos": [
   {
    "clave": "9:B0BG5V8PTZ",
@@ -11,14 +9,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric Unidad de viaje NSX400 AC 3P3D 400A 6.3E, negro",
    "precio": 917.3,
-   "antes": 8749.5,
-   "descuento": 90,
+   "antes": 8614.72,
+   "descuento": 89,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5V8PTZ",
    "keepa": "https://keepa.com/#!product/9-B0BG5V8PTZ",
    "stock": null,
-   "stock_ts": 1793535323
+   "stock_ts": 1793541406
   },
   {
    "clave": "9:B0BG5VP2FN",
@@ -26,14 +24,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric Unidad de viaje NSX160 AC 3P3D 160A 6.2E, negro",
    "precio": 569.55,
-   "antes": 7037.12,
+   "antes": 6923.56,
    "descuento": 92,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5VP2FN",
    "keepa": "https://keepa.com/#!product/9-B0BG5VP2FN",
    "stock": null,
-   "stock_ts": 1793535323
+   "stock_ts": 1793541406
   },
   {
    "clave": "9:B0BG5XVJM5",
@@ -41,14 +39,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric ComPacT nueva generación disparador para interruptor de sobrecarga ComPacT NSX 100/160",
    "precio": 400.91,
-   "antes": 4554.72,
+   "antes": 4440.06,
    "descuento": 91,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5XVJM5",
    "keepa": "https://keepa.com/#!product/9-B0BG5XVJM5",
    "stock": null,
-   "stock_ts": 1793535323
+   "stock_ts": 1793541406
   },
   {
    "clave": "9:B00HHUWQNU",
@@ -56,14 +54,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Interruptor protección selector 240v 14ka 2 polos d 16a 70mm",
    "precio": 106.57,
-   "antes": 811.89,
+   "antes": 798.21,
    "descuento": 87,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00HHUWQNU",
    "keepa": "https://keepa.com/#!product/9-B00HHUWQNU",
    "stock": null,
-   "stock_ts": 1793535323
+   "stock_ts": 1793541406
   },
   {
    "clave": "9:B002D5DSQ8",
@@ -71,14 +69,14 @@
    "mercado": "ES",
    "titulo": "Siemens 5sy8 - Interruptor automático 70 25ka curva-c 4 polos 6a",
    "precio": 90.0,
-   "antes": 791.95,
-   "descuento": 89,
+   "antes": 778.55,
+   "descuento": 88,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B002D5DSQ8",
    "keepa": "https://keepa.com/#!product/9-B002D5DSQ8",
    "stock": null,
-   "stock_ts": 1793535323
+   "stock_ts": 1793541406
   },
   {
    "clave": "9:B0H8XWYQW6",
@@ -86,14 +84,14 @@
    "mercado": "ES",
    "titulo": "NEEWER Basics Nueva Versión ML02 USB C LED Macro Fotografía Luz, 4W IP54",
    "precio": 76.68,
-   "antes": 677.2,
-   "descuento": 89,
+   "antes": 663.11,
+   "descuento": 88,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B0H8XWYQW6",
    "keepa": "https://keepa.com/#!product/9-B0H8XWYQW6",
    "stock": null,
-   "stock_ts": 1793535323
+   "stock_ts": 1793541406
   },
   {
    "clave": "9:B00HHUU4H0",
@@ -101,14 +99,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Automático magnetotermico 10ka 1 polo c 4a 489-277v",
    "precio": 61.54,
-   "antes": 316.37,
-   "descuento": 81,
+   "antes": 311.06,
+   "descuento": 80,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00HHUU4H0",
    "keepa": "https://keepa.com/#!product/9-B00HHUU4H0",
    "stock": 15,
-   "stock_ts": 1793535323
+   "stock_ts": 1793541406
   },
   {
    "clave": "9:B09HH8X6LJ",
@@ -116,14 +114,14 @@
    "mercado": "ES",
    "titulo": "Rasch 554359 - Papel pintado no tejido en color verde con estructura geométrica y detalles dorados de la ",
    "precio": 29.44,
-   "antes": 223.32,
+   "antes": 219.59,
    "descuento": 87,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B09HH8X6LJ",
    "keepa": "https://keepa.com/#!product/9-B09HH8X6LJ",
    "stock": null,
-   "stock_ts": 1793535323
+   "stock_ts": 1793541406
   },
   {
    "clave": "9:B0010EAV7W",
@@ -131,14 +129,14 @@
    "mercado": "ES",
    "titulo": "Masterlock 411BLK - Candado De Zenex",
    "precio": 42.2,
-   "antes": 221.69,
+   "antes": 216.69,
    "descuento": 81,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0010EAV7W",
    "keepa": "https://keepa.com/#!product/9-B0010EAV7W",
    "stock": null,
-   "stock_ts": 1793535323
+   "stock_ts": 1793541406
   },
   {
    "clave": "9:B0BKQV8WGD",
@@ -146,14 +144,14 @@
    "mercado": "ES",
    "titulo": "ACAUTO Compresor de embrague magnético AC-05DN12",
    "precio": 26.93,
-   "antes": 137.9,
+   "antes": 135.37,
    "descuento": 80,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B0BKQV8WGD",
    "keepa": "https://keepa.com/#!product/9-B0BKQV8WGD",
    "stock": null,
-   "stock_ts": 1793535323
+   "stock_ts": 1793541406
   },
   {
    "clave": "9:B0GGHMW46Q",
@@ -161,14 +159,14 @@
    "mercado": "ES",
    "titulo": "W70 Pro Auriculares Inalámbricos Bluetooth 5.4, Cascos Inalámbricos In-Ear con 46H de Batería y Pantalla ",
    "precio": 15.99,
-   "antes": 116.38,
+   "antes": 113.89,
    "descuento": 86,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B0GGHMW46Q",
    "keepa": "https://keepa.com/#!product/9-B0GGHMW46Q",
    "stock": 3,
-   "stock_ts": 1793535323
+   "stock_ts": 1793541406
   },
   {
    "clave": "9:B016ETOCNG",
@@ -176,14 +174,14 @@
    "mercado": "ES",
    "titulo": "Siemens sirius atc - Portaplaquita abajo negro inscripción 125x27mm",
    "precio": 17.77,
-   "antes": 115.46,
-   "descuento": 85,
+   "antes": 109.46,
+   "descuento": 84,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B016ETOCNG",
    "keepa": "https://keepa.com/#!product/9-B016ETOCNG",
    "stock": 5,
-   "stock_ts": 1793535323
+   "stock_ts": 1793541406
   }
  ]
 }
