@@ -28,14 +28,32 @@ CATEGORIAS = [  # trozos del nombre de categoria en espanol, aleman, frances e i
     "electrodom", "coche", "moto", "bricolaje", "herramientas",
     "computer", "k\u00fcche", "haushalt", "baumarkt", "auto", "kamera", "games",
     "high-tech", "informatique", "cuisine", "maison", "bricolage", "jeux vid", "appareil",
-    "elettronica", "informatica", "casa e cucina", "fai da te", "videogiochi", "fotocamera"]
+    "elettronica", "informatica", "casa e cucina", "fai da te", "videogiochi", "fotocamera",
+    # grandes electrodomesticos (lavadoras, frigorificos...): "electr" no los cubre en DE/FR/IT
+    "elektro", "lectro", "elettro", "großger", "gros électro", "grandi",
+    # ropa, zapatos y relojes (solo pasan las marcas de MARCAS)
+    "ropa", "zapato", "reloj", "bekleidung", "schuhe", "uhren", "vêtement", "chaussures",
+    "montres", "abbigliamento", "scarpe", "orologi"]
+CATEGORIAS_MARCA = [   # en estas categorias solo se avisa si el titulo contiene una marca de MARCAS
+    "ropa", "zapato", "reloj", "bekleidung", "schuhe", "uhren", "vêtement", "chaussures",
+    "montres", "abbigliamento", "scarpe", "orologi"]
+MARCAS = [   # marcas caras que te interesan: anade o quita las que quieras (en minusculas)
+    "gucci", "prada", "louis vuitton", "moncler", "versace", "burberry", "armani", "dolce",
+    "balenciaga", "valentino", "givenchy", "ralph lauren", "lacoste", "tommy hilfiger",
+    "calvin klein", "hugo boss", "north face", "carhartt", "levi's", "levis", "stone island",
+    "canada goose", "patagonia", "diesel", "guess", "michael kors", "barbour", "napapijri",
+    "timberland", "superdry", "fossil", "seiko", "citizen", "tissot", "hamilton", "tag heuer",
+    "omega", "rolex", "breitling", "casio", "g-shock", "garmin", "swatch", "longines",
+    "daniel wellington", "emporio armani", "bulova", "festina", "maurice lacroix"]
 EXCLUIR_TITULO = [
     "funda", "cubierta", "cubre", "lona", "toldo", "parasol", "alfombrilla", "limpia",
     "ambientador", "protector", "pegatina", "adhesivo", "vinilo", "cera ", "pulid", "aceite",
     "aditivo", "cable", "soporte", "organizador", "brocas", "puntas", "juego de puntas",
     "abdeckung", "schutzh", "plane", "autoabdeck", "kabel", "halterung", "reiniger",
     "housse", "b\u00e2che", "pare-soleil", "c\u00e2ble", "support", "nettoyant",
-    "copriauto", "telo", "cavo", "supporto", "detergente", "custodia"]
+    "copriauto", "telo", "cavo", "supporto", "detergente", "custodia",
+    "correa de", "correa para", "armband", "ersatzarmband", "uhrenarmband", "cinturino per",
+    "bracelet de rechange", "recambio"]
 CATS = []    # ids de categorias del mercado actual (se descubren en cada ejecucion)
 
 NIVEL = 0   # consulta usada: 0 = completa, 1 = intermedia, 2 = minima
@@ -180,6 +198,8 @@ def main():
                     cat = nombres.get(dl.get("rootCat"), "?")
                     cats_vistas[cod + " " + cat] = cats_vistas.get(cod + " " + cat, 0) + 1
                     if SOLO_CATEGORIAS and not any(c in cat.lower() for c in CATEGORIAS): continue
+                    if (any(c in cat.lower() for c in CATEGORIAS_MARCA)
+                            and not any(m in (dl.get("title") or "").lower() for m in MARCAS)): continue
                     asin = dl["asin"]; clave = f"{dom}:{asin}"
                     if clave in vistos and vistos[clave]["descuento"] >= d: continue
                     pref = "" if cod == "ES" else f"[{cod}] "
