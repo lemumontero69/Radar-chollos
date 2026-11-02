@@ -1,8 +1,8 @@
 {
- "actualizado": "02/11/2026 19:22 UTC",
- "ts": 1793647377,
+ "actualizado": "02/11/2026 20:54 UTC",
+ "ts": 1793652874,
  "descartados": {
-  "8:B0784PHC21": 1793643896
+  "8:B0784PHC21": 1793652869
  },
  "chollos": [
   {
@@ -11,14 +11,14 @@
    "mercado": "ES",
    "titulo": "Kompaktleistungsschalter ComPacT NSX400S Grun C40S4",
    "precio": 1045.6,
-   "antes": 6002.74,
-   "descuento": 83,
+   "antes": 5718.59,
+   "descuento": 82,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5TQTY4",
    "keepa": "https://keepa.com/#!product/9-B0BG5TQTY4",
    "stock": 100,
-   "stock_ts": 1793643896
+   "stock_ts": 1793652869
   },
   {
    "clave": "9:B077W6K3DL",
@@ -26,14 +26,14 @@
    "mercado": "ES",
    "titulo": "ASHIKA Kurbelwelle 18KI002",
    "precio": 187.91,
-   "antes": 2559.62,
-   "descuento": 93,
+   "antes": 2447.44,
+   "descuento": 92,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B077W6K3DL",
    "keepa": "https://keepa.com/#!product/9-B077W6K3DL",
    "stock": null,
-   "stock_ts": 1793643896
+   "stock_ts": 1793652869
   },
   {
    "clave": "9:B0C69T7HW7",
@@ -41,14 +41,14 @@
    "mercado": "ES",
    "titulo": "Unidad AFD 2P, C40A, 30 mA, tipo F, interruptor diferencial, incluye",
    "precio": 277.88,
-   "antes": 1779.29,
+   "antes": 1718.03,
    "descuento": 84,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0C69T7HW7",
    "keepa": "https://keepa.com/#!product/9-B0C69T7HW7",
    "stock": null,
-   "stock_ts": 1793643896
+   "stock_ts": 1793652869
   },
   {
    "clave": "9:B0H5VFRHH4",
@@ -56,14 +56,14 @@
    "mercado": "ES",
    "titulo": "Bamworld Guantes de microfibra DE-YJ-ST04-CZW-QF/CL-ZH-2PAIRS",
    "precio": 10.99,
-   "antes": 1231.75,
+   "antes": 912.69,
    "descuento": 99,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0H5VFRHH4",
    "keepa": "https://keepa.com/#!product/9-B0H5VFRHH4",
    "stock": null,
-   "stock_ts": 1793643896
+   "stock_ts": 1793652869
   },
   {
    "clave": "3:B0FP9TRMBJ",
@@ -71,14 +71,14 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI BILSTEIN Hauptbremszylinder 195035",
    "precio": 66.57,
-   "antes": 661.2,
+   "antes": 639.74,
    "descuento": 90,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0FP9TRMBJ",
    "keepa": "https://keepa.com/#!product/3-B0FP9TRMBJ",
    "stock": 1000,
-   "stock_ts": 1793643896
+   "stock_ts": 1793652869
   },
   {
    "clave": "9:B01MY5GL8M",
@@ -86,14 +86,14 @@
    "mercado": "ES",
    "titulo": "Chint NB1-63DH4P10 Series - Disyuntor de circuito en miniatura, 10 A, 4 polos, curva D, 10 kA",
    "precio": 37.62,
-   "antes": 227.54,
+   "antes": 219.33,
    "descuento": 83,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01MY5GL8M",
    "keepa": "https://keepa.com/#!product/9-B01MY5GL8M",
    "stock": null,
-   "stock_ts": 1793643896
+   "stock_ts": 1793652869
   },
   {
    "clave": "3:B0GJCQYPJ1",
@@ -101,14 +101,14 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI Bilstein 193460 Bremsbelagsatz (1Stk.) für Maxus",
    "precio": 41.29,
-   "antes": 228.92,
-   "descuento": 82,
+   "antes": 220.76,
+   "descuento": 81,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0GJCQYPJ1",
    "keepa": "https://keepa.com/#!product/3-B0GJCQYPJ1",
    "stock": 1000,
-   "stock_ts": 1793643896
+   "stock_ts": 1793652869
   },
   {
    "clave": "9:B014WLVXMQ",
@@ -116,14 +116,14 @@
    "mercado": "ES",
    "titulo": "Espiroflex transliquid s - Tubo flexible pvc transliquid s diámetro 35 50m",
    "precio": 15.84,
-   "antes": 150.22,
+   "antes": 142.27,
    "descuento": 89,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B014WLVXMQ",
    "keepa": "https://keepa.com/#!product/9-B014WLVXMQ",
    "stock": 2,
-   "stock_ts": 1793643896
+   "stock_ts": 1793652869
   },
   {
    "clave": "8:B0CDN6QS49",
@@ -131,14 +131,14 @@
    "mercado": "IT",
    "titulo": "[IT] FEBI BILSTEIN Testa barra d'accoppiamento 184880 Vorderachse rechts",
    "precio": 26.84,
-   "antes": 152.97,
+   "antes": 148.93,
    "descuento": 82,
    "error": true,
    "categoria": "Auto e Moto",
    "url": "https://www.amazon.it/dp/B0CDN6QS49",
    "keepa": "https://keepa.com/#!product/8-B0CDN6QS49",
    "stock": null,
-   "stock_ts": 1793647371
+   "stock_ts": 1793652869
   },
   {
    "clave": "9:B0FBR837KP",
@@ -146,14 +146,14 @@
    "mercado": "ES",
    "titulo": "Asidrama Paquete de 10 manijas de gabinete de cocina de latón antiguo de 5 pulgadas (128 mm), tiradores d",
    "precio": 25.0,
-   "antes": 148.6,
+   "antes": 143.7,
    "descuento": 83,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0FBR837KP",
    "keepa": "https://keepa.com/#!product/9-B0FBR837KP",
    "stock": null,
-   "stock_ts": 1793643896
+   "stock_ts": 1793652869
   },
   {
    "clave": "3:B0CDN6QS49",
@@ -161,14 +161,14 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI BILSTEIN Spurstangenkopf 184880 Vorderachse rechts",
    "precio": 28.6,
-   "antes": 149.22,
-   "descuento": 81,
+   "antes": 145.35,
+   "descuento": 80,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0CDN6QS49",
    "keepa": "https://keepa.com/#!product/3-B0CDN6QS49",
    "stock": null,
-   "stock_ts": 1793647371
+   "stock_ts": 1793652869
   },
   {
    "clave": "9:B081DJLMNK",
@@ -176,14 +176,14 @@
    "mercado": "ES",
    "titulo": "kontakt-simon Simon Basic Neos BMRC1/43 5902787837099 - Marco de Fotos (1 Compartimento), Color Plateado ",
    "precio": 18.7,
-   "antes": 129.82,
-   "descuento": 86,
+   "antes": 125.51,
+   "descuento": 85,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B081DJLMNK",
    "keepa": "https://keepa.com/#!product/9-B081DJLMNK",
    "stock": null,
-   "stock_ts": 1793643896
+   "stock_ts": 1793652869
   },
   {
    "clave": "8:B078J5ZSZC",
@@ -191,14 +191,14 @@
    "mercado": "IT",
    "titulo": "[IT] ESEN SKV Valvola regolazione reg. minimo, Alimentazione aria 08SKV002",
    "precio": 15.72,
-   "antes": 115.19,
+   "antes": 113.27,
    "descuento": 86,
    "error": true,
    "categoria": "Auto e Moto",
    "url": "https://www.amazon.it/dp/B078J5ZSZC",
    "keepa": "https://keepa.com/#!product/8-B078J5ZSZC",
    "stock": null,
-   "stock_ts": 1793643896
+   "stock_ts": 1793652869
   },
   {
    "clave": "3:B077G7SHWV",
@@ -206,44 +206,14 @@
    "mercado": "DE",
    "titulo": "[DE] CHAMPION CAF100986P Motorräume",
    "precio": 9.49,
-   "antes": 95.99,
+   "antes": 92.98,
    "descuento": 90,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B077G7SHWV",
    "keepa": "https://keepa.com/#!product/3-B077G7SHWV",
    "stock": null,
-   "stock_ts": 1793643896
-  },
-  {
-   "clave": "9:B07VC3JHSP",
-   "asin": "B07VC3JHSP",
-   "mercado": "ES",
-   "titulo": "Oldbones Cierre de carrera, anillo en D de liberación rápida para motocicleta, 17 mm, color plateado crom",
-   "precio": 20.98,
-   "antes": 104.9,
-   "descuento": 80,
-   "error": true,
-   "categoria": "Coche y moto",
-   "url": "https://www.amazon.es/dp/B07VC3JHSP",
-   "keepa": "https://keepa.com/#!product/9-B07VC3JHSP",
-   "stock": 11,
-   "stock_ts": 1793647371
-  },
-  {
-   "clave": "9:B07VC6MHNX",
-   "asin": "B07VC6MHNX",
-   "mercado": "ES",
-   "titulo": "Oldbones Sujetadores de carreras de motocicleta de liberación rápida con anillo en D tipo C, 14 mm, color",
-   "precio": 19.98,
-   "antes": 98.99,
-   "descuento": 80,
-   "error": true,
-   "categoria": "Coche y moto",
-   "url": "https://www.amazon.es/dp/B07VC6MHNX",
-   "keepa": "https://keepa.com/#!product/9-B07VC6MHNX",
-   "stock": 10,
-   "stock_ts": 1793647371
+   "stock_ts": 1793652869
   }
  ]
 }
