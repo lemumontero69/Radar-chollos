@@ -1,6 +1,6 @@
 {
- "actualizado": "01/11/2026 22:57 UTC",
- "ts": 1793573868,
+ "actualizado": "02/11/2026 00:06 UTC",
+ "ts": 1793578003,
  "descartados": {},
  "chollos": [
   {
@@ -9,14 +9,14 @@
    "mercado": "ES",
    "titulo": "Kompaktleistungsschalter ComPacT NSX400S Grun C40S4",
    "precio": 1045.6,
-   "antes": 7114.86,
+   "antes": 7113.41,
    "descuento": 85,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5TQTY4",
    "keepa": "https://keepa.com/#!product/9-B0BG5TQTY4",
    "stock": null,
-   "stock_ts": 1793571690
+   "stock_ts": 1793577997
   },
   {
    "clave": "9:B0BG5V8PTZ",
@@ -24,14 +24,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric Unidad de viaje NSX400 AC 3P3D 400A 6.3E, negro",
    "precio": 917.3,
-   "antes": 6957.62,
-   "descuento": 87,
+   "antes": 6746.27,
+   "descuento": 86,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5V8PTZ",
    "keepa": "https://keepa.com/#!product/9-B0BG5V8PTZ",
    "stock": null,
-   "stock_ts": 1793573865
+   "stock_ts": 1793577997
   },
   {
    "clave": "9:B0BG5VP2FN",
@@ -39,14 +39,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric Unidad de viaje NSX160 AC 3P3D 160A 6.2E, negro",
    "precio": 569.55,
-   "antes": 5527.33,
-   "descuento": 90,
+   "antes": 5349.25,
+   "descuento": 89,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5VP2FN",
    "keepa": "https://keepa.com/#!product/9-B0BG5VP2FN",
    "stock": null,
-   "stock_ts": 1793573865
+   "stock_ts": 1793577997
   },
   {
    "clave": "9:B0BG5XVJM5",
@@ -54,14 +54,29 @@
    "mercado": "ES",
    "titulo": "Schneider Electric ComPacT nueva generación disparador para interruptor de sobrecarga ComPacT NSX 100/160",
    "precio": 400.91,
-   "antes": 3030.27,
-   "descuento": 87,
+   "antes": 2850.46,
+   "descuento": 86,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5XVJM5",
    "keepa": "https://keepa.com/#!product/9-B0BG5XVJM5",
    "stock": null,
-   "stock_ts": 1793573865
+   "stock_ts": 1793577997
+  },
+  {
+   "clave": "9:B00MP42FUC",
+   "asin": "B00MP42FUC",
+   "mercado": "ES",
+   "titulo": "Toner cartridge Original Lexmark 1x Black 64004HE XXL for Lexmark T 644 DTN",
+   "precio": 43.4,
+   "antes": 776.94,
+   "descuento": 94,
+   "error": true,
+   "categoria": "Informática",
+   "url": "https://www.amazon.es/dp/B00MP42FUC",
+   "keepa": "https://keepa.com/#!product/9-B00MP42FUC",
+   "stock": null,
+   "stock_ts": 1793577997
   },
   {
    "clave": "9:B002D5DSQ8",
@@ -69,14 +84,14 @@
    "mercado": "ES",
    "titulo": "Siemens 5sy8 - Interruptor automático 70 25ka curva-c 4 polos 6a",
    "precio": 90.0,
-   "antes": 613.8,
+   "antes": 592.79,
    "descuento": 85,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B002D5DSQ8",
    "keepa": "https://keepa.com/#!product/9-B002D5DSQ8",
    "stock": null,
-   "stock_ts": 1793573865
+   "stock_ts": 1793577997
   },
   {
    "clave": "9:B00HHUWQNU",
@@ -84,14 +99,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Interruptor protección selector 240v 14ka 2 polos d 16a 70mm",
    "precio": 107.73,
-   "antes": 630.04,
-   "descuento": 83,
+   "antes": 608.62,
+   "descuento": 82,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00HHUWQNU",
    "keepa": "https://keepa.com/#!product/9-B00HHUWQNU",
    "stock": null,
-   "stock_ts": 1793573865
+   "stock_ts": 1793577997
   },
   {
    "clave": "9:B0H8XWYQW6",
@@ -99,14 +114,29 @@
    "mercado": "ES",
    "titulo": "NEEWER Basics Nueva Versión ML02 USB C LED Macro Fotografía Luz, 4W IP54",
    "precio": 76.68,
-   "antes": 489.85,
+   "antes": 467.75,
    "descuento": 84,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B0H8XWYQW6",
    "keepa": "https://keepa.com/#!product/9-B0H8XWYQW6",
    "stock": null,
-   "stock_ts": 1793571690
+   "stock_ts": 1793577997
+  },
+  {
+   "clave": "9:B00NHQUNTM",
+   "asin": "B00NHQUNTM",
+   "mercado": "ES",
+   "titulo": "Lexmark Toner Magenta C935 AC",
+   "precio": 25.11,
+   "antes": 316.94,
+   "descuento": 92,
+   "error": true,
+   "categoria": "Informática",
+   "url": "https://www.amazon.es/dp/B00NHQUNTM",
+   "keepa": "https://keepa.com/#!product/9-B00NHQUNTM",
+   "stock": null,
+   "stock_ts": 1793577997
   },
   {
    "clave": "9:B014WLVXMQ",
@@ -114,14 +144,14 @@
    "mercado": "ES",
    "titulo": "Espiroflex transliquid s - Tubo flexible pvc transliquid s diámetro 35 50m",
    "precio": 15.84,
-   "antes": 254.97,
+   "antes": 250.12,
    "descuento": 94,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B014WLVXMQ",
    "keepa": "https://keepa.com/#!product/9-B014WLVXMQ",
    "stock": 2,
-   "stock_ts": 1793573865
+   "stock_ts": 1793577997
   },
   {
    "clave": "9:B0046TETWG",
@@ -129,14 +159,14 @@
    "mercado": "ES",
    "titulo": "Axis 0319-041 Decodificador de vídeo de Eje de Hueso Desnudo P7701",
    "precio": 40.0,
-   "antes": 233.42,
-   "descuento": 83,
+   "antes": 227.84,
+   "descuento": 82,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B0046TETWG",
    "keepa": "https://keepa.com/#!product/9-B0046TETWG",
    "stock": null,
-   "stock_ts": 1793571690
+   "stock_ts": 1793577997
   },
   {
    "clave": "9:B09HH8X6LJ",
@@ -144,14 +174,14 @@
    "mercado": "ES",
    "titulo": "Rasch 554359 - Papel pintado no tejido en color verde con estructura geométrica y detalles dorados de la ",
    "precio": 29.44,
-   "antes": 173.81,
-   "descuento": 83,
+   "antes": 167.97,
+   "descuento": 82,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B09HH8X6LJ",
    "keepa": "https://keepa.com/#!product/9-B09HH8X6LJ",
    "stock": null,
-   "stock_ts": 1793573865
+   "stock_ts": 1793577997
   },
   {
    "clave": "4:B0CB7BWF52",
@@ -159,14 +189,14 @@
    "mercado": "FR",
    "titulo": "[FR] FEBI BILSTEIN Joint axial (barre d'accouplement) 180315 Vorderachse rechts",
    "precio": 24.9,
-   "antes": 164.22,
+   "antes": 160.73,
    "descuento": 85,
    "error": true,
    "categoria": "Auto et Moto",
    "url": "https://www.amazon.fr/dp/B0CB7BWF52",
    "keepa": "https://keepa.com/#!product/4-B0CB7BWF52",
    "stock": 1000,
-   "stock_ts": 1793571690
+   "stock_ts": 1793577997
   }
  ]
 }
