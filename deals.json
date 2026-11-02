@@ -1,6 +1,6 @@
 {
- "actualizado": "02/11/2026 08:10 UTC",
- "ts": 1793607000,
+ "actualizado": "02/11/2026 09:15 UTC",
+ "ts": 1793610920,
  "descartados": {},
  "chollos": [
   {
@@ -9,14 +9,14 @@
    "mercado": "ES",
    "titulo": "Kompaktleistungsschalter ComPacT NSX400S Grun C40S4",
    "precio": 1045.6,
-   "antes": 7103.21,
+   "antes": 7101.82,
    "descuento": 85,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5TQTY4",
    "keepa": "https://keepa.com/#!product/9-B0BG5TQTY4",
    "stock": 100,
-   "stock_ts": 1793606991
+   "stock_ts": 1793610913
   },
   {
    "clave": "9:B0BG5V8PTZ",
@@ -24,14 +24,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric Unidad de viaje NSX400 AC 3P3D 400A 6.3E, negro",
    "precio": 917.3,
-   "antes": 5266.82,
-   "descuento": 83,
+   "antes": 5064.66,
+   "descuento": 82,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5V8PTZ",
    "keepa": "https://keepa.com/#!product/9-B0BG5V8PTZ",
    "stock": null,
-   "stock_ts": 1793606991
+   "stock_ts": 1793610913
   },
   {
    "clave": "9:B0BG5VP2FN",
@@ -39,14 +39,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric Unidad de viaje NSX160 AC 3P3D 160A 6.2E, negro",
    "precio": 569.55,
-   "antes": 4102.71,
+   "antes": 3932.38,
    "descuento": 86,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5VP2FN",
    "keepa": "https://keepa.com/#!product/9-B0BG5VP2FN",
    "stock": null,
-   "stock_ts": 1793606991
+   "stock_ts": 1793610913
   },
   {
    "clave": "9:B077W6K3DL",
@@ -54,14 +54,29 @@
    "mercado": "ES",
    "titulo": "ASHIKA Kurbelwelle 18KI002",
    "precio": 187.89,
-   "antes": 3380.28,
+   "antes": 3299.8,
    "descuento": 94,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B077W6K3DL",
    "keepa": "https://keepa.com/#!product/9-B077W6K3DL",
    "stock": null,
-   "stock_ts": 1793606991
+   "stock_ts": 1793610913
+  },
+  {
+   "clave": "9:B0C69T7HW7",
+   "asin": "B0C69T7HW7",
+   "mercado": "ES",
+   "titulo": "Unidad AFD 2P, C40A, 30 mA, tipo F, interruptor diferencial, incluye",
+   "precio": 277.88,
+   "antes": 2183.44,
+   "descuento": 87,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0C69T7HW7",
+   "keepa": "https://keepa.com/#!product/9-B0C69T7HW7",
+   "stock": null,
+   "stock_ts": 1793610913
   },
   {
    "clave": "9:B007MA3QCK",
@@ -69,29 +84,14 @@
    "mercado": "ES",
    "titulo": "Eaton FAZ-D2/3-NA Interruptor Magnetotérmico FAZ, 2A, 3P, Curva D, NA",
    "precio": 151.49,
-   "antes": 833.5,
-   "descuento": 82,
+   "antes": 817.63,
+   "descuento": 81,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B007MA3QCK",
    "keepa": "https://keepa.com/#!product/9-B007MA3QCK",
    "stock": null,
-   "stock_ts": 1793606991
-  },
-  {
-   "clave": "9:B002D5DSQ8",
-   "asin": "B002D5DSQ8",
-   "mercado": "ES",
-   "titulo": "Siemens 5sy8 - Interruptor automático 70 25ka curva-c 4 polos 6a",
-   "precio": 90.0,
-   "antes": 445.7,
-   "descuento": 80,
-   "error": true,
-   "categoria": "Bricolaje y herramientas",
-   "url": "https://www.amazon.es/dp/B002D5DSQ8",
-   "keepa": "https://keepa.com/#!product/9-B002D5DSQ8",
-   "stock": null,
-   "stock_ts": 1793606991
+   "stock_ts": 1793610913
   },
   {
    "clave": "3:B0FTPXFSBN",
@@ -99,14 +99,14 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI Bilstein 1001294 Hydraulikfilter (1Stk.) für VW-Audi",
    "precio": 65.31,
-   "antes": 325.47,
+   "antes": 319.35,
    "descuento": 80,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0FTPXFSBN",
    "keepa": "https://keepa.com/#!product/3-B0FTPXFSBN",
    "stock": 1000,
-   "stock_ts": 1793606991
+   "stock_ts": 1793610913
   },
   {
    "clave": "9:B01MY5GL8M",
@@ -114,14 +114,14 @@
    "mercado": "ES",
    "titulo": "Chint NB1-63DH4P10 Series - Disyuntor de circuito en miniatura, 10 A, 4 polos, curva D, 10 kA",
    "precio": 37.62,
-   "antes": 287.64,
+   "antes": 281.74,
    "descuento": 87,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01MY5GL8M",
    "keepa": "https://keepa.com/#!product/9-B01MY5GL8M",
    "stock": null,
-   "stock_ts": 1793606991
+   "stock_ts": 1793610913
   },
   {
    "clave": "3:B0GJCQYPJ1",
@@ -129,14 +129,14 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI Bilstein 193460 Bremsbelagsatz (1Stk.) für Maxus",
    "precio": 41.29,
-   "antes": 288.63,
-   "descuento": 86,
+   "antes": 282.77,
+   "descuento": 85,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0GJCQYPJ1",
    "keepa": "https://keepa.com/#!product/3-B0GJCQYPJ1",
    "stock": 1000,
-   "stock_ts": 1793606991
+   "stock_ts": 1793610913
   },
   {
    "clave": "9:B014WLVXMQ",
@@ -144,44 +144,14 @@
    "mercado": "ES",
    "titulo": "Espiroflex transliquid s - Tubo flexible pvc transliquid s diámetro 35 50m",
    "precio": 15.84,
-   "antes": 208.38,
+   "antes": 202.68,
    "descuento": 92,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B014WLVXMQ",
    "keepa": "https://keepa.com/#!product/9-B014WLVXMQ",
    "stock": 2,
-   "stock_ts": 1793606991
-  },
-  {
-   "clave": "9:B0C69XBKQ2",
-   "asin": "B0C69XBKQ2",
-   "mercado": "ES",
-   "titulo": "BLIC 6504-03-3548332P Guardabarros delantero derecho",
-   "precio": 27.13,
-   "antes": 151.77,
-   "descuento": 82,
-   "error": true,
-   "categoria": "Coche y moto",
-   "url": "https://www.amazon.es/dp/B0C69XBKQ2",
-   "keepa": "https://keepa.com/#!product/9-B0C69XBKQ2",
-   "stock": null,
-   "stock_ts": 1793606991
-  },
-  {
-   "clave": "4:B0CB7BWF52",
-   "asin": "B0CB7BWF52",
-   "mercado": "FR",
-   "titulo": "[FR] FEBI BILSTEIN Joint axial (barre d'accouplement) 180315 Vorderachse rechts",
-   "precio": 24.9,
-   "antes": 136.33,
-   "descuento": 82,
-   "error": true,
-   "categoria": "Auto et Moto",
-   "url": "https://www.amazon.fr/dp/B0CB7BWF52",
-   "keepa": "https://keepa.com/#!product/4-B0CB7BWF52",
-   "stock": 1000,
-   "stock_ts": 1793606991
+   "stock_ts": 1793610913
   },
   {
    "clave": "9:B09DCMT4DL",
@@ -189,14 +159,29 @@
    "mercado": "ES",
    "titulo": "Hemptique Cotton Baker's Twine Mini Spools 2-Ply 3/Pkg-Jester",
    "precio": 24.63,
-   "antes": 135.97,
+   "antes": 133.2,
    "descuento": 82,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B09DCMT4DL",
    "keepa": "https://keepa.com/#!product/9-B09DCMT4DL",
    "stock": 5,
-   "stock_ts": 1793606991
+   "stock_ts": 1793610913
+  },
+  {
+   "clave": "4:B0CB7BWF52",
+   "asin": "B0CB7BWF52",
+   "mercado": "FR",
+   "titulo": "[FR] FEBI BILSTEIN Joint axial (barre d'accouplement) 180315 Vorderachse rechts",
+   "precio": 24.9,
+   "antes": 133.0,
+   "descuento": 81,
+   "error": true,
+   "categoria": "Auto et Moto",
+   "url": "https://www.amazon.fr/dp/B0CB7BWF52",
+   "keepa": "https://keepa.com/#!product/4-B0CB7BWF52",
+   "stock": 1000,
+   "stock_ts": 1793610913
   }
  ]
 }
