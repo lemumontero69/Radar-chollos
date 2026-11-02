@@ -17,7 +17,7 @@ MIN_DESCUENTO = 80           # % minimo para aparecer en la lista
 MAX_DESCUENTO = 99           # por encima se considera dato roto
 ERROR_PRECIO = 80            # % desde el que se marca como posible error de precio
 PRECIO_MIN, PRECIO_MAX = 100, 600000    # en centimos: de 1 EUR a 6.000 EUR
-PRECIO_ANTES_MIN = 10000     # ignora productos cuyo precio normal sea menor de 100 EUR
+PRECIO_ANTES_MIN = 5000      # ignora productos cuyo precio normal sea menor de 50 EUR
 SOLO_CATEGORIAS = True       # pon False para vigilar todas las categorias
 STOCK_MIN = 2                # unidades minimas: si Keepa confirma menos, se descarta
 STOCK_DESCONOCIDO_AVISAR = True   # True: avisa aunque Keepa no sepa el stock (lo marca "sin confirmar")
@@ -50,7 +50,10 @@ MARCAS = [   # marcas caras que te interesan: anade o quita las que quieras (en 
     "canada goose", "patagonia", "diesel", "guess", "michael kors", "barbour", "napapijri",
     "timberland", "superdry", "fossil", "seiko", "citizen", "tissot", "hamilton", "tag heuer",
     "omega", "rolex", "breitling", "casio", "g-shock", "garmin", "swatch", "longines",
-    "daniel wellington", "emporio armani", "bulova", "festina", "maurice lacroix"]
+    "daniel wellington", "emporio armani", "bulova", "festina", "maurice lacroix",
+    "tous", "ray-ban", "rayban", "oakley", "swarovski", "pandora", "carolina herrera",
+    "montblanc", "mont blanc", "furla", "coach", "victorinox", "polo ralph", "hackett",
+    "pepe jeans", "replay", "scalpers", "massimo dutti"]
 EXCLUIR_TITULO = [
     "funda", "cubierta", "cubre", "lona", "toldo", "parasol", "alfombrilla", "limpia",
     "ambientador", "protector", "pegatina", "adhesivo", "vinilo", "cera ", "pulid", "aceite",
