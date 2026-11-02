@@ -1,6 +1,6 @@
 {
- "actualizado": "02/11/2026 05:44 UTC",
- "ts": 1793598262,
+ "actualizado": "02/11/2026 06:47 UTC",
+ "ts": 1793602061,
  "descartados": {},
  "chollos": [
   {
@@ -9,14 +9,14 @@
    "mercado": "ES",
    "titulo": "Kompaktleistungsschalter ComPacT NSX400S Grun C40S4",
    "precio": 1045.6,
-   "antes": 7106.27,
+   "antes": 7104.94,
    "descuento": 85,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5TQTY4",
    "keepa": "https://keepa.com/#!product/9-B0BG5TQTY4",
    "stock": 100,
-   "stock_ts": 1793598259
+   "stock_ts": 1793602056
   },
   {
    "clave": "9:B0BG5V8PTZ",
@@ -24,14 +24,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric Unidad de viaje NSX400 AC 3P3D 400A 6.3E, negro",
    "precio": 917.3,
-   "antes": 5710.96,
-   "descuento": 84,
+   "antes": 5517.99,
+   "descuento": 83,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5V8PTZ",
    "keepa": "https://keepa.com/#!product/9-B0BG5V8PTZ",
    "stock": null,
-   "stock_ts": 1793598259
+   "stock_ts": 1793602056
   },
   {
    "clave": "9:B0BG5VP2FN",
@@ -39,14 +39,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric Unidad de viaje NSX160 AC 3P3D 160A 6.2E, negro",
    "precio": 569.55,
-   "antes": 4476.93,
+   "antes": 4314.34,
    "descuento": 87,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5VP2FN",
    "keepa": "https://keepa.com/#!product/9-B0BG5VP2FN",
    "stock": null,
-   "stock_ts": 1793598259
+   "stock_ts": 1793602056
   },
   {
    "clave": "9:B077W6K3DL",
@@ -54,59 +54,14 @@
    "mercado": "ES",
    "titulo": "ASHIKA Kurbelwelle 18KI002",
    "precio": 187.89,
-   "antes": 3557.09,
+   "antes": 3480.27,
    "descuento": 95,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B077W6K3DL",
    "keepa": "https://keepa.com/#!product/9-B077W6K3DL",
    "stock": null,
-   "stock_ts": 1793598259
-  },
-  {
-   "clave": "9:B0BG5XVJM5",
-   "asin": "B0BG5XVJM5",
-   "mercado": "ES",
-   "titulo": "Schneider Electric ComPacT nueva generación disparador para interruptor de sobrecarga ComPacT NSX 100/160",
-   "precio": 400.91,
-   "antes": 1969.66,
-   "descuento": 80,
-   "error": true,
-   "categoria": "Bricolaje y herramientas",
-   "url": "https://www.amazon.es/dp/B0BG5XVJM5",
-   "keepa": "https://keepa.com/#!product/9-B0BG5XVJM5",
-   "stock": null,
-   "stock_ts": 1793598259
-  },
-  {
-   "clave": "9:B00MP42FUC",
-   "asin": "B00MP42FUC",
-   "mercado": "ES",
-   "titulo": "Toner cartridge Original Lexmark 1x Black 64004HE XXL for Lexmark T 644 DTN",
-   "precio": 43.4,
-   "antes": 672.99,
-   "descuento": 94,
-   "error": true,
-   "categoria": "Informática",
-   "url": "https://www.amazon.es/dp/B00MP42FUC",
-   "keepa": "https://keepa.com/#!product/9-B00MP42FUC",
-   "stock": null,
-   "stock_ts": 1793598259
-  },
-  {
-   "clave": "9:B00MFPMY98",
-   "asin": "B00MFPMY98",
-   "mercado": "ES",
-   "titulo": "Toner cartridge Original Lexmark 1x Yellow C746A1YG for Lexmark C 746 DN",
-   "precio": 81.99,
-   "antes": 483.93,
-   "descuento": 83,
-   "error": true,
-   "categoria": "Informática",
-   "url": "https://www.amazon.es/dp/B00MFPMY98",
-   "keepa": "https://keepa.com/#!product/9-B00MFPMY98",
-   "stock": null,
-   "stock_ts": 1793594678
+   "stock_ts": 1793602056
   },
   {
    "clave": "9:B002D5DSQ8",
@@ -114,29 +69,29 @@
    "mercado": "ES",
    "titulo": "Siemens 5sy8 - Interruptor automático 70 25ka curva-c 4 polos 6a",
    "precio": 90.0,
-   "antes": 489.85,
-   "descuento": 82,
+   "antes": 470.67,
+   "descuento": 81,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B002D5DSQ8",
    "keepa": "https://keepa.com/#!product/9-B002D5DSQ8",
    "stock": null,
-   "stock_ts": 1793598259
+   "stock_ts": 1793602056
   },
   {
-   "clave": "9:B00NHQUNTM",
-   "asin": "B00NHQUNTM",
-   "mercado": "ES",
-   "titulo": "Lexmark Toner Magenta C935 AC",
-   "precio": 25.11,
-   "antes": 316.94,
-   "descuento": 92,
+   "clave": "3:B0GJCQYPJ1",
+   "asin": "B0GJCQYPJ1",
+   "mercado": "DE",
+   "titulo": "[DE] FEBI Bilstein 193460 Bremsbelagsatz (1Stk.) für Maxus",
+   "precio": 41.29,
+   "antes": 295.9,
+   "descuento": 86,
    "error": true,
-   "categoria": "Informática",
-   "url": "https://www.amazon.es/dp/B00NHQUNTM",
-   "keepa": "https://keepa.com/#!product/9-B00NHQUNTM",
+   "categoria": "Auto & Motorrad",
+   "url": "https://www.amazon.de/dp/B0GJCQYPJ1",
+   "keepa": "https://keepa.com/#!product/3-B0GJCQYPJ1",
    "stock": null,
-   "stock_ts": 1793598259
+   "stock_ts": 1793602056
   },
   {
    "clave": "9:B014WLVXMQ",
@@ -144,14 +99,29 @@
    "mercado": "ES",
    "titulo": "Espiroflex transliquid s - Tubo flexible pvc transliquid s diámetro 35 50m",
    "precio": 15.84,
-   "antes": 220.91,
+   "antes": 215.47,
    "descuento": 93,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B014WLVXMQ",
    "keepa": "https://keepa.com/#!product/9-B014WLVXMQ",
    "stock": 2,
-   "stock_ts": 1793598259
+   "stock_ts": 1793602056
+  },
+  {
+   "clave": "9:B0C69XBKQ2",
+   "asin": "B0C69XBKQ2",
+   "mercado": "ES",
+   "titulo": "BLIC 6504-03-3548332P Guardabarros delantero derecho",
+   "precio": 27.13,
+   "antes": 153.15,
+   "descuento": 82,
+   "error": true,
+   "categoria": "Coche y moto",
+   "url": "https://www.amazon.es/dp/B0C69XBKQ2",
+   "keepa": "https://keepa.com/#!product/9-B0C69XBKQ2",
+   "stock": null,
+   "stock_ts": 1793602056
   },
   {
    "clave": "4:B0CB7BWF52",
@@ -159,14 +129,14 @@
    "mercado": "FR",
    "titulo": "[FR] FEBI BILSTEIN Joint axial (barre d'accouplement) 180315 Vorderachse rechts",
    "precio": 24.9,
-   "antes": 143.66,
-   "descuento": 83,
+   "antes": 140.48,
+   "descuento": 82,
    "error": true,
    "categoria": "Auto et Moto",
    "url": "https://www.amazon.fr/dp/B0CB7BWF52",
    "keepa": "https://keepa.com/#!product/4-B0CB7BWF52",
    "stock": 1000,
-   "stock_ts": 1793598259
+   "stock_ts": 1793602056
   },
   {
    "clave": "9:B09DCMT4DL",
@@ -174,14 +144,14 @@
    "mercado": "ES",
    "titulo": "Hemptique Cotton Baker's Twine Mini Spools 2-Ply 3/Pkg-Jester",
    "precio": 24.63,
-   "antes": 142.06,
-   "descuento": 83,
+   "antes": 139.41,
+   "descuento": 82,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B09DCMT4DL",
    "keepa": "https://keepa.com/#!product/9-B09DCMT4DL",
    "stock": 5,
-   "stock_ts": 1793594678
+   "stock_ts": 1793602056
   }
  ]
 }
