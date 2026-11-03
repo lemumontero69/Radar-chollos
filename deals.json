@@ -1,9 +1,7 @@
 {
- "actualizado": "03/11/2026 22:50 UTC",
- "ts": 1793746203,
- "descartados": {
-  "9:B0DQLKZSKF": 1793743644
- },
+ "actualizado": "03/11/2026 23:27 UTC",
+ "ts": 1793748449,
+ "descartados": {},
  "chollos": [
   {
    "clave": "9:B0F27TZN8G",
@@ -11,14 +9,14 @@
    "mercado": "ES",
    "titulo": "Xiaomi Pad 7 Ai WiFi Versión Global (sin llamadas ni texto) 28.4 cm 3.2K 144Hz 8850mAh Bluetooth 5.4 Cuat",
    "precio": 464.57,
-   "antes": 4455.91,
-   "descuento": 90,
+   "antes": 4384.43,
+   "descuento": 89,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B0F27TZN8G",
    "keepa": "https://keepa.com/#!product/9-B0F27TZN8G",
    "stock": null,
-   "stock_ts": 1793743644
+   "stock_ts": 1793748446
   },
   {
    "clave": "9:B00MP42HNM",
@@ -26,14 +24,14 @@
    "mercado": "ES",
    "titulo": "Toner cartridge Original Lexmark 1x Black 64004HE XXL for Lexmark T 644 TN",
    "precio": 43.4,
-   "antes": 877.21,
+   "antes": 865.52,
    "descuento": 95,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B00MP42HNM",
    "keepa": "https://keepa.com/#!product/9-B00MP42HNM",
    "stock": null,
-   "stock_ts": 1793743644
+   "stock_ts": 1793748446
   },
   {
    "clave": "9:B00MP42GOC",
@@ -41,14 +39,29 @@
    "mercado": "ES",
    "titulo": "Toner cartridge Original Lexmark 1x Black 64004HE XXL for Lexmark T 644 N",
    "precio": 43.4,
-   "antes": 823.7,
+   "antes": 812.02,
    "descuento": 95,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B00MP42GOC",
    "keepa": "https://keepa.com/#!product/9-B00MP42GOC",
    "stock": null,
-   "stock_ts": 1793743644
+   "stock_ts": 1793748446
+  },
+  {
+   "clave": "9:B009IIXPV6",
+   "asin": "B009IIXPV6",
+   "mercado": "ES",
+   "titulo": "Xerox 106R01573 Tóner de láser 24000páginas Negro tóner y Cartucho láser - Tóner para impresoras láser (T",
+   "precio": 77.99,
+   "antes": 556.84,
+   "descuento": 86,
+   "error": true,
+   "categoria": "Informática",
+   "url": "https://www.amazon.es/dp/B009IIXPV6",
+   "keepa": "https://keepa.com/#!product/9-B009IIXPV6",
+   "stock": null,
+   "stock_ts": 1793748446
   },
   {
    "clave": "9:B0GQSHCNTF",
@@ -56,7 +69,7 @@
    "mercado": "ES",
    "titulo": "COLOR&GEOMETRY Felpudo pequeño y fino para interiores, 43 x 75 cm, color gris",
    "precio": 29.99,
-   "antes": 535.13,
+   "antes": 495.96,
    "descuento": 94,
    "error": true,
    "categoria": "Hogar y cocina",
@@ -66,27 +79,12 @@
    "stock_ts": 1793746196
   },
   {
-   "clave": "9:B009IIXPV6",
-   "asin": "B009IIXPV6",
-   "mercado": "ES",
-   "titulo": "Xerox 106R01573 Tóner de láser 24000páginas Negro tóner y Cartucho láser - Tóner para impresoras láser (T",
-   "precio": 77.99,
-   "antes": 577.43,
-   "descuento": 86,
-   "error": true,
-   "categoria": "Informática",
-   "url": "https://www.amazon.es/dp/B009IIXPV6",
-   "keepa": "https://keepa.com/#!product/9-B009IIXPV6",
-   "stock": null,
-   "stock_ts": 1793743644
-  },
-  {
    "clave": "9:B008SONBTW",
    "asin": "B008SONBTW",
    "mercado": "ES",
    "titulo": "HP H220 Host Bus Adapter - Tarjeta de red",
    "precio": 82.16,
-   "antes": 489.56,
+   "antes": 484.0,
    "descuento": 83,
    "error": true,
    "categoria": "Informática",
@@ -101,14 +99,29 @@
    "mercado": "DE",
    "titulo": "[DE] Windschild transparent, 510 mm hoch, 660 mm breit, für Honda SH Mode 125 (21), ohne ABE",
    "precio": 69.03,
-   "antes": 458.79,
+   "antes": 449.2,
    "descuento": 85,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B09WYVT974",
    "keepa": "https://keepa.com/#!product/3-B09WYVT974",
    "stock": null,
-   "stock_ts": 1793743644
+   "stock_ts": 1793748446
+  },
+  {
+   "clave": "9:B00MP2VT56",
+   "asin": "B00MP2VT56",
+   "mercado": "ES",
+   "titulo": "Toner cartridge Original OKI 1x Cyan 42918915 / C9600 for OKI C 9650 HDN",
+   "precio": 49.24,
+   "antes": 315.83,
+   "descuento": 84,
+   "error": true,
+   "categoria": "Informática",
+   "url": "https://www.amazon.es/dp/B00MP2VT56",
+   "keepa": "https://keepa.com/#!product/9-B00MP2VT56",
+   "stock": null,
+   "stock_ts": 1793748446
   },
   {
    "clave": "9:B09273V6GW",
@@ -116,8 +129,8 @@
    "mercado": "ES",
    "titulo": "ASTIGARRAGA KIT LINE Taburete bajo de pino macizo One",
    "precio": 60.66,
-   "antes": 363.73,
-   "descuento": 83,
+   "antes": 295.98,
+   "descuento": 80,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B09273V6GW",
@@ -126,42 +139,27 @@
    "stock_ts": 1793746196
   },
   {
-   "clave": "9:B00MP2VT56",
-   "asin": "B00MP2VT56",
-   "mercado": "ES",
-   "titulo": "Toner cartridge Original OKI 1x Cyan 42918915 / C9600 for OKI C 9650 HDN",
-   "precio": 49.24,
-   "antes": 315.86,
-   "descuento": 84,
-   "error": true,
-   "categoria": "Informática",
-   "url": "https://www.amazon.es/dp/B00MP2VT56",
-   "keepa": "https://keepa.com/#!product/9-B00MP2VT56",
-   "stock": null,
-   "stock_ts": 1793743644
-  },
-  {
    "clave": "9:B00MP42DDQ",
    "asin": "B00MP42DDQ",
    "mercado": "ES",
    "titulo": "Toner cartridge Original Lexmark 1x Black 64004HE XXL for Lexmark T 642 TN",
    "precio": 43.4,
-   "antes": 285.45,
-   "descuento": 85,
+   "antes": 273.77,
+   "descuento": 84,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B00MP42DDQ",
    "keepa": "https://keepa.com/#!product/9-B00MP42DDQ",
    "stock": null,
-   "stock_ts": 1793743644
+   "stock_ts": 1793748446
   },
   {
    "clave": "9:B0051OVX6U",
    "asin": "B0051OVX6U",
    "mercado": "ES",
    "titulo": "Hot Wheels - Fat Fendered '40 - Réplica de coche a escala 1:64 - Coleccionista #607 - Color de la carroce",
-   "precio": 34.78,
-   "antes": 215.39,
+   "precio": 34.74,
+   "antes": 215.35,
    "descuento": 84,
    "error": true,
    "categoria": "Hogar y cocina",
@@ -176,14 +174,14 @@
    "mercado": "ES",
    "titulo": "Lexmark Cartucho de tóner 700X3 - Magenta",
    "precio": 44.2,
-   "antes": 219.42,
+   "antes": 217.04,
    "descuento": 80,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B009SM8FHG",
    "keepa": "https://keepa.com/#!product/9-B009SM8FHG",
    "stock": 12,
-   "stock_ts": 1793743644
+   "stock_ts": 1793748446
   },
   {
    "clave": "3:B0G3LQ3ZL2",
@@ -191,14 +189,14 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI Bilstein 197024 Stange/Strebe, Stabilisator (1Stk.) für TOYOTA",
    "precio": 20.83,
-   "antes": 149.03,
+   "antes": 146.34,
    "descuento": 86,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0G3LQ3ZL2",
    "keepa": "https://keepa.com/#!product/3-B0G3LQ3ZL2",
    "stock": null,
-   "stock_ts": 1793743644
+   "stock_ts": 1793748446
   },
   {
    "clave": "9:B0C2Z7RGVS",
@@ -206,7 +204,7 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 130.85,
+   "antes": 128.64,
    "descuento": 87,
    "error": true,
    "categoria": "Hogar y cocina",
@@ -221,7 +219,7 @@
    "mercado": "FR",
    "titulo": "[FR] ossca d8626 Éléments d'entraînement",
    "precio": 12.61,
-   "antes": 118.41,
+   "antes": 116.91,
    "descuento": 89,
    "error": true,
    "categoria": "Auto et Moto",
@@ -236,7 +234,7 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 101.01,
+   "antes": 99.32,
    "descuento": 83,
    "error": true,
    "categoria": "Hogar y cocina",
@@ -251,14 +249,14 @@
    "mercado": "DE",
    "titulo": "[DE] Geburtstag Tasse | Ich habe 59+1 | 60 Jahre Geschenke | originelle und lustige Geschenkideen für Mann und",
    "precio": 10.46,
-   "antes": 65.3,
+   "antes": 64.44,
    "descuento": 84,
    "error": true,
    "categoria": "Küche, Haushalt & Wohnen",
    "url": "https://www.amazon.de/dp/B09T3MKR27",
    "keepa": "https://keepa.com/#!product/3-B09T3MKR27",
    "stock": null,
-   "stock_ts": 1793743644
+   "stock_ts": 1793748446
   }
  ]
 }
