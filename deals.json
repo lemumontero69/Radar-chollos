@@ -1,54 +1,24 @@
 {
- "actualizado": "03/11/2026 00:14 UTC",
- "ts": 1793664850,
+ "actualizado": "03/11/2026 01:25 UTC",
+ "ts": 1793669136,
  "descartados": {
-  "8:B0784PHC21": 1793662727
+  "8:B0784PHC21": 1793669126
  },
  "chollos": [
-  {
-   "clave": "9:B0BG5TQTY4",
-   "asin": "B0BG5TQTY4",
-   "mercado": "ES",
-   "titulo": "Kompaktleistungsschalter ComPacT NSX400S Grun C40S4",
-   "precio": 1045.6,
-   "antes": 5100.88,
-   "descuento": 80,
-   "error": true,
-   "categoria": "Bricolaje y herramientas",
-   "url": "https://www.amazon.es/dp/B0BG5TQTY4",
-   "keepa": "https://keepa.com/#!product/9-B0BG5TQTY4",
-   "stock": 100,
-   "stock_ts": 1793662727
-  },
   {
    "clave": "9:B09273V6GW",
    "asin": "B09273V6GW",
    "mercado": "ES",
    "titulo": "ASTIGARRAGA KIT LINE Taburete bajo de pino macizo One",
    "precio": 60.66,
-   "antes": 2779.36,
+   "antes": 2652.79,
    "descuento": 98,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B09273V6GW",
    "keepa": "https://keepa.com/#!product/9-B09273V6GW",
    "stock": null,
-   "stock_ts": 1793664847
-  },
-  {
-   "clave": "9:B00B7ZBUDS",
-   "asin": "B00B7ZBUDS",
-   "mercado": "ES",
-   "titulo": "Eaton NZMC2-A250-BT 110281 Potencia 3p 250A",
-   "precio": 643.86,
-   "antes": 3199.44,
-   "descuento": 80,
-   "error": true,
-   "categoria": "Hogar y cocina",
-   "url": "https://www.amazon.es/dp/B00B7ZBUDS",
-   "keepa": "https://keepa.com/#!product/9-B00B7ZBUDS",
-   "stock": null,
-   "stock_ts": 1793664847
+   "stock_ts": 1793669126
   },
   {
    "clave": "9:B0GQSHCNTF",
@@ -56,14 +26,14 @@
    "mercado": "ES",
    "titulo": "COLOR&GEOMETRY Felpudo pequeño y fino para interiores, 43 x 75 cm, color gris",
    "precio": 29.99,
-   "antes": 1932.01,
+   "antes": 1858.82,
    "descuento": 98,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0GQSHCNTF",
    "keepa": "https://keepa.com/#!product/9-B0GQSHCNTF",
    "stock": 120,
-   "stock_ts": 1793664847
+   "stock_ts": 1793669126
   },
   {
    "clave": "9:B0H5VJN2TJ",
@@ -71,14 +41,14 @@
    "mercado": "ES",
    "titulo": "Bamworld Guantes de microfibra DE-YJ-ST04-CZW-QF/BHL-ZH-2PAIRS",
    "precio": 10.99,
-   "antes": 1575.08,
+   "antes": 1328.85,
    "descuento": 99,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0H5VJN2TJ",
    "keepa": "https://keepa.com/#!product/9-B0H5VJN2TJ",
    "stock": null,
-   "stock_ts": 1793664847
+   "stock_ts": 1793669126
   },
   {
    "clave": "9:B0C69T7HW7",
@@ -86,14 +56,29 @@
    "mercado": "ES",
    "titulo": "Unidad AFD 2P, C40A, 30 mA, tipo F, interruptor diferencial, incluye",
    "precio": 277.88,
-   "antes": 1584.87,
+   "antes": 1537.6,
    "descuento": 82,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0C69T7HW7",
    "keepa": "https://keepa.com/#!product/9-B0C69T7HW7",
    "stock": null,
-   "stock_ts": 1793662727
+   "stock_ts": 1793669126
+  },
+  {
+   "clave": "3:B09WYVT974",
+   "asin": "B09WYVT974",
+   "mercado": "DE",
+   "titulo": "[DE] Windschild transparent, 510 mm hoch, 660 mm breit, für Honda SH Mode 125 (21), ohne ABE",
+   "precio": 69.03,
+   "antes": 782.92,
+   "descuento": 91,
+   "error": true,
+   "categoria": "Auto & Motorrad",
+   "url": "https://www.amazon.de/dp/B09WYVT974",
+   "keepa": "https://keepa.com/#!product/3-B09WYVT974",
+   "stock": null,
+   "stock_ts": 1793669126
   },
   {
    "clave": "3:B0FP9TRMBJ",
@@ -101,14 +86,14 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI BILSTEIN Hauptbremszylinder 195035",
    "precio": 66.57,
-   "antes": 593.11,
-   "descuento": 89,
+   "antes": 576.55,
+   "descuento": 88,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0FP9TRMBJ",
    "keepa": "https://keepa.com/#!product/3-B0FP9TRMBJ",
    "stock": 1000,
-   "stock_ts": 1793662727
+   "stock_ts": 1793669126
   },
   {
    "clave": "9:B09RX4WQGB",
@@ -116,29 +101,14 @@
    "mercado": "ES",
    "titulo": "Lenox Adorno de Soldado con Joyas, Placa esterlina, Multicolor, 0.12",
    "precio": 37.77,
-   "antes": 289.6,
+   "antes": 281.41,
    "descuento": 87,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B09RX4WQGB",
    "keepa": "https://keepa.com/#!product/9-B09RX4WQGB",
    "stock": null,
-   "stock_ts": 1793664847
-  },
-  {
-   "clave": "9:B0H5VFRHH4",
-   "asin": "B0H5VFRHH4",
-   "mercado": "ES",
-   "titulo": "Bamworld Guantes de microfibra DE-YJ-ST04-CZW-QF/CL-ZH-2PAIRS",
-   "precio": 10.99,
-   "antes": 219.07,
-   "descuento": 95,
-   "error": true,
-   "categoria": "Bricolaje y herramientas",
-   "url": "https://www.amazon.es/dp/B0H5VFRHH4",
-   "keepa": "https://keepa.com/#!product/9-B0H5VFRHH4",
-   "stock": null,
-   "stock_ts": 1793662727
+   "stock_ts": 1793669126
   },
   {
    "clave": "9:B01MY5GL8M",
@@ -146,29 +116,14 @@
    "mercado": "ES",
    "titulo": "Chint NB1-63DH4P10 Series - Disyuntor de circuito en miniatura, 10 A, 4 polos, curva D, 10 kA",
    "precio": 37.62,
-   "antes": 201.47,
+   "antes": 195.13,
    "descuento": 81,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01MY5GL8M",
    "keepa": "https://keepa.com/#!product/9-B01MY5GL8M",
    "stock": null,
-   "stock_ts": 1793662727
-  },
-  {
-   "clave": "3:B0GJCQYPJ1",
-   "asin": "B0GJCQYPJ1",
-   "mercado": "DE",
-   "titulo": "[DE] FEBI Bilstein 193460 Bremsbelagsatz (1Stk.) für Maxus",
-   "precio": 41.29,
-   "antes": 203.02,
-   "descuento": 80,
-   "error": true,
-   "categoria": "Auto & Motorrad",
-   "url": "https://www.amazon.de/dp/B0GJCQYPJ1",
-   "keepa": "https://keepa.com/#!product/3-B0GJCQYPJ1",
-   "stock": 1000,
-   "stock_ts": 1793662727
+   "stock_ts": 1793669126
   },
   {
    "clave": "9:B08DNW2MBM",
@@ -176,14 +131,14 @@
    "mercado": "ES",
    "titulo": "TOAVA Deco Cortinas traslúcidas Rosa bebé, 241.3 cm de Largo, 2 Paneles para niñas/bebés/Dormitorio/Sala ",
    "precio": 30.66,
-   "antes": 182.34,
+   "antes": 178.43,
    "descuento": 83,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B08DNW2MBM",
    "keepa": "https://keepa.com/#!product/9-B08DNW2MBM",
    "stock": 99,
-   "stock_ts": 1793662727
+   "stock_ts": 1793669126
   },
   {
    "clave": "9:B000O8243Y",
@@ -191,14 +146,14 @@
    "mercado": "ES",
    "titulo": "OTC Extractor mecánico Grip-O-Matic 1036-7 toneladas, 2 mandíbulas largas",
    "precio": 22.58,
-   "antes": 139.85,
-   "descuento": 84,
+   "antes": 136.83,
+   "descuento": 83,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B000O8243Y",
    "keepa": "https://keepa.com/#!product/9-B000O8243Y",
    "stock": null,
-   "stock_ts": 1793662727
+   "stock_ts": 1793669126
   },
   {
    "clave": "8:B0CDN6QS49",
@@ -206,29 +161,29 @@
    "mercado": "IT",
    "titulo": "[IT] FEBI BILSTEIN Testa barra d'accoppiamento 184880 Vorderachse rechts",
    "precio": 26.84,
-   "antes": 140.15,
-   "descuento": 81,
+   "antes": 137.04,
+   "descuento": 80,
    "error": true,
    "categoria": "Auto e Moto",
    "url": "https://www.amazon.it/dp/B0CDN6QS49",
    "keepa": "https://keepa.com/#!product/8-B0CDN6QS49",
    "stock": null,
-   "stock_ts": 1793662727
+   "stock_ts": 1793669126
   },
   {
-   "clave": "9:B014WLVXMQ",
-   "asin": "B014WLVXMQ",
+   "clave": "9:B0C2ZBMYV8",
+   "asin": "B0C2ZBMYV8",
    "mercado": "ES",
-   "titulo": "Espiroflex transliquid s - Tubo flexible pvc transliquid s diámetro 35 50m",
-   "precio": 15.84,
-   "antes": 124.99,
+   "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
+   "precio": 16.95,
+   "antes": 126.66,
    "descuento": 87,
    "error": true,
-   "categoria": "Bricolaje y herramientas",
-   "url": "https://www.amazon.es/dp/B014WLVXMQ",
-   "keepa": "https://keepa.com/#!product/9-B014WLVXMQ",
-   "stock": 2,
-   "stock_ts": 1793662727
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0C2ZBMYV8",
+   "keepa": "https://keepa.com/#!product/9-B0C2ZBMYV8",
+   "stock": null,
+   "stock_ts": 1793669126
   },
   {
    "clave": "9:B0FBR837KP",
@@ -236,14 +191,29 @@
    "mercado": "ES",
    "titulo": "Asidrama Paquete de 10 manijas de gabinete de cocina de latón antiguo de 5 pulgadas (128 mm), tiradores d",
    "precio": 25.0,
-   "antes": 133.06,
+   "antes": 129.28,
    "descuento": 81,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0FBR837KP",
    "keepa": "https://keepa.com/#!product/9-B0FBR837KP",
    "stock": null,
-   "stock_ts": 1793662727
+   "stock_ts": 1793669126
+  },
+  {
+   "clave": "9:B014WLVXMQ",
+   "asin": "B014WLVXMQ",
+   "mercado": "ES",
+   "titulo": "Espiroflex transliquid s - Tubo flexible pvc transliquid s diámetro 35 50m",
+   "precio": 15.84,
+   "antes": 118.85,
+   "descuento": 87,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B014WLVXMQ",
+   "keepa": "https://keepa.com/#!product/9-B014WLVXMQ",
+   "stock": 2,
+   "stock_ts": 1793669126
   },
   {
    "clave": "9:B081DJLMNK",
@@ -251,14 +221,14 @@
    "mercado": "ES",
    "titulo": "kontakt-simon Simon Basic Neos BMRC1/43 5902787837099 - Marco de Fotos (1 Compartimento), Color Plateado ",
    "precio": 18.7,
-   "antes": 116.12,
-   "descuento": 84,
+   "antes": 112.79,
+   "descuento": 83,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B081DJLMNK",
    "keepa": "https://keepa.com/#!product/9-B081DJLMNK",
    "stock": null,
-   "stock_ts": 1793662727
+   "stock_ts": 1793669126
   },
   {
    "clave": "8:B078J5ZSZC",
@@ -266,14 +236,14 @@
    "mercado": "IT",
    "titulo": "[IT] ESEN SKV Valvola regolazione reg. minimo, Alimentazione aria 08SKV002",
    "precio": 15.72,
-   "antes": 105.12,
+   "antes": 102.22,
    "descuento": 85,
    "error": true,
    "categoria": "Auto e Moto",
    "url": "https://www.amazon.it/dp/B078J5ZSZC",
    "keepa": "https://keepa.com/#!product/8-B078J5ZSZC",
    "stock": null,
-   "stock_ts": 1793662727
+   "stock_ts": 1793669126
   },
   {
    "clave": "9:B0C2ZD3JTJ",
@@ -281,14 +251,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 95.51,
+   "antes": 92.58,
    "descuento": 82,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2ZD3JTJ",
    "keepa": "https://keepa.com/#!product/9-B0C2ZD3JTJ",
    "stock": null,
-   "stock_ts": 1793664847
+   "stock_ts": 1793669126
   },
   {
    "clave": "3:B077G7SHWV",
@@ -296,14 +266,14 @@
    "mercado": "DE",
    "titulo": "[DE] CHAMPION CAF100986P Motorräume",
    "precio": 9.49,
-   "antes": 86.42,
+   "antes": 84.09,
    "descuento": 89,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B077G7SHWV",
    "keepa": "https://keepa.com/#!product/3-B077G7SHWV",
    "stock": null,
-   "stock_ts": 1793662727
+   "stock_ts": 1793669126
   },
   {
    "clave": "9:B0C2ZCJX4T",
@@ -311,29 +281,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 86.78,
+   "antes": 84.96,
    "descuento": 80,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2ZCJX4T",
    "keepa": "https://keepa.com/#!product/9-B0C2ZCJX4T",
    "stock": null,
-   "stock_ts": 1793664847
-  },
-  {
-   "clave": "9:B0C2ZC5K6Y",
-   "asin": "B0C2ZC5K6Y",
-   "mercado": "ES",
-   "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
-   "precio": 16.95,
-   "antes": 83.26,
-   "descuento": 80,
-   "error": true,
-   "categoria": "Hogar y cocina",
-   "url": "https://www.amazon.es/dp/B0C2ZC5K6Y",
-   "keepa": "https://keepa.com/#!product/9-B0C2ZC5K6Y",
-   "stock": null,
-   "stock_ts": 1793664847
+   "stock_ts": 1793669126
   }
  ]
 }
