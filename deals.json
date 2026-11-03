@@ -1,6 +1,6 @@
 {
- "actualizado": "03/11/2026 12:27 UTC",
- "ts": 1793708832,
+ "actualizado": "03/11/2026 13:40 UTC",
+ "ts": 1793713200,
  "descartados": {},
  "chollos": [
   {
@@ -9,14 +9,29 @@
    "mercado": "ES",
    "titulo": "Xiaomi Pad 7 Ai WiFi Versión Global (sin llamadas ni texto) 28.4 cm 3.2K 144Hz 8850mAh Bluetooth 5.4 Cuat",
    "precio": 464.57,
-   "antes": 6154.0,
+   "antes": 5886.96,
    "descuento": 92,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B0F27TZN8G",
    "keepa": "https://keepa.com/#!product/9-B0F27TZN8G",
    "stock": null,
-   "stock_ts": 1793708825
+   "stock_ts": 1793713191
+  },
+  {
+   "clave": "9:B09TKLJ2J5",
+   "asin": "B09TKLJ2J5",
+   "mercado": "ES",
+   "titulo": "ASUS ROG Zephyrus G14 GA403UU-QS109X AMD Ryzen™ 9 8945HS Portátil 35,6 cm (14\") 3K 32 GB LPDDR5x-SDRAM 1",
+   "precio": 279.43,
+   "antes": 2194.29,
+   "descuento": 87,
+   "error": true,
+   "categoria": "Informática",
+   "url": "https://www.amazon.es/dp/B09TKLJ2J5",
+   "keepa": "https://keepa.com/#!product/9-B09TKLJ2J5",
+   "stock": null,
+   "stock_ts": 1793713191
   },
   {
    "clave": "9:B09273V6GW",
@@ -24,14 +39,14 @@
    "mercado": "ES",
    "titulo": "ASTIGARRAGA KIT LINE Taburete bajo de pino macizo One",
    "precio": 60.66,
-   "antes": 1472.6,
-   "descuento": 96,
+   "antes": 1344.25,
+   "descuento": 95,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B09273V6GW",
    "keepa": "https://keepa.com/#!product/9-B09273V6GW",
    "stock": null,
-   "stock_ts": 1793705608
+   "stock_ts": 1793713191
   },
   {
    "clave": "9:B0GQSHCNTF",
@@ -39,14 +54,14 @@
    "mercado": "ES",
    "titulo": "COLOR&GEOMETRY Felpudo pequeño y fino para interiores, 43 x 75 cm, color gris",
    "precio": 29.99,
-   "antes": 1176.36,
+   "antes": 1102.13,
    "descuento": 97,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0GQSHCNTF",
    "keepa": "https://keepa.com/#!product/9-B0GQSHCNTF",
    "stock": 120,
-   "stock_ts": 1793705608
+   "stock_ts": 1793713191
   },
   {
    "clave": "9:B009IIXPV6",
@@ -54,14 +69,14 @@
    "mercado": "ES",
    "titulo": "Xerox 106R01573 Tóner de láser 24000páginas Negro tóner y Cartucho láser - Tóner para impresoras láser (T",
    "precio": 77.99,
-   "antes": 914.5,
+   "antes": 875.48,
    "descuento": 91,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B009IIXPV6",
    "keepa": "https://keepa.com/#!product/9-B009IIXPV6",
    "stock": null,
-   "stock_ts": 1793708825
+   "stock_ts": 1793713191
   },
   {
    "clave": "3:B09WYVT974",
@@ -69,14 +84,14 @@
    "mercado": "DE",
    "titulo": "[DE] Windschild transparent, 510 mm hoch, 660 mm breit, für Honda SH Mode 125 (21), ohne ABE",
    "precio": 69.03,
-   "antes": 615.81,
-   "descuento": 89,
+   "antes": 597.63,
+   "descuento": 88,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B09WYVT974",
    "keepa": "https://keepa.com/#!product/3-B09WYVT974",
    "stock": null,
-   "stock_ts": 1793705608
+   "stock_ts": 1793713191
   },
   {
    "clave": "9:B00MP42DDQ",
@@ -84,14 +99,14 @@
    "mercado": "ES",
    "titulo": "Toner cartridge Original Lexmark 1x Black 64004HE XXL for Lexmark T 642 TN",
    "precio": 43.4,
-   "antes": 476.76,
-   "descuento": 91,
+   "antes": 454.62,
+   "descuento": 90,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B00MP42DDQ",
    "keepa": "https://keepa.com/#!product/9-B00MP42DDQ",
    "stock": null,
-   "stock_ts": 1793708825
+   "stock_ts": 1793713191
   },
   {
    "clave": "3:B0FP9TRMBJ",
@@ -99,14 +114,14 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI BILSTEIN Hauptbremszylinder 195035",
    "precio": 66.57,
-   "antes": 422.18,
+   "antes": 405.39,
    "descuento": 84,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0FP9TRMBJ",
    "keepa": "https://keepa.com/#!product/3-B0FP9TRMBJ",
    "stock": 1000,
-   "stock_ts": 1793705608
+   "stock_ts": 1793713191
   },
   {
    "clave": "9:B000O78EKM",
@@ -114,14 +129,14 @@
    "mercado": "ES",
    "titulo": "Lexmark 323710 - Tóner láser, 9000 páginas, color negro",
    "precio": 27.43,
-   "antes": 205.87,
-   "descuento": 87,
+   "antes": 194.86,
+   "descuento": 86,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B000O78EKM",
    "keepa": "https://keepa.com/#!product/9-B000O78EKM",
    "stock": null,
-   "stock_ts": 1793708825
+   "stock_ts": 1793713191
   },
   {
    "clave": "3:B0G3LQ3ZL2",
@@ -129,14 +144,14 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI Bilstein 197024 Stange/Strebe, Stabilisator (1Stk.) für TOYOTA",
    "precio": 20.83,
-   "antes": 192.98,
+   "antes": 187.89,
    "descuento": 89,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0G3LQ3ZL2",
    "keepa": "https://keepa.com/#!product/3-B0G3LQ3ZL2",
    "stock": null,
-   "stock_ts": 1793705608
+   "stock_ts": 1793713191
   },
   {
    "clave": "9:B09RX4WQGB",
@@ -144,14 +159,14 @@
    "mercado": "ES",
    "titulo": "Lenox Adorno de Soldado con Joyas, Placa esterlina, Multicolor, 0.12",
    "precio": 37.91,
-   "antes": 205.06,
-   "descuento": 82,
+   "antes": 196.76,
+   "descuento": 81,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B09RX4WQGB",
    "keepa": "https://keepa.com/#!product/9-B09RX4WQGB",
    "stock": null,
-   "stock_ts": 1793705608
+   "stock_ts": 1793713191
   },
   {
    "clave": "9:B0C2Z7RGVS",
@@ -159,14 +174,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 166.92,
+   "antes": 162.74,
    "descuento": 90,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2Z7RGVS",
    "keepa": "https://keepa.com/#!product/9-B0C2Z7RGVS",
    "stock": null,
-   "stock_ts": 1793705608
+   "stock_ts": 1793713191
   },
   {
    "clave": "8:B001FF5GMG",
@@ -181,7 +196,7 @@
    "url": "https://www.amazon.it/dp/B001FF5GMG",
    "keepa": "https://keepa.com/#!product/8-B001FF5GMG",
    "stock": 5,
-   "stock_ts": 1793705608
+   "stock_ts": 1793713191
   },
   {
    "clave": "9:B0C2ZBGJQ9",
@@ -189,14 +204,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 128.66,
-   "descuento": 87,
+   "antes": 125.46,
+   "descuento": 86,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2ZBGJQ9",
    "keepa": "https://keepa.com/#!product/9-B0C2ZBGJQ9",
    "stock": null,
-   "stock_ts": 1793705608
+   "stock_ts": 1793713191
   },
   {
    "clave": "9:B0C2ZBMYV8",
@@ -204,14 +219,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 101.14,
+   "antes": 98.36,
    "descuento": 83,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2ZBMYV8",
    "keepa": "https://keepa.com/#!product/9-B0C2ZBMYV8",
    "stock": null,
-   "stock_ts": 1793705608
+   "stock_ts": 1793713191
   },
   {
    "clave": "3:B077G7SHWV",
@@ -219,29 +234,14 @@
    "mercado": "DE",
    "titulo": "[DE] CHAMPION CAF100986P Motorräume",
    "precio": 9.49,
-   "antes": 62.39,
-   "descuento": 85,
+   "antes": 60.03,
+   "descuento": 84,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B077G7SHWV",
    "keepa": "https://keepa.com/#!product/3-B077G7SHWV",
    "stock": null,
-   "stock_ts": 1793705608
-  },
-  {
-   "clave": "9:B0HLL4LBTH",
-   "asin": "B0HLL4LBTH",
-   "mercado": "ES",
-   "titulo": "Yxtel smartwatch XY10",
-   "precio": 9.99,
-   "antes": 51.12,
-   "descuento": 80,
-   "error": true,
-   "categoria": "Electrónica",
-   "url": "https://www.amazon.es/dp/B0HLL4LBTH",
-   "keepa": "https://keepa.com/#!product/9-B0HLL4LBTH",
-   "stock": null,
-   "stock_ts": 1793705608
+   "stock_ts": 1793713191
   }
  ]
 }
