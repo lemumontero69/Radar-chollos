@@ -1,6 +1,6 @@
 {
- "actualizado": "04/11/2026 08:48 UTC",
- "ts": 1793782083,
+ "actualizado": "04/11/2026 10:52 UTC",
+ "ts": 1793789524,
  "descartados": {},
  "chollos": [
   {
@@ -9,14 +9,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric C4036M320 MicroLogic 6.3EM Unidad de viaje para interruptores automáticos ComPacT NSX4",
    "precio": 854.51,
-   "antes": 8810.41,
+   "antes": 8407.25,
    "descuento": 90,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5YZS5T",
    "keepa": "https://keepa.com/#!product/9-B0BG5YZS5T",
    "stock": null,
-   "stock_ts": 1793782074
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B0HP9MTS2G",
@@ -24,14 +24,14 @@
    "mercado": "ES",
    "titulo": "Clevich Mesa de comedor plegable con 2 estantes, para 4-6 personas",
    "precio": 99.99,
-   "antes": 5939.15,
+   "antes": 4544.05,
    "descuento": 98,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0HP9MTS2G",
    "keepa": "https://keepa.com/#!product/9-B0HP9MTS2G",
    "stock": 100,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B0BG5WSKSK",
@@ -39,14 +39,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric ComPacT - Disparador para interruptor de sobrecarga ComPacT NSX100/160/250",
    "precio": 435.28,
-   "antes": 4877.34,
-   "descuento": 91,
+   "antes": 4555.6,
+   "descuento": 90,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5WSKSK",
    "keepa": "https://keepa.com/#!product/9-B0BG5WSKSK",
    "stock": null,
-   "stock_ts": 1793782074
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B0F27TZN8G",
@@ -54,14 +54,14 @@
    "mercado": "ES",
    "titulo": "Xiaomi Pad 7 Ai WiFi Versión Global (sin llamadas ni texto) 28.4 cm 3.2K 144Hz 8850mAh Bluetooth 5.4 Cuat",
    "precio": 350.0,
-   "antes": 3547.94,
+   "antes": 3406.62,
    "descuento": 90,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B0F27TZN8G",
    "keepa": "https://keepa.com/#!product/9-B0F27TZN8G",
    "stock": 2,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B07SSZGVVG",
@@ -69,14 +69,89 @@
    "mercado": "ES",
    "titulo": "WGB Das Werkzeug Llave de tubo hexagonal, según la norma DIN ISO 2936, de 30 mm",
    "precio": 83.9,
-   "antes": 3015.15,
+   "antes": 2709.96,
    "descuento": 97,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B07SSZGVVG",
    "keepa": "https://keepa.com/#!product/9-B07SSZGVVG",
    "stock": 4,
-   "stock_ts": 1793782074
+   "stock_ts": 1793789515
+  },
+  {
+   "clave": "9:B0HD7SJ5GY",
+   "asin": "B0HD7SJ5GY",
+   "mercado": "ES",
+   "titulo": "APC Easy UPS, 500 VA, Montaje en Suelo/Pared, 230 V, 4 Tomas CEE 7/3 Schuko, AVR",
+   "precio": 332.35,
+   "antes": 2393.18,
+   "descuento": 86,
+   "error": true,
+   "categoria": "Informática",
+   "url": "https://www.amazon.es/dp/B0HD7SJ5GY",
+   "keepa": "https://keepa.com/#!product/9-B0HD7SJ5GY",
+   "stock": null,
+   "stock_ts": 1793789515
+  },
+  {
+   "clave": "9:B0HD82SDWK",
+   "asin": "B0HD82SDWK",
+   "mercado": "ES",
+   "titulo": "APC Easy UPS, 1200 VA, Torre, 230 V, 4 Tomas CEE 7/3 Schuko, AVR",
+   "precio": 333.59,
+   "antes": 2393.2,
+   "descuento": 86,
+   "error": true,
+   "categoria": "Electrónica",
+   "url": "https://www.amazon.es/dp/B0HD82SDWK",
+   "keepa": "https://keepa.com/#!product/9-B0HD82SDWK",
+   "stock": 1000,
+   "stock_ts": 1793789515
+  },
+  {
+   "clave": "9:B0HD7S2KN8",
+   "asin": "B0HD7S2KN8",
+   "mercado": "ES",
+   "titulo": "APC Easy UPS, 1600 VA, Torre, 230 V, 4 Tomas CEE 7/3 Schuko, AVR",
+   "precio": 335.02,
+   "antes": 2393.21,
+   "descuento": 86,
+   "error": true,
+   "categoria": "Electrónica",
+   "url": "https://www.amazon.es/dp/B0HD7S2KN8",
+   "keepa": "https://keepa.com/#!product/9-B0HD7S2KN8",
+   "stock": 1000,
+   "stock_ts": 1793789515
+  },
+  {
+   "clave": "9:B0HD7R95QG",
+   "asin": "B0HD7R95QG",
+   "mercado": "ES",
+   "titulo": "APC Easy UPS, 1000 VA, Montaje en Suelo/Pared, 230 V, 4 Tomas CEE 7/3 Schuko, AVR",
+   "precio": 342.44,
+   "antes": 2393.31,
+   "descuento": 86,
+   "error": true,
+   "categoria": "Informática",
+   "url": "https://www.amazon.es/dp/B0HD7R95QG",
+   "keepa": "https://keepa.com/#!product/9-B0HD7R95QG",
+   "stock": 1000,
+   "stock_ts": 1793789515
+  },
+  {
+   "clave": "8:B0HD7S2KN8",
+   "asin": "B0HD7S2KN8",
+   "mercado": "IT",
+   "titulo": "[IT] APC Easy UPS, 1600 VA, torre, 230 V, 4 prese CEE 7/3 Schuko, AVR",
+   "precio": 312.5,
+   "antes": 2273.0,
+   "descuento": 86,
+   "error": true,
+   "categoria": "Informatica",
+   "url": "https://www.amazon.it/dp/B0HD7S2KN8",
+   "keepa": "https://keepa.com/#!product/8-B0HD7S2KN8",
+   "stock": 1000,
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B09TKLJ2J5",
@@ -84,14 +159,14 @@
    "mercado": "ES",
    "titulo": "ASUS ROG Zephyrus G14 GA403UU-QS109X AMD Ryzen™ 9 8945HS Portátil 35,6 cm (14\") 3K 32 GB LPDDR5x-SDRAM 1",
    "precio": 279.43,
-   "antes": 1753.72,
-   "descuento": 84,
+   "antes": 1644.28,
+   "descuento": 83,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B09TKLJ2J5",
    "keepa": "https://keepa.com/#!product/9-B09TKLJ2J5",
    "stock": null,
-   "stock_ts": 1793782074
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B0H8PKWRM8",
@@ -99,14 +174,14 @@
    "mercado": "ES",
    "titulo": "Ice Smart Forever - Black - 1.32-42mm",
    "precio": 100.02,
-   "antes": 1036.96,
+   "antes": 994.27,
    "descuento": 90,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B0H8PKWRM8",
    "keepa": "https://keepa.com/#!product/9-B0H8PKWRM8",
    "stock": 1000,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "8:B0FP9V5LKL",
@@ -114,14 +189,14 @@
    "mercado": "IT",
    "titulo": "[IT] FEBI BILSTEIN Scambiatore di calore, riscaldamento interno 194934",
    "precio": 71.98,
-   "antes": 901.08,
+   "antes": 863.52,
    "descuento": 92,
    "error": true,
    "categoria": "Auto e Moto",
    "url": "https://www.amazon.it/dp/B0FP9V5LKL",
    "keepa": "https://keepa.com/#!product/8-B0FP9V5LKL",
    "stock": null,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B00MP42B1K",
@@ -129,14 +204,14 @@
    "mercado": "ES",
    "titulo": "Lexmark T 642 DN - Original Lexmark 64004HE - Cartouche de Toner Noir Return Program -",
    "precio": 43.4,
-   "antes": 758.18,
+   "antes": 720.05,
    "descuento": 94,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B00MP42B1K",
    "keepa": "https://keepa.com/#!product/9-B00MP42B1K",
    "stock": null,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B00NETIUW4",
@@ -144,14 +219,14 @@
    "mercado": "ES",
    "titulo": "Mitel 5300/5200 Series teléfono (50005231)",
    "precio": 48.84,
-   "antes": 756.47,
-   "descuento": 94,
+   "antes": 723.27,
+   "descuento": 93,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B00NETIUW4",
    "keepa": "https://keepa.com/#!product/9-B00NETIUW4",
    "stock": null,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B00MP42HNM",
@@ -159,14 +234,14 @@
    "mercado": "ES",
    "titulo": "Toner cartridge Original Lexmark 1x Black 64004HE XXL for Lexmark T 644 TN",
    "precio": 43.4,
-   "antes": 693.29,
-   "descuento": 94,
+   "antes": 655.15,
+   "descuento": 93,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B00MP42HNM",
    "keepa": "https://keepa.com/#!product/9-B00MP42HNM",
    "stock": null,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B00MP42GOC",
@@ -174,29 +249,14 @@
    "mercado": "ES",
    "titulo": "Toner cartridge Original Lexmark 1x Black 64004HE XXL for Lexmark T 644 N",
    "precio": 43.4,
-   "antes": 639.78,
+   "antes": 601.64,
    "descuento": 93,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B00MP42GOC",
    "keepa": "https://keepa.com/#!product/9-B00MP42GOC",
    "stock": null,
-   "stock_ts": 1793778838
-  },
-  {
-   "clave": "9:B008SONBTW",
-   "asin": "B008SONBTW",
-   "mercado": "ES",
-   "titulo": "HP H220 Host Bus Adapter - Tarjeta de red",
-   "precio": 82.16,
-   "antes": 402.17,
-   "descuento": 80,
-   "error": true,
-   "categoria": "Informática",
-   "url": "https://www.amazon.es/dp/B008SONBTW",
-   "keepa": "https://keepa.com/#!product/9-B008SONBTW",
-   "stock": null,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B00MP2VT56",
@@ -204,14 +264,14 @@
    "mercado": "ES",
    "titulo": "Toner cartridge Original OKI 1x Cyan 42918915 / C9600 for OKI C 9650 HDN",
    "precio": 49.24,
-   "antes": 300.21,
-   "descuento": 84,
+   "antes": 284.89,
+   "descuento": 83,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B00MP2VT56",
    "keepa": "https://keepa.com/#!product/9-B00MP2VT56",
    "stock": null,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B0C2ZCHCQ3",
@@ -219,14 +279,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 261.53,
-   "descuento": 94,
+   "antes": 250.85,
+   "descuento": 93,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2ZCHCQ3",
    "keepa": "https://keepa.com/#!product/9-B0C2ZCHCQ3",
    "stock": 99,
-   "stock_ts": 1793782074
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B0736H6SG3",
@@ -234,14 +294,14 @@
    "mercado": "ES",
    "titulo": "Bilstein 24 – 268097 Amortiguador de la serie B6 B6 serie amortiguador",
    "precio": 25.85,
-   "antes": 215.97,
+   "antes": 207.61,
    "descuento": 88,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B0736H6SG3",
    "keepa": "https://keepa.com/#!product/9-B0736H6SG3",
    "stock": null,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B01N313GT7",
@@ -249,14 +309,14 @@
    "mercado": "ES",
    "titulo": "Chint NB1-63CH3P63 Serie - Disyuntor de circuito en miniatura, 63 A, 3 polos, curva C, 10 kA",
    "precio": 29.75,
-   "antes": 209.31,
-   "descuento": 86,
+   "antes": 195.41,
+   "descuento": 85,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01N313GT7",
    "keepa": "https://keepa.com/#!product/9-B01N313GT7",
    "stock": null,
-   "stock_ts": 1793782074
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B0051OVX6U",
@@ -264,14 +324,14 @@
    "mercado": "ES",
    "titulo": "Hot Wheels - Fat Fendered '40 - Réplica de coche a escala 1:64 - Coleccionista #607 - Color de la carroce",
    "precio": 34.74,
-   "antes": 188.07,
-   "descuento": 82,
+   "antes": 178.41,
+   "descuento": 81,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0051OVX6U",
    "keepa": "https://keepa.com/#!product/9-B0051OVX6U",
    "stock": null,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B0C2Z754JR",
@@ -279,14 +339,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 158.57,
+   "antes": 151.38,
    "descuento": 89,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2Z754JR",
    "keepa": "https://keepa.com/#!product/9-B0C2Z754JR",
    "stock": null,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B00A7Q4XRI",
@@ -294,44 +354,14 @@
    "mercado": "ES",
    "titulo": "Kopos KC – Juego de 10 tubos rígidos de 2 m, gris, 1532 KC",
    "precio": 27.0,
-   "antes": 140.08,
+   "antes": 140.02,
    "descuento": 81,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00A7Q4XRI",
    "keepa": "https://keepa.com/#!product/9-B00A7Q4XRI",
    "stock": null,
-   "stock_ts": 1793782074
-  },
-  {
-   "clave": "9:B08ZPYVTH5",
-   "asin": "B08ZPYVTH5",
-   "mercado": "ES",
-   "titulo": "ATH - Osmosis Inversa Doméstica 5 Etapas Genius Pro 50 - Original - Con Grifo y Accesorios de Instalación",
-   "precio": 14.95,
-   "antes": 117.37,
-   "descuento": 87,
-   "error": true,
-   "categoria": "Bricolaje y herramientas",
-   "url": "https://www.amazon.es/dp/B08ZPYVTH5",
-   "keepa": "https://keepa.com/#!product/9-B08ZPYVTH5",
-   "stock": 31,
-   "stock_ts": 1793782074
-  },
-  {
-   "clave": "3:B0G3LQ3ZL2",
-   "asin": "B0G3LQ3ZL2",
-   "mercado": "DE",
-   "titulo": "[DE] FEBI Bilstein 197024 Stange/Strebe, Stabilisator (1Stk.) für TOYOTA",
-   "precio": 20.83,
-   "antes": 106.76,
-   "descuento": 80,
-   "error": true,
-   "categoria": "Auto & Motorrad",
-   "url": "https://www.amazon.de/dp/B0G3LQ3ZL2",
-   "keepa": "https://keepa.com/#!product/3-B0G3LQ3ZL2",
-   "stock": null,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "4:B0788C3R8B",
@@ -339,14 +369,14 @@
    "mercado": "FR",
    "titulo": "[FR] ossca d8626 Éléments d'entraînement",
    "precio": 12.61,
-   "antes": 94.92,
-   "descuento": 87,
+   "antes": 90.05,
+   "descuento": 86,
    "error": true,
    "categoria": "Auto et Moto",
    "url": "https://www.amazon.fr/dp/B0788C3R8B",
    "keepa": "https://keepa.com/#!product/4-B0788C3R8B",
    "stock": 1000,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B0C2Z7RGVS",
@@ -354,14 +384,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 96.17,
-   "descuento": 82,
+   "antes": 88.98,
+   "descuento": 81,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2Z7RGVS",
    "keepa": "https://keepa.com/#!product/9-B0C2Z7RGVS",
    "stock": null,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B0C39MM3WL",
@@ -369,14 +399,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 88.38,
-   "descuento": 81,
+   "antes": 84.81,
+   "descuento": 80,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C39MM3WL",
    "keepa": "https://keepa.com/#!product/9-B0C39MM3WL",
    "stock": null,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B0FP9X88QX",
@@ -384,14 +414,14 @@
    "mercado": "ES",
    "titulo": "TOPRAN Motorhaubenzug 119138 motorseitig",
    "precio": 16.35,
-   "antes": 86.41,
-   "descuento": 81,
+   "antes": 83.04,
+   "descuento": 80,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B0FP9X88QX",
    "keepa": "https://keepa.com/#!product/9-B0FP9X88QX",
    "stock": null,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   },
   {
    "clave": "9:B0HLLCVMKH",
@@ -399,29 +429,14 @@
    "mercado": "ES",
    "titulo": "Yxtel smartwatch XY11",
    "precio": 9.99,
-   "antes": 57.45,
-   "descuento": 83,
+   "antes": 55.34,
+   "descuento": 82,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B0HLLCVMKH",
    "keepa": "https://keepa.com/#!product/9-B0HLLCVMKH",
    "stock": null,
-   "stock_ts": 1793778838
-  },
-  {
-   "clave": "3:B09T3MKR27",
-   "asin": "B09T3MKR27",
-   "mercado": "DE",
-   "titulo": "[DE] Geburtstag Tasse | Ich habe 59+1 | 60 Jahre Geschenke | originelle und lustige Geschenkideen für Mann und",
-   "precio": 10.46,
-   "antes": 51.76,
-   "descuento": 80,
-   "error": true,
-   "categoria": "Küche, Haushalt & Wohnen",
-   "url": "https://www.amazon.de/dp/B09T3MKR27",
-   "keepa": "https://keepa.com/#!product/3-B09T3MKR27",
-   "stock": null,
-   "stock_ts": 1793778838
+   "stock_ts": 1793789515
   }
  ]
 }
