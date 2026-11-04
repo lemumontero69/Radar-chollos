@@ -1,6 +1,6 @@
 {
- "actualizado": "04/11/2026 06:36 UTC",
- "ts": 1793774161,
+ "actualizado": "04/11/2026 07:54 UTC",
+ "ts": 1793778850,
  "descartados": {},
  "chollos": [
   {
@@ -9,14 +9,14 @@
    "mercado": "ES",
    "titulo": "Clevich Mesa de comedor plegable con 2 estantes, para 4-6 personas",
    "precio": 99.99,
-   "antes": 8869.84,
+   "antes": 6863.83,
    "descuento": 99,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0HP9MTS2G",
    "keepa": "https://keepa.com/#!product/9-B0HP9MTS2G",
    "stock": 100,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "9:B0F27TZN8G",
@@ -24,14 +24,14 @@
    "mercado": "ES",
    "titulo": "Xiaomi Pad 7 Ai WiFi Versión Global (sin llamadas ni texto) 28.4 cm 3.2K 144Hz 8850mAh Bluetooth 5.4 Cuat",
    "precio": 350.0,
-   "antes": 3713.48,
-   "descuento": 91,
+   "antes": 3613.65,
+   "descuento": 90,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B0F27TZN8G",
    "keepa": "https://keepa.com/#!product/9-B0F27TZN8G",
    "stock": 2,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "9:B0H8PKWRM8",
@@ -39,14 +39,14 @@
    "mercado": "ES",
    "titulo": "Ice Smart Forever - Black - 1.32-42mm",
    "precio": 100.02,
-   "antes": 1082.39,
+   "antes": 1055.54,
    "descuento": 91,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B0H8PKWRM8",
    "keepa": "https://keepa.com/#!product/9-B0H8PKWRM8",
    "stock": 1000,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "8:B0FP9V5LKL",
@@ -54,14 +54,14 @@
    "mercado": "IT",
    "titulo": "[IT] FEBI BILSTEIN Scambiatore di calore, riscaldamento interno 194934",
    "precio": 71.98,
-   "antes": 941.07,
+   "antes": 917.44,
    "descuento": 92,
    "error": true,
    "categoria": "Auto e Moto",
    "url": "https://www.amazon.it/dp/B0FP9V5LKL",
    "keepa": "https://keepa.com/#!product/8-B0FP9V5LKL",
    "stock": null,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "9:B00MP42B1K",
@@ -69,14 +69,14 @@
    "mercado": "ES",
    "titulo": "Lexmark T 642 DN - Original Lexmark 64004HE - Cartouche de Toner Noir Return Program -",
    "precio": 43.4,
-   "antes": 798.78,
-   "descuento": 95,
+   "antes": 774.79,
+   "descuento": 94,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B00MP42B1K",
    "keepa": "https://keepa.com/#!product/9-B00MP42B1K",
    "stock": null,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "9:B00NETIUW4",
@@ -84,14 +84,14 @@
    "mercado": "ES",
    "titulo": "Mitel 5300/5200 Series teléfono (50005231)",
    "precio": 48.84,
-   "antes": 791.81,
+   "antes": 770.92,
    "descuento": 94,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B00NETIUW4",
    "keepa": "https://keepa.com/#!product/9-B00NETIUW4",
    "stock": null,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "9:B00MP42HNM",
@@ -99,14 +99,14 @@
    "mercado": "ES",
    "titulo": "Toner cartridge Original Lexmark 1x Black 64004HE XXL for Lexmark T 644 TN",
    "precio": 43.4,
-   "antes": 733.89,
+   "antes": 709.9,
    "descuento": 94,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B00MP42HNM",
    "keepa": "https://keepa.com/#!product/9-B00MP42HNM",
    "stock": null,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "9:B00MP42GOC",
@@ -114,14 +114,14 @@
    "mercado": "ES",
    "titulo": "Toner cartridge Original Lexmark 1x Black 64004HE XXL for Lexmark T 644 N",
    "precio": 43.4,
-   "antes": 680.38,
-   "descuento": 94,
+   "antes": 656.39,
+   "descuento": 93,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B00MP42GOC",
    "keepa": "https://keepa.com/#!product/9-B00MP42GOC",
    "stock": null,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "9:B073VPLYG8",
@@ -129,14 +129,14 @@
    "mercado": "ES",
    "titulo": "FERODO BRAKE DISC | DDF1062C | FRONT | FOR ALFA ROMEO 166 1998-2007 | OE-MATCHING QUALITY | SMOOTH & QUIE",
    "precio": 116.82,
-   "antes": 587.55,
+   "antes": 574.37,
    "descuento": 80,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B073VPLYG8",
    "keepa": "https://keepa.com/#!product/9-B073VPLYG8",
    "stock": null,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "9:B008SONBTW",
@@ -144,29 +144,14 @@
    "mercado": "ES",
    "titulo": "HP H220 Host Bus Adapter - Tarjeta de red",
    "precio": 82.16,
-   "antes": 421.46,
-   "descuento": 81,
+   "antes": 410.06,
+   "descuento": 80,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B008SONBTW",
    "keepa": "https://keepa.com/#!product/9-B008SONBTW",
    "stock": null,
-   "stock_ts": 1793774149
-  },
-  {
-   "clave": "3:B09WYVT974",
-   "asin": "B09WYVT974",
-   "mercado": "DE",
-   "titulo": "[DE] Windschild transparent, 510 mm hoch, 660 mm breit, für Honda SH Mode 125 (21), ohne ABE",
-   "precio": 69.03,
-   "antes": 341.16,
-   "descuento": 80,
-   "error": true,
-   "categoria": "Auto & Motorrad",
-   "url": "https://www.amazon.de/dp/B09WYVT974",
-   "keepa": "https://keepa.com/#!product/3-B09WYVT974",
-   "stock": null,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "9:B00MP2VT56",
@@ -174,14 +159,29 @@
    "mercado": "ES",
    "titulo": "Toner cartridge Original OKI 1x Cyan 42918915 / C9600 for OKI C 9650 HDN",
    "precio": 49.24,
-   "antes": 315.45,
+   "antes": 306.88,
    "descuento": 84,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B00MP2VT56",
    "keepa": "https://keepa.com/#!product/9-B00MP2VT56",
    "stock": null,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
+  },
+  {
+   "clave": "9:B0736H6SG3",
+   "asin": "B0736H6SG3",
+   "mercado": "ES",
+   "titulo": "Bilstein 24 – 268097 Amortiguador de la serie B6 B6 serie amortiguador",
+   "precio": 25.85,
+   "antes": 217.14,
+   "descuento": 88,
+   "error": true,
+   "categoria": "Coche y moto",
+   "url": "https://www.amazon.es/dp/B0736H6SG3",
+   "keepa": "https://keepa.com/#!product/9-B0736H6SG3",
+   "stock": null,
+   "stock_ts": 1793778838
   },
   {
    "clave": "9:B0051OVX6U",
@@ -189,14 +189,14 @@
    "mercado": "ES",
    "titulo": "Hot Wheels - Fat Fendered '40 - Réplica de coche a escala 1:64 - Coleccionista #607 - Color de la carroce",
    "precio": 34.74,
-   "antes": 198.35,
+   "antes": 192.27,
    "descuento": 82,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0051OVX6U",
    "keepa": "https://keepa.com/#!product/9-B0051OVX6U",
    "stock": null,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "9:B0C2Z754JR",
@@ -204,14 +204,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 166.22,
+   "antes": 161.7,
    "descuento": 90,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2Z754JR",
    "keepa": "https://keepa.com/#!product/9-B0C2Z754JR",
    "stock": null,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "3:B0G3LQ3ZL2",
@@ -219,14 +219,14 @@
    "mercado": "DE",
    "titulo": "[DE] FEBI Bilstein 197024 Stange/Strebe, Stabilisator (1Stk.) für TOYOTA",
    "precio": 20.83,
-   "antes": 116.09,
-   "descuento": 82,
+   "antes": 110.58,
+   "descuento": 81,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0G3LQ3ZL2",
    "keepa": "https://keepa.com/#!product/3-B0G3LQ3ZL2",
    "stock": null,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "4:B0788C3R8B",
@@ -234,14 +234,14 @@
    "mercado": "FR",
    "titulo": "[FR] ossca d8626 Éléments d'entraînement",
    "precio": 12.61,
-   "antes": 100.11,
+   "antes": 97.04,
    "descuento": 87,
    "error": true,
    "categoria": "Auto et Moto",
    "url": "https://www.amazon.fr/dp/B0788C3R8B",
    "keepa": "https://keepa.com/#!product/4-B0788C3R8B",
    "stock": 1000,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "9:B0C2Z7RGVS",
@@ -249,14 +249,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 103.82,
-   "descuento": 84,
+   "antes": 99.3,
+   "descuento": 83,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2Z7RGVS",
    "keepa": "https://keepa.com/#!product/9-B0C2Z7RGVS",
    "stock": null,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "9:B0C39MM3WL",
@@ -264,14 +264,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 92.19,
-   "descuento": 82,
+   "antes": 89.94,
+   "descuento": 81,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C39MM3WL",
    "keepa": "https://keepa.com/#!product/9-B0C39MM3WL",
    "stock": null,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "9:B0FP9X88QX",
@@ -279,29 +279,29 @@
    "mercado": "ES",
    "titulo": "TOPRAN Motorhaubenzug 119138 motorseitig",
    "precio": 16.35,
-   "antes": 89.98,
-   "descuento": 82,
+   "antes": 87.87,
+   "descuento": 81,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B0FP9X88QX",
    "keepa": "https://keepa.com/#!product/9-B0FP9X88QX",
    "stock": null,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
-   "clave": "9:B0GJ3PZ12W",
-   "asin": "B0GJ3PZ12W",
+   "clave": "9:B0HLLCVMKH",
+   "asin": "B0HLLCVMKH",
    "mercado": "ES",
-   "titulo": "ESEN SKV Kühlerschlauch 54SKV471 unten",
-   "precio": 16.78,
-   "antes": 83.81,
-   "descuento": 80,
+   "titulo": "Yxtel smartwatch XY11",
+   "precio": 9.99,
+   "antes": 58.37,
+   "descuento": 83,
    "error": true,
-   "categoria": "Coche y moto",
-   "url": "https://www.amazon.es/dp/B0GJ3PZ12W",
-   "keepa": "https://keepa.com/#!product/9-B0GJ3PZ12W",
+   "categoria": "Electrónica",
+   "url": "https://www.amazon.es/dp/B0HLLCVMKH",
+   "keepa": "https://keepa.com/#!product/9-B0HLLCVMKH",
    "stock": null,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   },
   {
    "clave": "3:B09T3MKR27",
@@ -309,14 +309,14 @@
    "mercado": "DE",
    "titulo": "[DE] Geburtstag Tasse | Ich habe 59+1 | 60 Jahre Geschenke | originelle und lustige Geschenkideen für Mann und",
    "precio": 10.46,
-   "antes": 54.75,
-   "descuento": 81,
+   "antes": 52.98,
+   "descuento": 80,
    "error": true,
    "categoria": "Küche, Haushalt & Wohnen",
    "url": "https://www.amazon.de/dp/B09T3MKR27",
    "keepa": "https://keepa.com/#!product/3-B09T3MKR27",
    "stock": null,
-   "stock_ts": 1793774149
+   "stock_ts": 1793778838
   }
  ]
 }
