@@ -1,9 +1,8 @@
 {
- "actualizado": "05/11/2026 08:42 UTC",
- "ts": 1793868137,
+ "actualizado": "05/11/2026 09:41 UTC",
+ "ts": 1793871705,
  "descartados": {
-  "9:B001T9B3PM": 1793864707,
-  "9:B07SWRKLZV": 1793864707
+  "9:B001T9B3PM": 1793871696
  },
  "chollos": [
   {
@@ -12,14 +11,14 @@
    "mercado": "ES",
    "titulo": "Kompaktleistungsschalter ComPacT NSX100HB2 C10W36E100",
    "precio": 1358.88,
-   "antes": 10835.15,
+   "antes": 10616.84,
    "descuento": 87,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BG5V1XSB",
    "keepa": "https://keepa.com/#!product/9-B0BG5V1XSB",
    "stock": null,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B0CLM8QKYK",
@@ -27,14 +26,14 @@
    "mercado": "ES",
    "titulo": "Sleepy Town Sábanas de Cama tamaño Queen, Juego de sábanas de 4 Piezas, Extra Suaves, cómodas y refrescan",
    "precio": 73.27,
-   "antes": 4365.44,
+   "antes": 4272.85,
    "descuento": 98,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0CLM8QKYK",
    "keepa": "https://keepa.com/#!product/9-B0CLM8QKYK",
    "stock": null,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B0HD7RF3ND",
@@ -42,14 +41,14 @@
    "mercado": "ES",
    "titulo": "APC Easy UPS, 2200 VA, Torre, 230 V, 4 Tomas CEE 7/3 Schuko, AVR",
    "precio": 421.4,
-   "antes": 2125.42,
+   "antes": 2084.48,
    "descuento": 80,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B0HD7RF3ND",
    "keepa": "https://keepa.com/#!product/9-B0HD7RF3ND",
    "stock": null,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B0HD7SJ5GY",
@@ -57,14 +56,14 @@
    "mercado": "ES",
    "titulo": "APC Easy UPS, 500 VA, Montaje en Suelo/Pared, 230 V, 4 Tomas CEE 7/3 Schuko, AVR",
    "precio": 131.54,
-   "antes": 1416.59,
-   "descuento": 91,
+   "antes": 1369.7,
+   "descuento": 90,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B0HD7SJ5GY",
    "keepa": "https://keepa.com/#!product/9-B0HD7SJ5GY",
    "stock": null,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B0HD7R95QG",
@@ -72,14 +71,14 @@
    "mercado": "ES",
    "titulo": "APC Easy UPS, 1000 VA, Montaje en Suelo/Pared, 230 V, 4 Tomas CEE 7/3 Schuko, AVR",
    "precio": 190.39,
-   "antes": 1427.71,
-   "descuento": 87,
+   "antes": 1382.03,
+   "descuento": 86,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B0HD7R95QG",
    "keepa": "https://keepa.com/#!product/9-B0HD7R95QG",
    "stock": 1000,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B0HD82SDWK",
@@ -87,14 +86,14 @@
    "mercado": "ES",
    "titulo": "APC Easy UPS, 1200 VA, Torre, 230 V, 4 Tomas CEE 7/3 Schuko, AVR",
    "precio": 229.62,
-   "antes": 1429.9,
-   "descuento": 84,
+   "antes": 1385.03,
+   "descuento": 83,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B0HD82SDWK",
    "keepa": "https://keepa.com/#!product/9-B0HD82SDWK",
    "stock": 1000,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B00MP42J2Q",
@@ -102,14 +101,29 @@
    "mercado": "ES",
    "titulo": "Toner cartridge Original Lexmark 1x Black 64004HE XXL for Unisys UDS 540-N 11",
    "precio": 43.4,
-   "antes": 863.37,
+   "antes": 845.22,
    "descuento": 95,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B00MP42J2Q",
    "keepa": "https://keepa.com/#!product/9-B00MP42J2Q",
    "stock": null,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
+  },
+  {
+   "clave": "9:B095LX7Y25",
+   "asin": "B095LX7Y25",
+   "mercado": "ES",
+   "titulo": "MWMG Pintura Pintada A Mano,Creativo Textura Azul Playa Olas Cielo Surf Paisaje Realismo Obra De Arte Mod",
+   "precio": 94.18,
+   "antes": 750.28,
+   "descuento": 87,
+   "error": true,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B095LX7Y25",
+   "keepa": "https://keepa.com/#!product/9-B095LX7Y25",
+   "stock": 19,
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B0HPK5K28F",
@@ -117,8 +131,8 @@
    "mercado": "ES",
    "titulo": "YueShengYCHUANG Conjunto Rejilla con Placa Empujadora sble Rejilla a Productos Frescos Metal Hoja Acero p",
    "precio": 145.29,
-   "antes": 747.76,
-   "descuento": 81,
+   "antes": 735.41,
+   "descuento": 80,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0HPK5K28F",
@@ -132,14 +146,14 @@
    "mercado": "ES",
    "titulo": "Gewiss rk15 - Tubo rigido en barra 3m rk15 diámetro 40",
    "precio": 15.49,
-   "antes": 515.44,
+   "antes": 504.0,
    "descuento": 97,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B008T4VCSI",
    "keepa": "https://keepa.com/#!product/9-B008T4VCSI",
    "stock": null,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B0H8PKWRM8",
@@ -147,14 +161,14 @@
    "mercado": "ES",
    "titulo": "Ice Smart Forever - Black - 1.32-42mm",
    "precio": 99.0,
-   "antes": 542.45,
-   "descuento": 82,
+   "antes": 522.12,
+   "descuento": 81,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B0H8PKWRM8",
    "keepa": "https://keepa.com/#!product/9-B0H8PKWRM8",
    "stock": 1000,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "8:B0FP9V5LKL",
@@ -162,29 +176,14 @@
    "mercado": "IT",
    "titulo": "[IT] FEBI BILSTEIN Scambiatore di calore, riscaldamento interno 194934",
    "precio": 71.98,
-   "antes": 466.39,
-   "descuento": 85,
+   "antes": 448.51,
+   "descuento": 84,
    "error": true,
    "categoria": "Auto e Moto",
    "url": "https://www.amazon.it/dp/B0FP9V5LKL",
    "keepa": "https://keepa.com/#!product/8-B0FP9V5LKL",
    "stock": null,
-   "stock_ts": 1793864707
-  },
-  {
-   "clave": "9:B0HFRWNGMB",
-   "asin": "B0HFRWNGMB",
-   "mercado": "ES",
-   "titulo": "Coctelera eléctrica Inteligente con Temporizador, 140 W, 350-700 ml, para café, zumos y Batidos.",
-   "precio": 95.3,
-   "antes": 476.24,
-   "descuento": 80,
-   "error": true,
-   "categoria": "Hogar y cocina",
-   "url": "https://www.amazon.es/dp/B0HFRWNGMB",
-   "keepa": "https://keepa.com/#!product/9-B0HFRWNGMB",
-   "stock": null,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B00NETIUW4",
@@ -192,14 +191,29 @@
    "mercado": "ES",
    "titulo": "Mitel 5300/5200 Series teléfono (50005231)",
    "precio": 48.84,
-   "antes": 372.27,
-   "descuento": 87,
+   "antes": 356.47,
+   "descuento": 86,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B00NETIUW4",
    "keepa": "https://keepa.com/#!product/9-B00NETIUW4",
    "stock": null,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
+  },
+  {
+   "clave": "9:B07SWRKLZV",
+   "asin": "B07SWRKLZV",
+   "mercado": "ES",
+   "titulo": "Teka - Grifo De Cocina Monomando Ico 915 Color Cromo Ref 116030009 Caño Giratorio",
+   "precio": 55.16,
+   "antes": 333.3,
+   "descuento": 83,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B07SWRKLZV",
+   "keepa": "https://keepa.com/#!product/9-B07SWRKLZV",
+   "stock": null,
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B00MP2VXQ6",
@@ -207,29 +221,14 @@
    "mercado": "ES",
    "titulo": "Toner cartridge Original OKI 1x Cyan 42918915 / C9600 for OKI C 9650 HN",
    "precio": 49.24,
-   "antes": 325.59,
+   "antes": 318.29,
    "descuento": 85,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B00MP2VXQ6",
    "keepa": "https://keepa.com/#!product/9-B00MP2VXQ6",
    "stock": null,
-   "stock_ts": 1793864707
-  },
-  {
-   "clave": "9:B00MP42B1K",
-   "asin": "B00MP42B1K",
-   "mercado": "ES",
-   "titulo": "Lexmark T 642 DN - Original Lexmark 64004HE - Cartouche de Toner Noir Return Program -",
-   "precio": 43.4,
-   "antes": 316.83,
-   "descuento": 86,
-   "error": true,
-   "categoria": "Informática",
-   "url": "https://www.amazon.es/dp/B00MP42B1K",
-   "keepa": "https://keepa.com/#!product/9-B00MP42B1K",
-   "stock": null,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B01C2S5MNW",
@@ -237,14 +236,29 @@
    "mercado": "ES",
    "titulo": "42918915 Okidata C-9850 Cartucho de Tóner cian",
    "precio": 49.24,
-   "antes": 314.58,
+   "antes": 307.28,
    "descuento": 84,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B01C2S5MNW",
    "keepa": "https://keepa.com/#!product/9-B01C2S5MNW",
    "stock": null,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
+  },
+  {
+   "clave": "9:B00MP42B1K",
+   "asin": "B00MP42B1K",
+   "mercado": "ES",
+   "titulo": "Lexmark T 642 DN - Original Lexmark 64004HE - Cartouche de Toner Noir Return Program -",
+   "precio": 43.4,
+   "antes": 298.68,
+   "descuento": 85,
+   "error": true,
+   "categoria": "Informática",
+   "url": "https://www.amazon.es/dp/B00MP42B1K",
+   "keepa": "https://keepa.com/#!product/9-B00MP42B1K",
+   "stock": null,
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B092JHL15F",
@@ -252,14 +266,14 @@
    "mercado": "ES",
    "titulo": "De'Longhi Tasciugo AriaDry Multi -2 en 1 Deshumidificador Doméstico Portátil y Purificador de Aire, Extra",
    "precio": 64.44,
-   "antes": 324.74,
+   "antes": 318.26,
    "descuento": 80,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B092JHL15F",
    "keepa": "https://keepa.com/#!product/9-B092JHL15F",
    "stock": 43,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B019PO95Y8",
@@ -267,14 +281,14 @@
    "mercado": "ES",
    "titulo": "HOT WHEELS HEAT FLEET '09 PURPLE CUSTOM VOLKSWAGEN Beetle 2010 BECKETT - Guía de precios 5/10",
    "precio": 56.34,
-   "antes": 290.46,
+   "antes": 290.34,
    "descuento": 81,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B019PO95Y8",
    "keepa": "https://keepa.com/#!product/9-B019PO95Y8",
    "stock": null,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B0C2Z9F7XQ",
@@ -282,14 +296,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 237.44,
+   "antes": 231.88,
    "descuento": 93,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2Z9F7XQ",
    "keepa": "https://keepa.com/#!product/9-B0C2Z9F7XQ",
    "stock": null,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B00MP42HNM",
@@ -297,14 +311,14 @@
    "mercado": "ES",
    "titulo": "Toner cartridge Original Lexmark 1x Black 64004HE XXL for Lexmark T 644 TN",
    "precio": 43.4,
-   "antes": 251.93,
-   "descuento": 83,
+   "antes": 233.78,
+   "descuento": 81,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B00MP42HNM",
    "keepa": "https://keepa.com/#!product/9-B00MP42HNM",
    "stock": null,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B0D2KTS7JS",
@@ -312,14 +326,14 @@
    "mercado": "ES",
    "titulo": "Rasch Papel pintado 690774 – Papel pintado de fieltro en color beige de la colección Symphony – 10,05 m x",
    "precio": 40.62,
-   "antes": 219.53,
+   "antes": 218.5,
    "descuento": 81,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0D2KTS7JS",
    "keepa": "https://keepa.com/#!product/9-B0D2KTS7JS",
    "stock": null,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B0C2ZCHCQ3",
@@ -327,14 +341,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 137.95,
-   "descuento": 88,
+   "antes": 132.86,
+   "descuento": 87,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2ZCHCQ3",
    "keepa": "https://keepa.com/#!product/9-B0C2ZCHCQ3",
    "stock": 99,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B0B9J1JW7M",
@@ -342,14 +356,14 @@
    "mercado": "ES",
    "titulo": "TorkStrap M500 - Correas de amarre autotensibles de 14 x 1 pulgadas, se adaptan automáticamente a los cam",
    "precio": 22.58,
-   "antes": 128.09,
+   "antes": 125.56,
    "descuento": 82,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0B9J1JW7M",
    "keepa": "https://keepa.com/#!product/9-B0B9J1JW7M",
    "stock": 15,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "3:B00PD07RIU",
@@ -357,14 +371,14 @@
    "mercado": "DE",
    "titulo": "[DE] DELPHI HDF669 Kraftstofffilter",
    "precio": 19.79,
-   "antes": 103.63,
+   "antes": 101.74,
    "descuento": 81,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B00PD07RIU",
    "keepa": "https://keepa.com/#!product/3-B00PD07RIU",
    "stock": 4,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B0C2Z77B2D",
@@ -372,14 +386,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 100.07,
+   "antes": 97.45,
    "descuento": 83,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2Z77B2D",
    "keepa": "https://keepa.com/#!product/9-B0C2Z77B2D",
    "stock": null,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   },
   {
    "clave": "9:B0HBQJ5H1G",
@@ -387,14 +401,14 @@
    "mercado": "ES",
    "titulo": "sketchbook a4, Bloc de Dibujo A4, 200 g/m², 50 Hojas/100 Páginas",
    "precio": 11.99,
-   "antes": 74.38,
-   "descuento": 84,
+   "antes": 72.59,
+   "descuento": 83,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0HBQJ5H1G",
    "keepa": "https://keepa.com/#!product/9-B0HBQJ5H1G",
    "stock": null,
-   "stock_ts": 1793864707
+   "stock_ts": 1793871696
   }
  ]
 }
