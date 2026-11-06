@@ -1,6 +1,6 @@
 {
- "actualizado": "06/11/2026 20:27 UTC",
- "ts": 1793996849,
+ "actualizado": "06/11/2026 21:13 UTC",
+ "ts": 1793999618,
  "descartados": {},
  "chollos": [
   {
@@ -9,14 +9,14 @@
    "mercado": "ES",
    "titulo": "Sleepy Town Sábanas de Cama tamaño Queen, Juego de sábanas de 4 Piezas, Extra Suaves, cómodas y refrescan",
    "precio": 73.27,
-   "antes": 999.19,
-   "descuento": 93,
+   "antes": 927.0,
+   "descuento": 92,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0CLM8QKYK",
    "keepa": "https://keepa.com/#!product/9-B0CLM8QKYK",
    "stock": null,
-   "stock_ts": 1793993954
+   "stock_ts": 1793999613
   },
   {
    "clave": "9:B0HPH81QDN",
@@ -24,14 +24,14 @@
    "mercado": "ES",
    "titulo": "Wxqbjtam 3 Piezas Cuello Metálico para Construcción Dividida Ajustable coración Naviña para Interior Hoga",
    "precio": 166.19,
-   "antes": 669.06,
+   "antes": 659.42,
    "descuento": 75,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0HPH81QDN",
    "keepa": "https://keepa.com/#!product/9-B0HPH81QDN",
    "stock": null,
-   "stock_ts": 1793993954
+   "stock_ts": 1793999613
   },
   {
    "clave": "9:B01KO1D1LO",
@@ -39,14 +39,14 @@
    "mercado": "ES",
    "titulo": "Krafft - Anticongelante cc-30 Profesional 1l Amarillo (en 200l)",
    "precio": 13.71,
-   "antes": 289.99,
+   "antes": 281.17,
    "descuento": 95,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B01KO1D1LO",
    "keepa": "https://keepa.com/#!product/9-B01KO1D1LO",
    "stock": null,
-   "stock_ts": 1793993954
+   "stock_ts": 1793999613
   },
   {
    "clave": "9:B00MP42J2Q",
@@ -54,14 +54,14 @@
    "mercado": "ES",
    "titulo": "Toner cartridge Original Lexmark 1x Black 64004HE XXL for Unisys UDS 540-N 11",
    "precio": 43.4,
-   "antes": 203.64,
-   "descuento": 79,
+   "antes": 189.49,
+   "descuento": 77,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B00MP42J2Q",
    "keepa": "https://keepa.com/#!product/9-B00MP42J2Q",
    "stock": null,
-   "stock_ts": 1793993954
+   "stock_ts": 1793999613
   },
   {
    "clave": "9:B010SE68ZS",
@@ -69,14 +69,14 @@
    "mercado": "ES",
    "titulo": "NTN rodamientos 6406 C3 sola fila profundo surco rodamiento de bolas radial, C3 Remoción, jaula de acero,",
    "precio": 39.41,
-   "antes": 180.58,
+   "antes": 180.53,
    "descuento": 78,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B010SE68ZS",
    "keepa": "https://keepa.com/#!product/9-B010SE68ZS",
    "stock": null,
-   "stock_ts": 1793993954
+   "stock_ts": 1793999613
   },
   {
    "clave": "9:B0H5PCB56J",
@@ -84,29 +84,14 @@
    "mercado": "ES",
    "titulo": "staronce Manta Eléctrica Grande 180×130cm, 10 Niveles de Calor, Apagado Automático y Protección contra So",
    "precio": 38.98,
-   "antes": 179.78,
+   "antes": 177.22,
    "descuento": 78,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0H5PCB56J",
    "keepa": "https://keepa.com/#!product/9-B0H5PCB56J",
    "stock": null,
-   "stock_ts": 1793993954
-  },
-  {
-   "clave": "9:B00NUF4U2G",
-   "asin": "B00NUF4U2G",
-   "mercado": "ES",
-   "titulo": "Kit de reparación, palanca de cambio de marchas JP GROUP JP GROUP 1231700310",
-   "precio": 35.33,
-   "antes": 139.84,
-   "descuento": 75,
-   "error": true,
-   "categoria": "Coche y moto",
-   "url": "https://www.amazon.es/dp/B00NUF4U2G",
-   "keepa": "https://keepa.com/#!product/9-B00NUF4U2G",
-   "stock": null,
-   "stock_ts": 1793993954
+   "stock_ts": 1793999613
   },
   {
    "clave": "9:B0D1KFWST9",
@@ -114,14 +99,14 @@
    "mercado": "ES",
    "titulo": "MOUMOUTEN Cuchara De Mango Largo, Agitadores De Café Negro Mate, Cuchara De Té Helado De Acero Inoxidable",
    "precio": 16.49,
-   "antes": 111.95,
+   "antes": 108.97,
    "descuento": 85,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0D1KFWST9",
    "keepa": "https://keepa.com/#!product/9-B0D1KFWST9",
    "stock": null,
-   "stock_ts": 1793993954
+   "stock_ts": 1793999613
   },
   {
    "clave": "9:B00RXEL4C4",
@@ -129,14 +114,14 @@
    "mercado": "ES",
    "titulo": "BOL CUADRADO DE MELAMINA 24X24X10 CM BLANCO",
    "precio": 28.66,
-   "antes": 121.98,
-   "descuento": 77,
+   "antes": 119.97,
+   "descuento": 76,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B00RXEL4C4",
    "keepa": "https://keepa.com/#!product/9-B00RXEL4C4",
    "stock": 22,
-   "stock_ts": 1793993954
+   "stock_ts": 1793999613
   },
   {
    "clave": "3:B0G3Q2PMYH",
@@ -144,14 +129,14 @@
    "mercado": "DE",
    "titulo": "[DE] MONROE STABILISER LINK | L80K02 | FRONT RIGHT | FOR JEEP WRANGLER II 1996-2008 | OE-MATCHING QUALITY | ST",
    "precio": 24.54,
-   "antes": 97.8,
+   "antes": 96.53,
    "descuento": 75,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0G3Q2PMYH",
    "keepa": "https://keepa.com/#!product/3-B0G3Q2PMYH",
    "stock": null,
-   "stock_ts": 1793993954
+   "stock_ts": 1793999613
   },
   {
    "clave": "9:B0GXDPC8TP",
@@ -159,14 +144,14 @@
    "mercado": "ES",
    "titulo": "Auriculares inalámbricos Bluetooth 5.4, auriculares intraurales con pantalla táctil, micrófono ANC y ENC,",
    "precio": 22.48,
-   "antes": 89.95,
+   "antes": 88.34,
    "descuento": 75,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B0GXDPC8TP",
    "keepa": "https://keepa.com/#!product/9-B0GXDPC8TP",
    "stock": null,
-   "stock_ts": 1793993954
+   "stock_ts": 1793999613
   },
   {
    "clave": "9:B0C2Z8PBTX",
@@ -174,14 +159,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 81.41,
+   "antes": 80.23,
    "descuento": 79,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2Z8PBTX",
    "keepa": "https://keepa.com/#!product/9-B0C2Z8PBTX",
    "stock": null,
-   "stock_ts": 1793993954
+   "stock_ts": 1793999613
   },
   {
    "clave": "9:B0G4NC8D23",
@@ -189,14 +174,14 @@
    "mercado": "ES",
    "titulo": "uaue Reloj Inteligente Mujer Hombre, IA Interactiva Smartwatch con Llamadas Bluetooth, 1.91'' HD Smart Wa",
    "precio": 19.99,
-   "antes": 80.83,
+   "antes": 79.71,
    "descuento": 75,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B0G4NC8D23",
    "keepa": "https://keepa.com/#!product/9-B0G4NC8D23",
    "stock": 248,
-   "stock_ts": 1793993954
+   "stock_ts": 1793999613
   },
   {
    "clave": "4:B00BJQ9WCG",
@@ -204,14 +189,14 @@
    "mercado": "FR",
    "titulo": "[FR] Delphi tD413W de fixation",
    "precio": 16.76,
-   "antes": 73.8,
+   "antes": 72.04,
    "descuento": 77,
    "error": true,
    "categoria": "Auto et Moto",
    "url": "https://www.amazon.fr/dp/B00BJQ9WCG",
    "keepa": "https://keepa.com/#!product/4-B00BJQ9WCG",
    "stock": 21,
-   "stock_ts": 1793993954
+   "stock_ts": 1793999613
   }
  ]
 }
