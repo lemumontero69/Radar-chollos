@@ -1,4 +1,4 @@
-import json, os, sys, time, requests
+import json, os, subprocess, sys, time, requests
 
 KEY = os.environ.get("KEEPA_KEY")
 TOPIC = os.environ.get("NTFY_TOPIC")
@@ -13,9 +13,9 @@ MERCADOS = [("www.amazon.es", "ES", 9, [0, 1], 2),
             ("www.amazon.fr", "FR", 4, [0], 1),
             ("www.amazon.it", "IT", 8, [0], 1)]
 # tipo de precio: 0 = vendido por Amazon, 1 = nuevo de otros vendedores
-MIN_DESCUENTO = 80           # % minimo para aparecer en la lista
+MIN_DESCUENTO = 75           # % minimo para aparecer en la lista
 MAX_DESCUENTO = 99           # por encima se considera dato roto
-ERROR_PRECIO = 80            # % desde el que se marca como posible error de precio
+ERROR_PRECIO = 75            # % desde el que se marca como posible error de precio (y se avisa)
 PRECIO_MIN, PRECIO_MAX = 100, 600000    # en centimos: de 1 EUR a 6.000 EUR
 PRECIO_ANTES_MIN = 5000      # ignora productos cuyo precio normal sea menor de 50 EUR
 SOLO_CATEGORIAS = True       # pon False para vigilar todas las categorias
@@ -25,6 +25,15 @@ RECHEQUEO_STOCK = 3600       # segundos hasta volver a mirar el stock de un chol
 EXIGIR_MES = True            # descarta productos sin al menos un mes de historial de precios
 LISTA_RATIO = 0.5            # si Amazon tiene "precio de lista" y el precio actual supera esta fraccion, no es error
 RANK_MAX = 200000            # descarta productos que casi nunca se venden (ranking medio peor que esto)
+# --- modo continuo (--bucle): una sola ejecucion de GitHub vigila durante muchos minutos ---
+INTERVALO = 120              # segundos entre ciclos
+CICLO_COMPLETO = 300         # cada cuantos segundos se hace el ciclo completo (4 paises); entre medias, solo Espana
+PUBLICAR_CADA = 420          # segundos minimos entre publicaciones de la web (GitHub limita las publicaciones)
+RESERVA_RAPIDO = 100         # si quedan menos tokens de Keepa que esto, se salta el ciclo rapido
+RESERVA_COMPLETO = 70        # idem para el ciclo completo
+CATS_CACHE = {}              # categorias descubiertas por pais, para no pagarlas en cada ciclo rapido
+TOKENS = None                # ultimo saldo de tokens conocido
+ULTIMO_PUSH = 0
 CATEGORIAS = [  # trozos del nombre de categoria en espanol, aleman, frances e italiano
     "electr", "inform", "videojuego", "foto", "camara", "c\u00e1mara", "hogar", "cocina",
     "electrodom", "coche", "moto", "bricolaje", "herramientas",
@@ -39,6 +48,10 @@ CATEGORIAS = [  # trozos del nombre de categoria en espanol, aleman, frances e i
 CATEGORIAS_COMIDA = [   # alimentacion y bebidas (ES, DE, FR, IT)
     "aliment", "bebida", "supermercado", "lebensmittel", "getr", "picerie", "boissons"]
 CATEGORIAS += CATEGORIAS_COMIDA
+CATEGORIAS_BELLEZA = [   # belleza, perfumes y cuidado personal (solo pasan las marcas de MARCAS)
+    "belleza", "perfum", "cuidado personal", "beauty", "körperpflege", "drogerie",
+    "beauté", "bellezza", "cura della persona"]
+CATEGORIAS += CATEGORIAS_BELLEZA
 PRECIO_ANTES_MIN_COMIDA = 2000   # en comida y bebida se vigilan productos cuyo precio normal sea desde 20 EUR
 CATEGORIAS_MARCA = [   # en estas categorias solo se avisa si el titulo contiene una marca de MARCAS
     "ropa", "zapato", "reloj", "bekleidung", "schuhe", "uhren", "vêtement", "chaussures",
@@ -53,7 +66,13 @@ MARCAS = [   # marcas caras que te interesan: anade o quita las que quieras (en 
     "daniel wellington", "emporio armani", "bulova", "festina", "maurice lacroix",
     "tous", "ray-ban", "rayban", "oakley", "swarovski", "pandora", "carolina herrera",
     "montblanc", "mont blanc", "furla", "coach", "victorinox", "polo ralph", "hackett",
-    "pepe jeans", "replay", "scalpers", "massimo dutti"]
+    "pepe jeans", "replay", "scalpers", "massimo dutti",
+    # belleza y cuidado personal
+    "ghd", "dyson", "babyliss", "braun", "philips", "remington", "oral-b", "rowenta", "parlux",
+    "olaplex", "chanel", "dior", "paco rabanne", "yves saint laurent", "lancôme", "lancome",
+    "estee lauder", "estée lauder", "clinique", "shiseido", "kérastase", "kerastase",
+    "moroccanoil", "wella", "cloud nine", "t3 ", "revlon", "cecotec", "xiaomi", "panasonic"]
+CATEGORIAS_MARCA += CATEGORIAS_BELLEZA
 EXCLUIR_TITULO = [
     "funda", "cubierta", "cubre", "lona", "toldo", "parasol", "alfombrilla", "limpia",
     "ambientador", "protector", "pegatina", "adhesivo", "vinilo", "cera ", "pulid", "aceite",
@@ -86,7 +105,7 @@ def consulta(dom, tipo, pag, nivel):
     return base
 
 def pedir(dom, tipo, pag):
-    global NIVEL
+    global NIVEL, TOKENS
     while NIVEL <= 2:
         try:
             r = requests.post("https://api.keepa.com/deal", params={"key": KEY},
@@ -100,6 +119,7 @@ def pedir(dom, tipo, pag):
         if r.status_code != 200:
             print("Aviso Keepa", dom, tipo, pag, r.status_code, r.text[:300]); return None
         d = r.json()
+        if isinstance(d.get("tokensLeft"), (int, float)): TOKENS = d["tokensLeft"]
         print("nivel", NIVEL, "| tokens restantes:", d.get("tokensLeft"))
         return d.get("deals") or {}
     return None
@@ -160,7 +180,7 @@ def avisar(x):
         except Exception as e:
             print("pushover fallo", e)
 
-def main():
+def main(rapido=False):
     if "--prueba" in sys.argv:
         avisar({"titulo": "Mensaje de prueba del radar de chollos", "precio": 19.99,
                 "antes": 499.0, "descuento": 96, "stock": 5, "url": "https://www.amazon.es"})
@@ -177,14 +197,20 @@ def main():
     vistos, cats_vistas, ok = {}, {}, False
     global CATS
     for host, cod, dom, tipos, paginas in MERCADOS:
-        CATS = []   # sin filtro al descubrir categorias (antes arrastraba las del pais anterior)
-        d0 = pedir(dom, tipos[0], 0)
-        if d0 is None:
-            print("Aviso: mercado", cod, "sin respuesta"); continue
-        if NIVEL == 0:
-            CATS = [i for i, n in zip(d0.get("categoryIds", []), d0.get("categoryNames", []))
-                    if any(c in n.lower() for c in CATEGORIAS)]
-        print(cod, "categorias elegidas:", CATS)
+        if rapido and cod != "ES": continue    # ciclo rapido: solo Espana y una pagina
+        if rapido: paginas = 1
+        if rapido and cod in CATS_CACHE:
+            CATS = CATS_CACHE[cod]
+        else:
+            CATS = []   # sin filtro al descubrir categorias (antes arrastraba las del pais anterior)
+            d0 = pedir(dom, tipos[0], 0)
+            if d0 is None:
+                print("Aviso: mercado", cod, "sin respuesta"); continue
+            if NIVEL == 0:
+                CATS = [i for i, n in zip(d0.get("categoryIds", []), d0.get("categoryNames", []))
+                        if any(c in n.lower() for c in CATEGORIAS)]
+            CATS_CACHE[cod] = CATS
+            print(cod, "categorias elegidas:", CATS)
         for tipo in tipos:
             for pag in range(paginas):
                 deals = pedir(dom, tipo, pag)
@@ -237,6 +263,9 @@ def main():
                 time.sleep(1)
     if not ok:
         print("Keepa no respondio; se conserva la lista anterior"); sys.exit(1)
+    if rapido:   # el ciclo rapido solo anade novedades de Espana: conserva lo anterior (el completo lo limpia)
+        for c in prev.get("chollos", []):
+            vistos.setdefault(c.get("clave", "9:" + c["asin"]), c).setdefault("clave", c.get("clave", "9:" + c["asin"]))
     print("categorias vistas:", cats_vistas)
     # stock: se consulta a Keepa solo en chollos nuevos (o vistos hace mas de RECHEQUEO_STOCK)
     prev_stock = {c.get("clave"): (c.get("stock"), c.get("stock_ts", 0)) for c in prev.get("chollos", [])}
@@ -275,4 +304,46 @@ def main():
                "descartados": descartados, "chollos": lista}, open("deals.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(len(lista), "chollos")
 
-main()
+def sh(*a):
+    return subprocess.run(a, capture_output=True, text=True)
+
+def publicar(forzar=False):
+    """Sube deals.json a GitHub (la web lo lee de ahi), como mucho cada PUBLICAR_CADA segundos."""
+    global ULTIMO_PUSH
+    if not os.environ.get("GITHUB_ACTIONS"): return
+    if not forzar and time.time() - ULTIMO_PUSH < PUBLICAR_CADA: return
+    if sh("git", "diff", "--quiet", "deals.json").returncode == 0: return    # sin cambios
+    sh("git", "add", "deals.json")
+    sh("git", "commit", "-m", "chollos")
+    sh("git", "pull", "--rebase", "-X", "theirs", "origin", "main")
+    r = sh("git", "push")
+    ULTIMO_PUSH = time.time()
+    print("web publicada" if r.returncode == 0 else "push fallo: " + (r.stderr or "")[:200])
+
+def bucle(minutos):
+    fin = time.time() + minutos * 60
+    ultimo_completo = 0
+    while time.time() < fin:
+        t0 = time.time()
+        completo = t0 - ultimo_completo >= CICLO_COMPLETO
+        reserva = RESERVA_COMPLETO if completo else RESERVA_RAPIDO
+        if TOKENS is not None and TOKENS < reserva:
+            print("pocos tokens de Keepa (", TOKENS, "), salto este ciclo")
+        else:
+            print("--- ciclo", "completo" if completo else "rapido", time.strftime("%H:%M:%S", time.gmtime()))
+            try:
+                main(rapido=not completo)
+            except SystemExit:
+                print("ciclo sin respuesta de Keepa")
+            except Exception as e:
+                print("ciclo fallo:", repr(e)[:200])
+            if completo: ultimo_completo = t0
+            publicar()
+        resto = min(INTERVALO - (time.time() - t0), fin - time.time())
+        if resto > 0: time.sleep(resto)
+    publicar(forzar=True)
+
+if "--bucle" in sys.argv:
+    bucle(int(sys.argv[sys.argv.index("--bucle") + 1]))
+else:
+    main()
