@@ -1,6 +1,6 @@
 {
- "actualizado": "07/11/2026 04:14 UTC",
- "ts": 1794024844,
+ "actualizado": "07/11/2026 05:06 UTC",
+ "ts": 1794027983,
  "descartados": {},
  "chollos": [
   {
@@ -9,14 +9,14 @@
    "mercado": "ES",
    "titulo": "Master Lock 5KA-A297 Candados laminados con llave igual de 5 cm - Cantidad 88",
    "precio": 433.09,
-   "antes": 2496.9,
-   "descuento": 83,
+   "antes": 2444.56,
+   "descuento": 82,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B074XCMYZH",
    "keepa": "https://keepa.com/#!product/9-B074XCMYZH",
    "stock": null,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   },
   {
    "clave": "9:B0HP83WJNY",
@@ -24,14 +24,14 @@
    "mercado": "ES",
    "titulo": "ZORVENA Cama de madera, cama infantil, espacio de almacenamiento, 140 x 200 cm, cama de almacenamiento mu",
    "precio": 440.92,
-   "antes": 2247.11,
+   "antes": 2211.24,
    "descuento": 80,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0HP83WJNY",
    "keepa": "https://keepa.com/#!product/9-B0HP83WJNY",
    "stock": 30,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   },
   {
    "clave": "8:B0HD7RF3ND",
@@ -39,14 +39,14 @@
    "mercado": "IT",
    "titulo": "[IT] APC Easy UPS, 2200 VA, torre, 230 V, 4 prese CEE 7/3 Schuko, AVR",
    "precio": 422.4,
-   "antes": 1988.09,
-   "descuento": 79,
+   "antes": 1956.75,
+   "descuento": 78,
    "error": true,
    "categoria": "Informatica",
    "url": "https://www.amazon.it/dp/B0HD7RF3ND",
    "keepa": "https://keepa.com/#!product/8-B0HD7RF3ND",
    "stock": 1000,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   },
   {
    "clave": "9:B0HPJY3NSW",
@@ -54,14 +54,14 @@
    "mercado": "ES",
    "titulo": "Versear Puerta de jardín de metal con cierre de , puerta de entrada, color negro, 102 x 125 cm",
    "precio": 183.8,
-   "antes": 804.99,
+   "antes": 782.6,
    "descuento": 77,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0HPJY3NSW",
    "keepa": "https://keepa.com/#!product/9-B0HPJY3NSW",
    "stock": 186,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   },
   {
    "clave": "9:B0HPK38YJW",
@@ -69,14 +69,14 @@
    "mercado": "ES",
    "titulo": "Versear Puerta de jardín de metal, puerta de jardín, con cerradura, puerta de entrada, 100 x 150 cm, tipo",
    "precio": 185.1,
-   "antes": 805.2,
-   "descuento": 77,
+   "antes": 782.84,
+   "descuento": 76,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0HPK38YJW",
    "keepa": "https://keepa.com/#!product/9-B0HPK38YJW",
    "stock": 119,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   },
   {
    "clave": "9:B01F4OLURI",
@@ -84,7 +84,7 @@
    "mercado": "ES",
    "titulo": "Siemens sirius atc - Plaquita 12,5x27mm negro inscripción sous tensión blanco",
    "precio": 27.39,
-   "antes": 477.05,
+   "antes": 468.35,
    "descuento": 94,
    "error": true,
    "categoria": "Bricolaje y herramientas",
@@ -99,44 +99,14 @@
    "mercado": "ES",
    "titulo": "Siemens sirius atc - Plaquita 27x27mm negro letra blanco inscripción manu automata",
    "precio": 27.48,
-   "antes": 456.53,
+   "antes": 446.84,
    "descuento": 94,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01F4OKU8S",
    "keepa": "https://keepa.com/#!product/9-B01F4OKU8S",
    "stock": null,
-   "stock_ts": 1794021562
-  },
-  {
-   "clave": "9:B01F4OKJYI",
-   "asin": "B01F4OKJYI",
-   "mercado": "ES",
-   "titulo": "Siemens sirius atc - Plaquita interior letra negro simbolo preparar",
-   "precio": 27.33,
-   "antes": 444.03,
-   "descuento": 94,
-   "error": true,
-   "categoria": "Electrónica",
-   "url": "https://www.amazon.es/dp/B01F4OKJYI",
-   "keepa": "https://keepa.com/#!product/9-B01F4OKJYI",
-   "stock": null,
-   "stock_ts": 1794021562
-  },
-  {
-   "clave": "9:B01F4OLCF8",
-   "asin": "B01F4OLCF8",
-   "mercado": "ES",
-   "titulo": "Siemens sirius atc - Plaquita interior lacteo letra negro inscripción links",
-   "precio": 27.33,
-   "antes": 444.03,
-   "descuento": 94,
-   "error": true,
-   "categoria": "Electrónica",
-   "url": "https://www.amazon.es/dp/B01F4OLCF8",
-   "keepa": "https://keepa.com/#!product/9-B01F4OLCF8",
-   "stock": null,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   },
   {
    "clave": "9:B000SKDUW2",
@@ -144,14 +114,29 @@
    "mercado": "ES",
    "titulo": "Fujitsu - Garantía para Servicio de reparación presencial del escáner fi-5750c (3 años, horario de Lunes ",
    "precio": 100.38,
-   "antes": 397.85,
+   "antes": 397.48,
    "descuento": 75,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B000SKDUW2",
    "keepa": "https://keepa.com/#!product/9-B000SKDUW2",
    "stock": 3,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
+  },
+  {
+   "clave": "9:B003AGCXCO",
+   "asin": "B003AGCXCO",
+   "mercado": "ES",
+   "titulo": "Siemens - Fusible nh-690v t-1 100a indicador central",
+   "precio": 58.81,
+   "antes": 250.23,
+   "descuento": 76,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B003AGCXCO",
+   "keepa": "https://keepa.com/#!product/9-B003AGCXCO",
+   "stock": null,
+   "stock_ts": 1794027975
   },
   {
    "clave": "9:B01KO1D1LO",
@@ -159,14 +144,14 @@
    "mercado": "ES",
    "titulo": "Krafft - Anticongelante cc-30 Profesional 1l Amarillo (en 200l)",
    "precio": 13.71,
-   "antes": 200.64,
+   "antes": 190.48,
    "descuento": 93,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B01KO1D1LO",
    "keepa": "https://keepa.com/#!product/9-B01KO1D1LO",
    "stock": null,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   },
   {
    "clave": "9:B0DFYQ5LL1",
@@ -174,8 +159,8 @@
    "mercado": "ES",
    "titulo": "QUADRON, grifo de cocina RACHEL SteelQ, grifo mezclador 360°, función QFix, color: dorado, altura: 33 cm,",
    "precio": 28.5,
-   "antes": 185.54,
-   "descuento": 85,
+   "antes": 182.64,
+   "descuento": 84,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0DFYQ5LL1",
@@ -189,7 +174,7 @@
    "mercado": "ES",
    "titulo": "Blue PrintBomba de Agua ADS79124 Olivos con Sellado Ringnew Paquete de 1",
    "precio": 46.87,
-   "antes": 197.74,
+   "antes": 194.83,
    "descuento": 76,
    "error": true,
    "categoria": "Coche y moto",
@@ -199,19 +184,34 @@
    "stock_ts": 1794024840
   },
   {
+   "clave": "9:B0BHXN4TL2",
+   "asin": "B0BHXN4TL2",
+   "mercado": "ES",
+   "titulo": "PRASCO Verbreiterung, Kotflügel VG8071581",
+   "precio": 22.02,
+   "antes": 166.42,
+   "descuento": 87,
+   "error": true,
+   "categoria": "Coche y moto",
+   "url": "https://www.amazon.es/dp/B0BHXN4TL2",
+   "keepa": "https://keepa.com/#!product/9-B0BHXN4TL2",
+   "stock": null,
+   "stock_ts": 1794027975
+  },
+  {
    "clave": "9:B0FX4RGQ8M",
    "asin": "B0FX4RGQ8M",
    "mercado": "ES",
    "titulo": "Gafas Eclipse Solar Homologadas ISO 12312-2 CE EPI | Lentes para Eclipse Solar | Fabricante Europeo Recon",
    "precio": 39.99,
-   "antes": 180.45,
-   "descuento": 78,
+   "antes": 177.3,
+   "descuento": 77,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0FX4RGQ8M",
    "keepa": "https://keepa.com/#!product/9-B0FX4RGQ8M",
    "stock": 10,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   },
   {
    "clave": "9:B010SE68ZS",
@@ -219,14 +219,14 @@
    "mercado": "ES",
    "titulo": "NTN rodamientos 6406 C3 sola fila profundo surco rodamiento de bolas radial, C3 Remoción, jaula de acero,",
    "precio": 39.41,
-   "antes": 174.72,
+   "antes": 171.67,
    "descuento": 77,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B010SE68ZS",
    "keepa": "https://keepa.com/#!product/9-B010SE68ZS",
    "stock": null,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   },
   {
    "clave": "9:B0FX4KWC9W",
@@ -234,29 +234,14 @@
    "mercado": "ES",
    "titulo": "Gafas Eclipse Solar Homologadas ISO 12312-2 CE EPI | Lentes para Eclipse Solar | Fabricante Europeo Recon",
    "precio": 39.99,
-   "antes": 171.35,
-   "descuento": 77,
+   "antes": 168.2,
+   "descuento": 76,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0FX4KWC9W",
    "keepa": "https://keepa.com/#!product/9-B0FX4KWC9W",
    "stock": 14,
-   "stock_ts": 1794021562
-  },
-  {
-   "clave": "9:B0H5PCB56J",
-   "asin": "B0H5PCB56J",
-   "mercado": "ES",
-   "titulo": "staronce Manta Eléctrica Grande 180×130cm, 10 Niveles de Calor, Apagado Automático y Protección contra So",
-   "precio": 38.98,
-   "antes": 153.88,
-   "descuento": 75,
-   "error": true,
-   "categoria": "Hogar y cocina",
-   "url": "https://www.amazon.es/dp/B0H5PCB56J",
-   "keepa": "https://keepa.com/#!product/9-B0H5PCB56J",
-   "stock": null,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   },
   {
    "clave": "9:B06XQ4KP9J",
@@ -264,14 +249,14 @@
    "mercado": "ES",
    "titulo": "Intel CM8067702868011 - Procesador Core i5-7600 (caché de 6 m, hasta 4,10 GHz) 3,5 GHz 6 MB Smart",
    "precio": 19.73,
-   "antes": 121.95,
+   "antes": 121.81,
    "descuento": 84,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B06XQ4KP9J",
    "keepa": "https://keepa.com/#!product/9-B06XQ4KP9J",
    "stock": 20,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   },
   {
    "clave": "9:B0C2Z74FTC",
@@ -279,14 +264,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 114.08,
+   "antes": 112.08,
    "descuento": 85,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2Z74FTC",
    "keepa": "https://keepa.com/#!product/9-B0C2Z74FTC",
    "stock": null,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   },
   {
    "clave": "9:B0BCWWKYQ5",
@@ -294,14 +279,14 @@
    "mercado": "ES",
    "titulo": "Schneider Electric Compartim. P Forma 4a Placa Pasac.3/4Mod marca",
    "precio": 28.41,
-   "antes": 114.23,
+   "antes": 113.64,
    "descuento": 75,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0BCWWKYQ5",
    "keepa": "https://keepa.com/#!product/9-B0BCWWKYQ5",
    "stock": 5,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   },
   {
    "clave": "4:B07YBVYVBD",
@@ -309,29 +294,14 @@
    "mercado": "FR",
    "titulo": "[FR] PROPART Triple Prise, Blanc",
    "precio": 9.84,
-   "antes": 91.45,
+   "antes": 91.37,
    "descuento": 89,
    "error": true,
    "categoria": "Bricolage",
    "url": "https://www.amazon.fr/dp/B07YBVYVBD",
    "keepa": "https://keepa.com/#!product/4-B07YBVYVBD",
    "stock": 1000,
-   "stock_ts": 1794021562
-  },
-  {
-   "clave": "9:B0FX4MCRLM",
-   "asin": "B0FX4MCRLM",
-   "mercado": "ES",
-   "titulo": "Gafas Eclipse Solar Homologadas ISO 12312-2 CE EPI | Lentes para Eclipse Solar | Fabricante Europeo Recon",
-   "precio": 24.99,
-   "antes": 99.64,
-   "descuento": 75,
-   "error": true,
-   "categoria": "Bricolaje y herramientas",
-   "url": "https://www.amazon.es/dp/B0FX4MCRLM",
-   "keepa": "https://keepa.com/#!product/9-B0FX4MCRLM",
-   "stock": 10,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   },
   {
    "clave": "9:B07X7H3Y5H",
@@ -339,14 +309,14 @@
    "mercado": "ES",
    "titulo": "pferd 61312516 DIY",
    "precio": 11.0,
-   "antes": 80.55,
+   "antes": 78.21,
    "descuento": 86,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B07X7H3Y5H",
    "keepa": "https://keepa.com/#!product/9-B07X7H3Y5H",
    "stock": null,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   },
   {
    "clave": "9:B0D1KFWST9",
@@ -354,14 +324,14 @@
    "mercado": "ES",
    "titulo": "MOUMOUTEN Cuchara De Mango Largo, Agitadores De Café Negro Mate, Cuchara De Té Helado De Acero Inoxidable",
    "precio": 16.49,
-   "antes": 81.81,
-   "descuento": 80,
+   "antes": 78.38,
+   "descuento": 79,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0D1KFWST9",
    "keepa": "https://keepa.com/#!product/9-B0D1KFWST9",
    "stock": null,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   },
   {
    "clave": "9:B0C2Z8PBTX",
@@ -369,14 +339,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 69.43,
-   "descuento": 76,
+   "antes": 68.07,
+   "descuento": 75,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2Z8PBTX",
    "keepa": "https://keepa.com/#!product/9-B0C2Z8PBTX",
    "stock": null,
-   "stock_ts": 1794021562
+   "stock_ts": 1794027975
   }
  ]
 }
