@@ -1,8 +1,8 @@
 {
- "actualizado": "08/11/2026 20:37 UTC",
- "ts": 1794170241,
+ "actualizado": "08/11/2026 21:15 UTC",
+ "ts": 1794172559,
  "descartados": {
-  "4:B00ZB77JAG": 1794168019
+  "4:B00ZB77JAG": 1794172543
  },
  "chollos": [
   {
@@ -11,7 +11,7 @@
    "mercado": "ES",
    "titulo": "3VA6460-5HN41-0AA0 - Interruptor 3VA6 UL Frame 600 Clase M",
    "precio": 2942.69,
-   "antes": 12759.08,
+   "antes": 12585.02,
    "descuento": 77,
    "error": true,
    "categoria": "Bricolaje y herramientas",
@@ -26,8 +26,8 @@
    "mercado": "ES",
    "titulo": "3VA6340-6HN41-0AA0 - Interruptor 3VA6 UL Frame 400 Clase H",
    "precio": 2478.83,
-   "antes": 12108.48,
-   "descuento": 80,
+   "antes": 11962.98,
+   "descuento": 79,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0796YBJ97",
@@ -41,14 +41,14 @@
    "mercado": "ES",
    "titulo": "3VA6210-7HM31-0AA0 - Interruptor 3VA6 UL Frame 250 Clase C",
    "precio": 1776.39,
-   "antes": 8552.11,
+   "antes": 8447.36,
    "descuento": 79,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0796WXPXS",
    "keepa": "https://keepa.com/#!product/9-B0796WXPXS",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B09Y9K176D",
@@ -56,14 +56,14 @@
    "mercado": "ES",
    "titulo": "Siemens 3VA1463-4FF42-0AA0 Interruptor automático, 3VA1, S Class, 36Ka ICU, 4 Pole, TM240 Protección cont",
    "precio": 1656.82,
-   "antes": 8407.41,
+   "antes": 8281.48,
    "descuento": 80,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B09Y9K176D",
    "keepa": "https://keepa.com/#!product/9-B09Y9K176D",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B01J5T71VC",
@@ -71,14 +71,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Liston alimentación 910a 690v fusible especial nh3 3 polos",
    "precio": 2118.25,
-   "antes": 8649.6,
-   "descuento": 76,
+   "antes": 8541.17,
+   "descuento": 75,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01J5T71VC",
    "keepa": "https://keepa.com/#!product/9-B01J5T71VC",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0796WNBTX",
@@ -86,14 +86,14 @@
    "mercado": "ES",
    "titulo": "3VA6210-8HL31-0AA0 - Interruptor 3VA6 UL Frame 250 Clase L",
    "precio": 1703.53,
-   "antes": 7337.75,
-   "descuento": 77,
+   "antes": 7237.75,
+   "descuento": 76,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0796WNBTX",
    "keepa": "https://keepa.com/#!product/9-B0796WNBTX",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0796WPXCL",
@@ -101,29 +101,14 @@
    "mercado": "ES",
    "titulo": "3VA6225-7HN31-0AA0 - Interruptor 3VA6 UL Frame 250 Clase C",
    "precio": 1590.84,
-   "antes": 7132.08,
-   "descuento": 78,
+   "antes": 7039.31,
+   "descuento": 77,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0796WPXCL",
    "keepa": "https://keepa.com/#!product/9-B0796WPXCL",
    "stock": null,
-   "stock_ts": 1794168019
-  },
-  {
-   "clave": "9:B07ZMCWV6V",
-   "asin": "B07ZMCWV6V",
-   "mercado": "ES",
-   "titulo": "Siemens 3VA1450-4EF32-0AA0 Disyuntor 1 pieza Rango de ajuste (corriente): 350-500 A Voltaje de conmutació",
-   "precio": 1194.23,
-   "antes": 5763.12,
-   "descuento": 79,
-   "error": true,
-   "categoria": "Bricolaje y herramientas",
-   "url": "https://www.amazon.es/dp/B07ZMCWV6V",
-   "keepa": "https://keepa.com/#!product/9-B07ZMCWV6V",
-   "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0796WGJCH",
@@ -131,14 +116,29 @@
    "mercado": "ES",
    "titulo": "Siemens 3VA61407HM410AA0 Sentron Clase Eléctrico C Moldeada Caja Circuito Interruptor, 40A, 600 VAC Volta",
    "precio": 1089.0,
-   "antes": 5635.33,
-   "descuento": 81,
+   "antes": 5566.63,
+   "descuento": 80,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0796WGJCH",
    "keepa": "https://keepa.com/#!product/9-B0796WGJCH",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
+  },
+  {
+   "clave": "9:B07ZMCWV6V",
+   "asin": "B07ZMCWV6V",
+   "mercado": "ES",
+   "titulo": "Siemens 3VA1450-4EF32-0AA0 Disyuntor 1 pieza Rango de ajuste (corriente): 350-500 A Voltaje de conmutació",
+   "precio": 1194.23,
+   "antes": 5665.03,
+   "descuento": 79,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B07ZMCWV6V",
+   "keepa": "https://keepa.com/#!product/9-B07ZMCWV6V",
+   "stock": null,
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0796X655X",
@@ -146,14 +146,14 @@
    "mercado": "ES",
    "titulo": "Siemens 3VA52207EC310AA0 Sentron Clase C Ultravioleta Marco Moldeada Caja Circuito Interruptor, 3 Polos, ",
    "precio": 948.06,
-   "antes": 5264.41,
+   "antes": 5198.51,
    "descuento": 82,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0796X655X",
    "keepa": "https://keepa.com/#!product/9-B0796X655X",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B01J5T8H3S",
@@ -161,14 +161,29 @@
    "mercado": "ES",
    "titulo": "Siemens - Prolongador contacto nh2-3 para aparatos 4 polos",
    "precio": 1320.37,
-   "antes": 5328.14,
+   "antes": 5261.11,
    "descuento": 75,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01J5T8H3S",
    "keepa": "https://keepa.com/#!product/9-B01J5T8H3S",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
+  },
+  {
+   "clave": "9:B01DBXOB3Y",
+   "asin": "B01DBXOB3Y",
+   "mercado": "ES",
+   "titulo": "Siemens sentron - Interruptor diferencial tipo-f 63a 3+neutro 300ma 400v 4 módulos",
+   "precio": 191.81,
+   "antes": 2867.53,
+   "descuento": 93,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B01DBXOB3Y",
+   "keepa": "https://keepa.com/#!product/9-B01DBXOB3Y",
+   "stock": null,
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B00NGTTAVC",
@@ -176,14 +191,14 @@
    "mercado": "ES",
    "titulo": "Siemens sentron-3va - Interruptor tamaño 100 clase hembra 85ka 3 polos etu330 40a tornillo",
    "precio": 676.69,
-   "antes": 3198.87,
-   "descuento": 79,
+   "antes": 3147.18,
+   "descuento": 78,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00NGTTAVC",
    "keepa": "https://keepa.com/#!product/9-B00NGTTAVC",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B00B7Z7UTQ",
@@ -191,14 +206,14 @@
    "mercado": "ES",
    "titulo": "Siemens sentron - Bloque diferencial -f para automático 2 polos 5sy4-6-7 0,3-40a",
    "precio": 163.76,
-   "antes": 2614.76,
+   "antes": 2569.04,
    "descuento": 94,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00B7Z7UTQ",
    "keepa": "https://keepa.com/#!product/9-B00B7Z7UTQ",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B00NGTS8NS",
@@ -206,7 +221,7 @@
    "mercado": "ES",
    "titulo": "Siemens sentron-3va - Interruptor tamaño 100 clase macho 55ka 4 polos etu320 40a borne",
    "precio": 556.87,
-   "antes": 2985.86,
+   "antes": 2952.9,
    "descuento": 81,
    "error": true,
    "categoria": "Bricolaje y herramientas",
@@ -221,14 +236,14 @@
    "mercado": "ES",
    "titulo": "Siemens 3VA5112-1MU31-0AA0 Disyuntor 1 St. Rango de ajuste (corriente): 125A (max) Voltaje de conmutación",
    "precio": 652.34,
-   "antes": 2983.59,
+   "antes": 2948.27,
    "descuento": 78,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0796X6B85",
    "keepa": "https://keepa.com/#!product/9-B0796X6B85",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B01DBXPSO0",
@@ -236,14 +251,14 @@
    "mercado": "ES",
    "titulo": "Siemens sentron - Diferencial tipo-f 40a 1+neutro 300ma 230v 2 módulos selectivo",
    "precio": 176.51,
-   "antes": 2464.77,
+   "antes": 2430.14,
    "descuento": 93,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01DBXPSO0",
    "keepa": "https://keepa.com/#!product/9-B01DBXPSO0",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0796VPXN8",
@@ -251,14 +266,14 @@
    "mercado": "ES",
    "titulo": "3VA5210-5ED61-0AA0 - Interruptor 3VA5 UL Frame 250 Clase M",
    "precio": 600.84,
-   "antes": 2722.75,
+   "antes": 2691.63,
    "descuento": 78,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0796VPXN8",
    "keepa": "https://keepa.com/#!product/9-B0796VPXN8",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0796WX9H3",
@@ -266,14 +281,14 @@
    "mercado": "ES",
    "titulo": "Siemens 3VA61701MS310AA0 Sentron Protección del Arrancador de Motor Moldeada Caja Circuito Interruptor, 7",
    "precio": 473.45,
-   "antes": 2590.06,
-   "descuento": 82,
+   "antes": 2557.74,
+   "descuento": 81,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0796WX9H3",
    "keepa": "https://keepa.com/#!product/9-B0796WX9H3",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B00B7Z8L4O",
@@ -281,14 +296,14 @@
    "mercado": "ES",
    "titulo": "Siemens sentron - Bloque automático +diferencial tipo-f 1+neutro curva-c 10a",
    "precio": 171.67,
-   "antes": 2055.72,
+   "antes": 2028.1,
    "descuento": 92,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00B7Z8L4O",
    "keepa": "https://keepa.com/#!product/9-B00B7Z8L4O",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0HPDWLH8H",
@@ -296,7 +311,7 @@
    "mercado": "ES",
    "titulo": "Ginhow Carrito Cocina Carro Auxiliar Estantería Estrecha 40×20×80cm",
    "precio": 50.44,
-   "antes": 1789.52,
+   "antes": 1723.63,
    "descuento": 97,
    "error": true,
    "categoria": "Hogar y cocina",
@@ -311,29 +326,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Bloque diferencial 6/63a 300ma 4 módulos",
    "precio": 256.93,
-   "antes": 1540.78,
+   "antes": 1521.24,
    "descuento": 83,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01J5TI6OI",
    "keepa": "https://keepa.com/#!product/9-B01J5TI6OI",
    "stock": null,
-   "stock_ts": 1794168019
-  },
-  {
-   "clave": "9:B01DBXK1O2",
-   "asin": "B01DBXK1O2",
-   "mercado": "ES",
-   "titulo": "Siemens sentron-3va - Interruptor secciónador/secciónable frame 160 4 polos 160a borne",
-   "precio": 385.54,
-   "antes": 1648.71,
-   "descuento": 77,
-   "error": true,
-   "categoria": "Electrónica",
-   "url": "https://www.amazon.es/dp/B01DBXK1O2",
-   "keepa": "https://keepa.com/#!product/9-B01DBXK1O2",
-   "stock": null,
-   "stock_ts": 1794170231
+   "stock_ts": 1794172543
   },
   {
    "clave": "3:B0HD7C1N91",
@@ -341,7 +341,7 @@
    "mercado": "DE",
    "titulo": "[DE] APC Easy UPS, 700VA, Tower, 230V, 4X IEC-C13-Steckdosen, AVR",
    "precio": 196.83,
-   "antes": 1412.79,
+   "antes": 1387.26,
    "descuento": 86,
    "error": true,
    "categoria": "Computer & Zubehör",
@@ -356,7 +356,7 @@
    "mercado": "ES",
    "titulo": "Siemens sentron - Diferencial tipo-a 25a 3+neutro 300ma 400v 4 módulos selectivo",
    "precio": 102.66,
-   "antes": 1198.15,
+   "antes": 1183.53,
    "descuento": 91,
    "error": true,
    "categoria": "Bricolaje y herramientas",
@@ -366,27 +366,12 @@
    "stock_ts": 1794170231
   },
   {
-   "clave": "9:B0C94W2QMR",
-   "asin": "B0C94W2QMR",
-   "mercado": "ES",
-   "titulo": "Wilmax Plato de 15 cm | Platos de bambú | Platos de madera | Plato de pastel | Plato para servir | Plato ",
-   "precio": 24.8,
-   "antes": 1051.58,
-   "descuento": 98,
-   "error": true,
-   "categoria": "Hogar y cocina",
-   "url": "https://www.amazon.es/dp/B0C94W2QMR",
-   "keepa": "https://keepa.com/#!product/9-B0C94W2QMR",
-   "stock": null,
-   "stock_ts": 1794170231
-  },
-  {
    "clave": "9:B06XBZP71X",
    "asin": "B06XBZP71X",
    "mercado": "ES",
    "titulo": "Siemens 5SM6024-2 corta circuito - Corta circuitos (Multicolor, 105 g)",
    "precio": 323.72,
-   "antes": 1340.96,
+   "antes": 1327.1,
    "descuento": 76,
    "error": true,
    "categoria": "Bricolaje y herramientas",
@@ -396,12 +381,27 @@
    "stock_ts": 1794170231
   },
   {
+   "clave": "9:B0C94W2QMR",
+   "asin": "B0C94W2QMR",
+   "mercado": "ES",
+   "titulo": "Wilmax Plato de 15 cm | Platos de bambú | Platos de madera | Plato de pastel | Plato para servir | Plato ",
+   "precio": 24.8,
+   "antes": 1025.58,
+   "descuento": 98,
+   "error": true,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0C94W2QMR",
+   "keepa": "https://keepa.com/#!product/9-B0C94W2QMR",
+   "stock": null,
+   "stock_ts": 1794170231
+  },
+  {
    "clave": "9:B0796WBBLZ",
    "asin": "B0796WBBLZ",
    "mercado": "ES",
    "titulo": "3VA5140-4EC31-0AA0 - Interruptor 3VA5 UL Frame 125 Clase S",
    "precio": 269.48,
-   "antes": 1277.07,
+   "antes": 1263.69,
    "descuento": 79,
    "error": true,
    "categoria": "Bricolaje y herramientas",
@@ -416,14 +416,59 @@
    "mercado": "ES",
    "titulo": "Siemens - Automático magnetotermico 10ka 3 polos c 13a 489-480y/277v",
    "precio": 186.86,
-   "antes": 1193.95,
+   "antes": 1178.56,
    "descuento": 84,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00HHUZGUU",
    "keepa": "https://keepa.com/#!product/9-B00HHUZGUU",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
+  },
+  {
+   "clave": "9:B0DP71H8BZ",
+   "asin": "B0DP71H8BZ",
+   "mercado": "ES",
+   "titulo": "SIEMENS Sentron 5SU1 Interruptor FI/LS 6A, 2 pines tipo B, sensibilidad 30 mA",
+   "precio": 116.97,
+   "antes": 1080.68,
+   "descuento": 89,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0DP71H8BZ",
+   "keepa": "https://keepa.com/#!product/9-B0DP71H8BZ",
+   "stock": null,
+   "stock_ts": 1794172543
+  },
+  {
+   "clave": "9:B0DP73H62S",
+   "asin": "B0DP73H62S",
+   "mercado": "ES",
+   "titulo": "SIEMENS Sentron 5SU1 Interruptor FI/LS 10A, 2 polos, tipo B, sensibilidad 30mA",
+   "precio": 116.97,
+   "antes": 1063.95,
+   "descuento": 89,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0DP73H62S",
+   "keepa": "https://keepa.com/#!product/9-B0DP73H62S",
+   "stock": null,
+   "stock_ts": 1794172543
+  },
+  {
+   "clave": "9:B0DP714917",
+   "asin": "B0DP714917",
+   "mercado": "ES",
+   "titulo": "SIEMENS Sentron 5SU1 - Interruptor FI/LS (16 A, 2 pines, tipo B, sensibilidad 30 mA)",
+   "precio": 116.97,
+   "antes": 1047.31,
+   "descuento": 89,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0DP714917",
+   "keepa": "https://keepa.com/#!product/9-B0DP714917",
+   "stock": null,
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0796W78Z2",
@@ -431,14 +476,29 @@
    "mercado": "ES",
    "titulo": "Siemens 3 va9687 – 0 FK25 montado Rotary Operador Emergency-Off IEC IP65 con Puerta de Enclavamiento Acce",
    "precio": 279.4,
-   "antes": 1205.48,
+   "antes": 1191.91,
    "descuento": 77,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0796W78Z2",
    "keepa": "https://keepa.com/#!product/9-B0796W78Z2",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
+  },
+  {
+   "clave": "9:B00NGVN98K",
+   "asin": "B00NGVN98K",
+   "mercado": "ES",
+   "titulo": "Siemens 5SP33633 5SP3363-3 - Disyuntor de circuito principal (63 A, 400 V)",
+   "precio": 274.09,
+   "antes": 1185.87,
+   "descuento": 77,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B00NGVN98K",
+   "keepa": "https://keepa.com/#!product/9-B00NGVN98K",
+   "stock": null,
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B00NGU0BSC",
@@ -446,14 +506,14 @@
    "mercado": "ES",
    "titulo": "Siemens sentron-3va - Enclavamiento posterior con varilla",
    "precio": 258.97,
-   "antes": 1035.93,
+   "antes": 1021.44,
    "descuento": 75,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00NGU0BSC",
    "keepa": "https://keepa.com/#!product/9-B00NGU0BSC",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B00HHUZGVY",
@@ -461,14 +521,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Automático magnetotermico 10ka 3 polos d 10a 489-480y/277v",
    "precio": 228.26,
-   "antes": 982.77,
+   "antes": 982.74,
    "descuento": 77,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00HHUZGVY",
    "keepa": "https://keepa.com/#!product/9-B00HHUZGVY",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B01J5TFA74",
@@ -476,14 +536,14 @@
    "mercado": "ES",
    "titulo": "Siemens sentron-3va - Interruptor frame 100 16ka 3 polos tm210 63a borne",
    "precio": 201.67,
-   "antes": 929.34,
+   "antes": 918.71,
    "descuento": 78,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01J5TFA74",
    "keepa": "https://keepa.com/#!product/9-B01J5TFA74",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "8:B0CST1RVQ6",
@@ -491,7 +551,7 @@
    "mercado": "IT",
    "titulo": "[IT] ROOM99 Feel Elegante copriletto rosa 200 x 220 cm, versatile come copriletto o copridivano, coperta per l",
    "precio": 42.41,
-   "antes": 698.95,
+   "antes": 698.94,
    "descuento": 94,
    "error": true,
    "categoria": "Casa e cucina",
@@ -506,14 +566,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Diferencial combinación 8a 2m 30ma 6ka-c",
    "precio": 89.96,
-   "antes": 684.34,
+   "antes": 675.3,
    "descuento": 87,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B001Z3M2UM",
    "keepa": "https://keepa.com/#!product/9-B001Z3M2UM",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0796WGXV6",
@@ -521,14 +581,14 @@
    "mercado": "ES",
    "titulo": "Siemens 3VA51906ED110AA0 Sentron Moldeada Caja Circuito Interruptor con 1 Polo, 7.13W, 500V, 90A, 140mm x",
    "precio": 177.55,
-   "antes": 767.75,
+   "antes": 758.0,
    "descuento": 77,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0796WGXV6",
    "keepa": "https://keepa.com/#!product/9-B0796WGXV6",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B01J5TJZF2",
@@ -536,14 +596,29 @@
    "mercado": "ES",
    "titulo": "Siemens - Bloque diferencial 0,3/63a 2 polos 500ma",
    "precio": 89.29,
-   "antes": 670.53,
-   "descuento": 87,
+   "antes": 659.69,
+   "descuento": 86,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01J5TJZF2",
    "keepa": "https://keepa.com/#!product/9-B01J5TJZF2",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
+  },
+  {
+   "clave": "9:B0161PAB88",
+   "asin": "B0161PAB88",
+   "mercado": "ES",
+   "titulo": "Siemens Indus.Sector lápiz ammelschiene 5st3710 – 3HG Carril de 3 fases, 1016 mm Fase 4001869484884",
+   "precio": 135.8,
+   "antes": 697.89,
+   "descuento": 81,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0161PAB88",
+   "keepa": "https://keepa.com/#!product/9-B0161PAB88",
+   "stock": null,
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B00NGVWVFM",
@@ -551,44 +626,14 @@
    "mercado": "ES",
    "titulo": "Siemens 5sl4 - Interruptor automático 10ka curva-d 3 polos 50a 70mm",
    "precio": 126.25,
-   "antes": 674.58,
+   "antes": 664.36,
    "descuento": 81,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00NGVWVFM",
    "keepa": "https://keepa.com/#!product/9-B00NGVWVFM",
    "stock": null,
-   "stock_ts": 1794168019
-  },
-  {
-   "clave": "9:B00E8KKL7A",
-   "asin": "B00E8KKL7A",
-   "mercado": "ES",
-   "titulo": "Siemens - Bloque diferencial 6/63a 30ma",
-   "precio": 170.19,
-   "antes": 701.45,
-   "descuento": 76,
-   "error": true,
-   "categoria": "Electrónica",
-   "url": "https://www.amazon.es/dp/B00E8KKL7A",
-   "keepa": "https://keepa.com/#!product/9-B00E8KKL7A",
-   "stock": null,
-   "stock_ts": 1794170231
-  },
-  {
-   "clave": "9:B01DBXO6PM",
-   "asin": "B01DBXO6PM",
-   "mercado": "ES",
-   "titulo": "Siemens sentron-3va - Accionamiento Giratorio con Enclavamiento Puerta 3va2 400/630",
-   "precio": 174.52,
-   "antes": 696.04,
-   "descuento": 75,
-   "error": true,
-   "categoria": "Bricolaje y herramientas",
-   "url": "https://www.amazon.es/dp/B01DBXO6PM",
-   "keepa": "https://keepa.com/#!product/9-B01DBXO6PM",
-   "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "3:B0G3MKP4M1",
@@ -596,14 +641,29 @@
    "mercado": "DE",
    "titulo": "[DE] MONROE TRACK CONTROL ARM | L92J08 | OE-MATCHING QUALITY | STABLE STEERING & SAFETY",
    "precio": 155.77,
-   "antes": 674.92,
+   "antes": 674.91,
    "descuento": 77,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0G3MKP4M1",
    "keepa": "https://keepa.com/#!product/3-B0G3MKP4M1",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
+  },
+  {
+   "clave": "9:B01DBXO6PM",
+   "asin": "B01DBXO6PM",
+   "mercado": "ES",
+   "titulo": "Siemens sentron-3va - Accionamiento Giratorio con Enclavamiento Puerta 3va2 400/630",
+   "precio": 174.52,
+   "antes": 686.31,
+   "descuento": 75,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B01DBXO6PM",
+   "keepa": "https://keepa.com/#!product/9-B01DBXO6PM",
+   "stock": null,
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B00B7ZG3Q2",
@@ -611,14 +671,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Interruptor automático 70 accesoriable 15ka curva-b 4 polos 16a",
    "precio": 99.14,
-   "antes": 576.84,
+   "antes": 570.02,
    "descuento": 83,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00B7ZG3Q2",
    "keepa": "https://keepa.com/#!product/9-B00B7ZG3Q2",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B01F4OM1US",
@@ -626,14 +686,14 @@
    "mercado": "ES",
    "titulo": "Siemens sirius atc - Plaquita 12,5x27mm pt.letra negro inscripción auf",
    "precio": 27.38,
-   "antes": 492.32,
+   "antes": 486.08,
    "descuento": 94,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01F4OM1US",
    "keepa": "https://keepa.com/#!product/9-B01F4OM1US",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B00NGVYS3K",
@@ -641,14 +701,14 @@
    "mercado": "ES",
    "titulo": "Siemens 5sl4 - Interruptor automático 10ka curva-d 4 polos 20a 70mm",
    "precio": 101.94,
-   "antes": 562.94,
+   "antes": 554.34,
    "descuento": 82,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00NGVYS3K",
    "keepa": "https://keepa.com/#!product/9-B00NGVYS3K",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B00NGVYTHA",
@@ -656,14 +716,14 @@
    "mercado": "ES",
    "titulo": "Siemens 5sl4 - Interruptor automático 10ka curva-b 4 polos 25a 70mm",
    "precio": 78.17,
-   "antes": 533.29,
+   "antes": 524.8,
    "descuento": 85,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00NGVYTHA",
    "keepa": "https://keepa.com/#!product/9-B00NGVYTHA",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B01F4OKWYU",
@@ -671,14 +731,14 @@
    "mercado": "ES",
    "titulo": "Siemens sirius atc - Plaquita 27x27mm negro letra blanco flecha derecha",
    "precio": 27.48,
-   "antes": 459.45,
+   "antes": 452.51,
    "descuento": 94,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01F4OKWYU",
    "keepa": "https://keepa.com/#!product/9-B01F4OKWYU",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B01F4OKAEC",
@@ -686,29 +746,14 @@
    "mercado": "ES",
    "titulo": "Siemens sirius atc - Plaquita 27x27mm negro letra blanco inscripción aus",
    "precio": 27.48,
-   "antes": 459.45,
+   "antes": 452.51,
    "descuento": 94,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01F4OKAEC",
    "keepa": "https://keepa.com/#!product/9-B01F4OKAEC",
    "stock": null,
-   "stock_ts": 1794168019
-  },
-  {
-   "clave": "9:B01F4OK9WK",
-   "asin": "B01F4OK9WK",
-   "mercado": "ES",
-   "titulo": "Siemens sirius atc - Plaquita 27x27mm negro letra blanco inscripción ein",
-   "precio": 27.48,
-   "antes": 459.27,
-   "descuento": 94,
-   "error": true,
-   "categoria": "Electrónica",
-   "url": "https://www.amazon.es/dp/B01F4OK9WK",
-   "keepa": "https://keepa.com/#!product/9-B01F4OK9WK",
-   "stock": null,
-   "stock_ts": 1794170231
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B01F4OKNGM",
@@ -716,29 +761,14 @@
    "mercado": "ES",
    "titulo": "Siemens sirius atc - Plaquita 27x27mm negro letra blanco inscripción stop",
    "precio": 27.48,
-   "antes": 459.27,
+   "antes": 452.33,
    "descuento": 94,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01F4OKNGM",
    "keepa": "https://keepa.com/#!product/9-B01F4OKNGM",
    "stock": null,
-   "stock_ts": 1794168019
-  },
-  {
-   "clave": "9:B01F4OKGGY",
-   "asin": "B01F4OKGGY",
-   "mercado": "ES",
-   "titulo": "Siemens sirius atc - Plaquita 27x27mm negro letra blanco inscripción betrieb",
-   "precio": 27.48,
-   "antes": 459.27,
-   "descuento": 94,
-   "error": true,
-   "categoria": "Electrónica",
-   "url": "https://www.amazon.es/dp/B01F4OKGGY",
-   "keepa": "https://keepa.com/#!product/9-B01F4OKGGY",
-   "stock": null,
-   "stock_ts": 1794170231
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B01F4OM2AC",
@@ -746,14 +776,14 @@
    "mercado": "ES",
    "titulo": "Siemens sirius atc - Plaquita 12,5x27mm pt.letra negro inscripción ab",
    "precio": 27.33,
-   "antes": 442.82,
+   "antes": 436.5,
    "descuento": 94,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01F4OM2AC",
    "keepa": "https://keepa.com/#!product/9-B01F4OM2AC",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B01F4OM3PG",
@@ -761,14 +791,14 @@
    "mercado": "ES",
    "titulo": "Siemens sirius atc - Plaquita 12,5x27mm pt.letra negro inscripción zurueck",
    "precio": 27.38,
-   "antes": 442.5,
+   "antes": 436.18,
    "descuento": 94,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01F4OM3PG",
    "keepa": "https://keepa.com/#!product/9-B01F4OM3PG",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B00NGVVI2E",
@@ -776,14 +806,14 @@
    "mercado": "ES",
    "titulo": "Siemens 5sl4 - Interruptor automático 10ka curva-d 3 polos 6a 70mm",
    "precio": 91.26,
-   "antes": 497.06,
-   "descuento": 82,
+   "antes": 490.4,
+   "descuento": 81,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00NGVVI2E",
    "keepa": "https://keepa.com/#!product/9-B00NGVVI2E",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B00NGVWR8S",
@@ -791,14 +821,14 @@
    "mercado": "ES",
    "titulo": "Siemens 5sl4 - Interruptor automático 10ka curva-d 3 polos 40a 70mm",
    "precio": 109.26,
-   "antes": 512.88,
-   "descuento": 79,
+   "antes": 505.35,
+   "descuento": 78,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00NGVWR8S",
    "keepa": "https://keepa.com/#!product/9-B00NGVWR8S",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B01F4OM7MU",
@@ -806,29 +836,29 @@
    "mercado": "ES",
    "titulo": "Siemens sirius atc - Plaquita 17,5x27mm pt.letra negro simbolo i-o-ii",
    "precio": 27.33,
-   "antes": 415.62,
+   "antes": 409.38,
    "descuento": 93,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01F4OM7MU",
    "keepa": "https://keepa.com/#!product/9-B01F4OM7MU",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
-   "clave": "9:B01F4OM6UI",
-   "asin": "B01F4OM6UI",
+   "clave": "9:B01J5TK0F6",
+   "asin": "B01J5TK0F6",
    "mercado": "ES",
-   "titulo": "Siemens sirius atc - Plaquita 17,5x27mm pt.letra negro simbolo o unipolar",
-   "precio": 27.33,
-   "antes": 415.45,
-   "descuento": 93,
+   "titulo": "5ST3707-3HG - Carril de punzonado (18 mm², 2 fases y auxiliar, 1016 mm, según la normativa local",
+   "precio": 114.29,
+   "antes": 491.16,
+   "descuento": 77,
    "error": true,
-   "categoria": "Electrónica",
-   "url": "https://www.amazon.es/dp/B01F4OM6UI",
-   "keepa": "https://keepa.com/#!product/9-B01F4OM6UI",
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B01J5TK0F6",
+   "keepa": "https://keepa.com/#!product/9-B01J5TK0F6",
    "stock": null,
-   "stock_ts": 1794170231
+   "stock_ts": 1794172543
   },
   {
    "clave": "3:B0DTXPPBRP",
@@ -836,14 +866,14 @@
    "mercado": "DE",
    "titulo": "[DE] SKF Radaufhängung Lenker VKDCV 12024 Höhe 100mm Länge 609mm Breite 148mm - OE Qualität",
    "precio": 110.03,
-   "antes": 465.94,
+   "antes": 460.69,
    "descuento": 76,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0DTXPPBRP",
    "keepa": "https://keepa.com/#!product/3-B0DTXPPBRP",
    "stock": 1000,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B00HHUTX6S",
@@ -851,14 +881,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Interruptor protección selector 240v 10ka 1 polo d 40a 70mm",
    "precio": 84.39,
-   "antes": 423.63,
+   "antes": 418.46,
    "descuento": 80,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00HHUTX6S",
    "keepa": "https://keepa.com/#!product/9-B00HHUTX6S",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B007KLYCM4",
@@ -866,14 +896,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Caperuza aflojar diámetro 16",
    "precio": 27.71,
-   "antes": 357.51,
+   "antes": 351.9,
    "descuento": 92,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B007KLYCM4",
    "keepa": "https://keepa.com/#!product/9-B007KLYCM4",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0028YB960",
@@ -881,14 +911,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Caperuza zuruck diámetro 16",
    "precio": 27.71,
-   "antes": 357.51,
+   "antes": 351.9,
    "descuento": 92,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0028YB960",
    "keepa": "https://keepa.com/#!product/9-B0028YB960",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B00NGVY3WG",
@@ -896,14 +926,14 @@
    "mercado": "ES",
    "titulo": "Siemens 5sl4 - Interruptor automático 10ka curva-c 4 polos 8a 70mm",
    "precio": 99.16,
-   "antes": 414.39,
+   "antes": 409.56,
    "descuento": 76,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00NGVY3WG",
    "keepa": "https://keepa.com/#!product/9-B00NGVY3WG",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0028Y7OW8",
@@ -911,29 +941,29 @@
    "mercado": "ES",
    "titulo": "Siemens - Plaquita langsam diámetro 16",
    "precio": 26.71,
-   "antes": 329.91,
+   "antes": 325.43,
    "descuento": 92,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0028Y7OW8",
    "keepa": "https://keepa.com/#!product/9-B0028Y7OW8",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
-   "clave": "9:B00NGVURQC",
-   "asin": "B00NGVURQC",
+   "clave": "9:B00NGVTSM6",
+   "asin": "B00NGVTSM6",
    "mercado": "ES",
-   "titulo": "Siemens 5sl4 - Interruptor automático 10ka curva-c 2 polos 63a 70mm",
-   "precio": 90.35,
-   "antes": 371.02,
-   "descuento": 76,
+   "titulo": "Siemens 5sl4 - Interruptor automático 10ka curva-d 2 polos 10a 70mm",
+   "precio": 64.61,
+   "antes": 350.64,
+   "descuento": 82,
    "error": true,
    "categoria": "Bricolaje y herramientas",
-   "url": "https://www.amazon.es/dp/B00NGVURQC",
-   "keepa": "https://keepa.com/#!product/9-B00NGVURQC",
+   "url": "https://www.amazon.es/dp/B00NGVTSM6",
+   "keepa": "https://keepa.com/#!product/9-B00NGVTSM6",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "3:B0G3MMN8CP",
@@ -941,14 +971,44 @@
    "mercado": "DE",
    "titulo": "[DE] MONROE TRACK CONTROL ARM | L94J42 | OE-MATCHING QUALITY | STABLE STEERING & SAFETY",
    "precio": 72.59,
-   "antes": 349.24,
+   "antes": 349.23,
    "descuento": 79,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0G3MMN8CP",
    "keepa": "https://keepa.com/#!product/3-B0G3MMN8CP",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
+  },
+  {
+   "clave": "9:B00NGVURQC",
+   "asin": "B00NGVURQC",
+   "mercado": "ES",
+   "titulo": "Siemens 5sl4 - Interruptor automático 10ka curva-c 2 polos 63a 70mm",
+   "precio": 90.35,
+   "antes": 365.79,
+   "descuento": 75,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B00NGVURQC",
+   "keepa": "https://keepa.com/#!product/9-B00NGVURQC",
+   "stock": null,
+   "stock_ts": 1794172543
+  },
+  {
+   "clave": "9:B008XJLANG",
+   "asin": "B008XJLANG",
+   "mercado": "ES",
+   "titulo": "Siemens - Interruptor protección selector 240v 14ka 1 polo c 5a 70mm",
+   "precio": 66.62,
+   "antes": 330.47,
+   "descuento": 80,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B008XJLANG",
+   "keepa": "https://keepa.com/#!product/9-B008XJLANG",
+   "stock": null,
+   "stock_ts": 1794172543
   },
   {
    "clave": "4:B0G3ML8Y4X",
@@ -956,7 +1016,7 @@
    "mercado": "FR",
    "titulo": "[FR] MONROE TRACK CONTROL ARM | L11A59 | FRONT RIGHT | FOR BMW X5 2013-2018 | OE-MATCHING QUALITY | STABLE STE",
    "precio": 64.8,
-   "antes": 320.76,
+   "antes": 316.95,
    "descuento": 80,
    "error": true,
    "categoria": "Auto et Moto",
@@ -971,14 +1031,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Placa 6 diámetro 16",
    "precio": 28.61,
-   "antes": 283.76,
+   "antes": 279.4,
    "descuento": 90,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0028YF90C",
    "keepa": "https://keepa.com/#!product/9-B0028YF90C",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B007KLY9CC",
@@ -986,14 +1046,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Plaquita auf diámetro 16",
    "precio": 30.33,
-   "antes": 284.15,
+   "antes": 279.82,
    "descuento": 89,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B007KLY9CC",
    "keepa": "https://keepa.com/#!product/9-B007KLY9CC",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0028Y7LB2",
@@ -1001,14 +1061,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Plaquita ein diámetro 16",
    "precio": 30.42,
-   "antes": 284.17,
+   "antes": 279.84,
    "descuento": 89,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0028Y7LB2",
    "keepa": "https://keepa.com/#!product/9-B0028Y7LB2",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "8:B0HJX611B4",
@@ -1016,7 +1076,7 @@
    "mercado": "IT",
    "titulo": "[IT] BaByliss Super-X Rifinitore di precisione 3 in 1 per uomo, Bronzo",
    "precio": 53.87,
-   "antes": 296.43,
+   "antes": 292.54,
    "descuento": 82,
    "error": true,
    "categoria": "Salute e cura della persona",
@@ -1031,14 +1091,14 @@
    "mercado": "ES",
    "titulo": "Siemens 5sy5 - Interruptor automático 70 10ka curva-b 1 polo 63a",
    "precio": 72.3,
-   "antes": 308.92,
-   "descuento": 77,
+   "antes": 305.52,
+   "descuento": 76,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B002561NXU",
    "keepa": "https://keepa.com/#!product/9-B002561NXU",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B00NGTM564",
@@ -1046,14 +1106,14 @@
    "mercado": "ES",
    "titulo": "Siemens sentron-3va - Bloque señalización disparador tipo-hp 14mm",
    "precio": 61.61,
-   "antes": 296.94,
+   "antes": 291.9,
    "descuento": 79,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00NGTM564",
    "keepa": "https://keepa.com/#!product/9-B00NGTM564",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0DFYMB9YK",
@@ -1061,14 +1121,14 @@
    "mercado": "ES",
    "titulo": "QUADRON JENNIFER Q LINE SLIM SteelQ, grifo mezclador de cocina 360°, grifo mezclador de cocina de acero i",
    "precio": 48.5,
-   "antes": 281.61,
+   "antes": 278.26,
    "descuento": 83,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0DFYMB9YK",
    "keepa": "https://keepa.com/#!product/9-B0DFYMB9YK",
    "stock": 3,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B01F4OKGUA",
@@ -1076,14 +1136,14 @@
    "mercado": "ES",
    "titulo": "Siemens sirius atc - Plaquita 12,5x27mm pt.letra negro inscripción reset",
    "precio": 27.33,
-   "antes": 247.22,
+   "antes": 240.9,
    "descuento": 89,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01F4OKGUA",
    "keepa": "https://keepa.com/#!product/9-B01F4OKGUA",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B08GX2KMBV",
@@ -1091,7 +1151,7 @@
    "mercado": "ES",
    "titulo": "Cuchilla segmentada. | WGB Das Werkzeug",
    "precio": 22.9,
-   "antes": 233.16,
+   "antes": 227.53,
    "descuento": 90,
    "error": true,
    "categoria": "Hogar y cocina",
@@ -1106,14 +1166,14 @@
    "mercado": "ES",
    "titulo": "Siemens sirius atc - Plaquita interior lacteo letra negro inscripción vor",
    "precio": 27.38,
-   "antes": 237.43,
+   "antes": 231.19,
    "descuento": 88,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B01F4OLA28",
    "keepa": "https://keepa.com/#!product/9-B01F4OLA28",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0B88P4147",
@@ -1121,14 +1181,14 @@
    "mercado": "ES",
    "titulo": "Pferd Disco Lija Fibra, 22 Victograin, 36 Grano, 180mm Diámetro",
    "precio": 12.0,
-   "antes": 200.5,
+   "antes": 197.88,
    "descuento": 94,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0B88P4147",
    "keepa": "https://keepa.com/#!product/9-B0B88P4147",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0B9SCTCNX",
@@ -1136,7 +1196,7 @@
    "mercado": "ES",
    "titulo": "BAKS Tapa para arco de 200 mm de ancho",
    "precio": 21.6,
-   "antes": 203.33,
+   "antes": 200.83,
    "descuento": 89,
    "error": true,
    "categoria": "Hogar y cocina",
@@ -1151,14 +1211,14 @@
    "mercado": "ES",
    "titulo": "Siemens 5sy5 - Interruptor automático 70 10ka curva-c 1 polo 0,5a",
    "precio": 52.92,
-   "antes": 230.71,
+   "antes": 228.09,
    "descuento": 77,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00255ZJ0E",
    "keepa": "https://keepa.com/#!product/9-B00255ZJ0E",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B001BAX6LS",
@@ -1166,14 +1226,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Plaquita sin inscripción",
    "precio": 37.99,
-   "antes": 205.53,
-   "descuento": 82,
+   "antes": 202.66,
+   "descuento": 81,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B001BAX6LS",
    "keepa": "https://keepa.com/#!product/9-B001BAX6LS",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0824B3TWS",
@@ -1181,14 +1241,14 @@
    "mercado": "ES",
    "titulo": "Quadrios 1908C185 - Juego de terminales para crimpar (2,50 mm², 1,50 mm², latón), transparente 100 partes",
    "precio": 37.0,
-   "antes": 203.64,
+   "antes": 200.46,
    "descuento": 82,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0824B3TWS",
    "keepa": "https://keepa.com/#!product/9-B0824B3TWS",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B007KLYC1U",
@@ -1196,14 +1256,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Placa desenclavar diámetro 16",
    "precio": 29.66,
-   "antes": 193.85,
-   "descuento": 85,
+   "antes": 189.44,
+   "descuento": 84,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B007KLYC1U",
    "keepa": "https://keepa.com/#!product/9-B007KLYC1U",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0BPJMX3XT",
@@ -1211,7 +1271,7 @@
    "mercado": "ES",
    "titulo": "Beck Arnley 0842241 Pastillas de freno de disco con sensor de desgaste",
    "precio": 50.17,
-   "antes": 210.53,
+   "antes": 206.31,
    "descuento": 76,
    "error": true,
    "categoria": "Coche y moto",
@@ -1226,14 +1286,14 @@
    "mercado": "ES",
    "titulo": "Obo-bettermann sistema conex.fij. - Caja derivación 8/5 vde",
    "precio": 25.0,
-   "antes": 183.48,
+   "antes": 177.06,
    "descuento": 86,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B001Z53D76",
    "keepa": "https://keepa.com/#!product/9-B001Z53D76",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0088OT94I",
@@ -1241,14 +1301,14 @@
    "mercado": "ES",
    "titulo": "DMC hilo perle de algodón tamaño 8 823 – por 10 gram bola",
    "precio": 38.24,
-   "antes": 170.6,
-   "descuento": 78,
+   "antes": 168.6,
+   "descuento": 77,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0088OT94I",
    "keepa": "https://keepa.com/#!product/9-B0088OT94I",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0D1YJQ4TP",
@@ -1256,14 +1316,14 @@
    "mercado": "ES",
    "titulo": "Rasch Papel pintado 633177 – Papel pintado de fieltro en antracita de la colección Color your life – 10,0",
    "precio": 27.47,
-   "antes": 151.81,
+   "antes": 149.89,
    "descuento": 82,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0D1YJQ4TP",
    "keepa": "https://keepa.com/#!product/9-B0D1YJQ4TP",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0C2ZCVZKP",
@@ -1271,7 +1331,7 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 135.57,
+   "antes": 133.8,
    "descuento": 87,
    "error": true,
    "categoria": "Hogar y cocina",
@@ -1286,14 +1346,14 @@
    "mercado": "ES",
    "titulo": "PFERD 64112636 disco de afilar",
    "precio": 10.0,
-   "antes": 125.47,
+   "antes": 124.7,
    "descuento": 92,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B09LNMFN1W",
    "keepa": "https://keepa.com/#!product/9-B09LNMFN1W",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0C2ZF41BT",
@@ -1301,8 +1361,8 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 125.59,
-   "descuento": 87,
+   "antes": 122.84,
+   "descuento": 86,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2ZF41BT",
@@ -1316,44 +1376,14 @@
    "mercado": "ES",
    "titulo": "KELTARO Alaskan - Edredón tamaño King de 132 x 120 Pulgadas, Extra Grande, refrescante, para Todas Las Es",
    "precio": 23.46,
-   "antes": 126.62,
+   "antes": 125.01,
    "descuento": 81,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0CR5Q59KT",
    "keepa": "https://keepa.com/#!product/9-B0CR5Q59KT",
    "stock": 20,
-   "stock_ts": 1794168019
-  },
-  {
-   "clave": "9:B0028YF9CU",
-   "asin": "B0028YF9CU",
-   "mercado": "ES",
-   "titulo": "Siemens - Caperuza betrieb diámetro 16",
-   "precio": 27.71,
-   "antes": 129.0,
-   "descuento": 79,
-   "error": true,
-   "categoria": "Bricolaje y herramientas",
-   "url": "https://www.amazon.es/dp/B0028YF9CU",
-   "keepa": "https://keepa.com/#!product/9-B0028YF9CU",
-   "stock": null,
-   "stock_ts": 1794168019
-  },
-  {
-   "clave": "9:B0028YDETU",
-   "asin": "B0028YDETU",
-   "mercado": "ES",
-   "titulo": "Siemens - Caperuza 8 diámetro 16",
-   "precio": 27.71,
-   "antes": 129.0,
-   "descuento": 79,
-   "error": true,
-   "categoria": "Bricolaje y herramientas",
-   "url": "https://www.amazon.es/dp/B0028YDETU",
-   "keepa": "https://keepa.com/#!product/9-B0028YDETU",
-   "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0HGJVRY45",
@@ -1361,7 +1391,7 @@
    "mercado": "ES",
    "titulo": "FEERIC LIGHTS & CHRISTMAS - Ciervo 2 ass 2ass h53 80 cm pierna",
    "precio": 29.99,
-   "antes": 130.83,
+   "antes": 129.4,
    "descuento": 77,
    "error": true,
    "categoria": "Hogar y cocina",
@@ -1371,34 +1401,64 @@
    "stock_ts": 1794170231
   },
   {
-   "clave": "9:B0028YBCG2",
-   "asin": "B0028YBCG2",
-   "mercado": "ES",
-   "titulo": "Siemens - Caperuza auf diámetro 16",
-   "precio": 27.71,
-   "antes": 128.4,
-   "descuento": 78,
-   "error": true,
-   "categoria": "Bricolaje y herramientas",
-   "url": "https://www.amazon.es/dp/B0028YBCG2",
-   "keepa": "https://keepa.com/#!product/9-B0028YBCG2",
-   "stock": null,
-   "stock_ts": 1794168019
-  },
-  {
    "clave": "9:B00BEIO1K2",
    "asin": "B00BEIO1K2",
    "mercado": "ES",
    "titulo": "NOIR PRESA COASS.FEMM.F INGRES.F 45396F",
    "precio": 21.33,
-   "antes": 120.49,
+   "antes": 118.64,
    "descuento": 82,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B00BEIO1K2",
    "keepa": "https://keepa.com/#!product/9-B00BEIO1K2",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
+  },
+  {
+   "clave": "9:B0028YF9CU",
+   "asin": "B0028YF9CU",
+   "mercado": "ES",
+   "titulo": "Siemens - Caperuza betrieb diámetro 16",
+   "precio": 27.71,
+   "antes": 123.31,
+   "descuento": 78,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0028YF9CU",
+   "keepa": "https://keepa.com/#!product/9-B0028YF9CU",
+   "stock": null,
+   "stock_ts": 1794172543
+  },
+  {
+   "clave": "9:B0028YDETU",
+   "asin": "B0028YDETU",
+   "mercado": "ES",
+   "titulo": "Siemens - Caperuza 8 diámetro 16",
+   "precio": 27.71,
+   "antes": 123.31,
+   "descuento": 78,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0028YDETU",
+   "keepa": "https://keepa.com/#!product/9-B0028YDETU",
+   "stock": null,
+   "stock_ts": 1794172543
+  },
+  {
+   "clave": "9:B0028YBCG2",
+   "asin": "B0028YBCG2",
+   "mercado": "ES",
+   "titulo": "Siemens - Caperuza auf diámetro 16",
+   "precio": 27.71,
+   "antes": 122.71,
+   "descuento": 77,
+   "error": true,
+   "categoria": "Bricolaje y herramientas",
+   "url": "https://www.amazon.es/dp/B0028YBCG2",
+   "keepa": "https://keepa.com/#!product/9-B0028YBCG2",
+   "stock": null,
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B007KLYBNY",
@@ -1406,29 +1466,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Placa bomba refrigeración diámetro 16",
    "precio": 26.71,
-   "antes": 121.38,
-   "descuento": 78,
+   "antes": 116.92,
+   "descuento": 77,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B007KLYBNY",
    "keepa": "https://keepa.com/#!product/9-B007KLYBNY",
    "stock": null,
-   "stock_ts": 1794168019
-  },
-  {
-   "clave": "9:B0C39MYZZY",
-   "asin": "B0C39MYZZY",
-   "mercado": "ES",
-   "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
-   "precio": 16.95,
-   "antes": 104.89,
-   "descuento": 84,
-   "error": true,
-   "categoria": "Hogar y cocina",
-   "url": "https://www.amazon.es/dp/B0C39MYZZY",
-   "keepa": "https://keepa.com/#!product/9-B0C39MYZZY",
-   "stock": null,
-   "stock_ts": 1794170231
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0C2ZC7J9G",
@@ -1436,7 +1481,7 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 104.77,
+   "antes": 103.2,
    "descuento": 84,
    "error": true,
    "categoria": "Hogar y cocina",
@@ -1446,19 +1491,34 @@
    "stock_ts": 1794170231
   },
   {
+   "clave": "9:B0C39MYZZY",
+   "asin": "B0C39MYZZY",
+   "mercado": "ES",
+   "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
+   "precio": 16.95,
+   "antes": 103.1,
+   "descuento": 84,
+   "error": true,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0C39MYZZY",
+   "keepa": "https://keepa.com/#!product/9-B0C39MYZZY",
+   "stock": null,
+   "stock_ts": 1794170231
+  },
+  {
    "clave": "9:B0FW4PVV5M",
    "asin": "B0FW4PVV5M",
    "mercado": "ES",
    "titulo": "REROON Paquete de 8 mini kit de costura de viaje para regalos de Navidad, suministros de costura esencial",
    "precio": 17.99,
-   "antes": 99.99,
+   "antes": 98.85,
    "descuento": 82,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0FW4PVV5M",
    "keepa": "https://keepa.com/#!product/9-B0FW4PVV5M",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B077H2WYZ4",
@@ -1466,7 +1526,7 @@
    "mercado": "ES",
    "titulo": "ALKAR Spiegelglas, Außenspiegel 6451359 links,",
    "precio": 24.77,
-   "antes": 100.71,
+   "antes": 99.29,
    "descuento": 75,
    "error": true,
    "categoria": "Coche y moto",
@@ -1488,7 +1548,7 @@
    "url": "https://www.amazon.es/dp/B003A64ZTI",
    "keepa": "https://keepa.com/#!product/9-B003A64ZTI",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "4:B0C43B8PPG",
@@ -1496,7 +1556,7 @@
    "mercado": "FR",
    "titulo": "[FR] MOOG TIE ROD END, RE-ES-15783, FRONT LEFT, FOR SMART FORFOUR HATCHBACK 2014-, OE-MATCHING QUALITY, PRECIS",
    "precio": 19.12,
-   "antes": 88.43,
+   "antes": 87.49,
    "descuento": 78,
    "error": true,
    "categoria": "Auto et Moto",
@@ -1511,14 +1571,14 @@
    "mercado": "ES",
    "titulo": "PFERD Lijas flexibles SF para aplicación universal 1000-40110046",
    "precio": 10.0,
-   "antes": 79.3,
+   "antes": 78.23,
    "descuento": 87,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B09NR9F5X8",
    "keepa": "https://keepa.com/#!product/9-B09NR9F5X8",
    "stock": null,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   },
   {
    "clave": "9:B0C2Z9NGX7",
@@ -1526,8 +1586,8 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 83.44,
-   "descuento": 80,
+   "antes": 82.09,
+   "descuento": 79,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2Z9NGX7",
@@ -1541,7 +1601,7 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 78.45,
+   "antes": 77.48,
    "descuento": 78,
    "error": true,
    "categoria": "Hogar y cocina",
@@ -1556,7 +1616,7 @@
    "mercado": "ES",
    "titulo": "TronX S40 Visera de casco de hockey ahumado teñido de corte ventilado (antiarañazos/antiempañamiento) Cer",
    "precio": 17.79,
-   "antes": 74.29,
+   "antes": 73.01,
    "descuento": 76,
    "error": true,
    "categoria": "Coche y moto",
@@ -1571,7 +1631,7 @@
    "mercado": "ES",
    "titulo": "ProPart Pigmento de 80 ml Compatible con SC-P800DES, P800SE, P800SP-Cian",
    "precio": 13.7,
-   "antes": 66.36,
+   "antes": 66.33,
    "descuento": 79,
    "error": true,
    "categoria": "Informática",
@@ -1581,19 +1641,34 @@
    "stock_ts": 1794170231
   },
   {
+   "clave": "9:B0FP9TFY61",
+   "asin": "B0FP9TFY61",
+   "mercado": "ES",
+   "titulo": "FEBI BILSTEIN Pedalbelag, Bremspedal 185943",
+   "precio": 16.37,
+   "antes": 66.13,
+   "descuento": 75,
+   "error": true,
+   "categoria": "Coche y moto",
+   "url": "https://www.amazon.es/dp/B0FP9TFY61",
+   "keepa": "https://keepa.com/#!product/9-B0FP9TFY61",
+   "stock": null,
+   "stock_ts": 1794172543
+  },
+  {
    "clave": "9:B07MTPGGSC",
    "asin": "B07MTPGGSC",
    "mercado": "ES",
    "titulo": "pferd 1884514 65508109 DIY",
    "precio": 10.0,
-   "antes": 54.04,
+   "antes": 53.25,
    "descuento": 81,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B07MTPGGSC",
    "keepa": "https://keepa.com/#!product/9-B07MTPGGSC",
    "stock": 14,
-   "stock_ts": 1794168019
+   "stock_ts": 1794172543
   }
  ]
 }
