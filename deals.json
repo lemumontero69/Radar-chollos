@@ -1,6 +1,6 @@
 {
- "actualizado": "08/11/2026 16:08 UTC",
- "ts": 1794154088,
+ "actualizado": "08/11/2026 16:45 UTC",
+ "ts": 1794156311,
  "descartados": {},
  "chollos": [
   {
@@ -9,14 +9,14 @@
    "mercado": "ES",
    "titulo": "Ginhow Carrito Cocina Carro Auxiliar Estantería Estrecha 40×20×80cm",
    "precio": 50.44,
-   "antes": 2255.93,
+   "antes": 2193.51,
    "descuento": 98,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0HPDWLH8H",
    "keepa": "https://keepa.com/#!product/9-B0HPDWLH8H",
    "stock": 99,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B01DBXK1O2",
@@ -24,14 +24,14 @@
    "mercado": "ES",
    "titulo": "Siemens sentron-3va - Interruptor secciónador/secciónable frame 160 4 polos 160a borne",
    "precio": 385.54,
-   "antes": 1815.52,
-   "descuento": 79,
+   "antes": 1793.19,
+   "descuento": 78,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B01DBXK1O2",
    "keepa": "https://keepa.com/#!product/9-B01DBXK1O2",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "3:B0HD7C1N91",
@@ -39,14 +39,14 @@
    "mercado": "DE",
    "titulo": "[DE] APC Easy UPS, 700VA, Tower, 230V, 4X IEC-C13-Steckdosen, AVR",
    "precio": 196.83,
-   "antes": 1593.51,
-   "descuento": 88,
+   "antes": 1569.32,
+   "descuento": 87,
    "error": true,
    "categoria": "Computer & Zubehör",
    "url": "https://www.amazon.de/dp/B0HD7C1N91",
    "keepa": "https://keepa.com/#!product/3-B0HD7C1N91",
    "stock": 1000,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B0C94W2QMR",
@@ -54,14 +54,14 @@
    "mercado": "ES",
    "titulo": "Wilmax Plato de 15 cm | Platos de bambú | Platos de madera | Plato de pastel | Plato para servir | Plato ",
    "precio": 24.8,
-   "antes": 1235.59,
+   "antes": 1210.96,
    "descuento": 98,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C94W2QMR",
    "keepa": "https://keepa.com/#!product/9-B0C94W2QMR",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "8:B0CST1RVQ6",
@@ -69,14 +69,14 @@
    "mercado": "IT",
    "titulo": "[IT] ROOM99 Feel Elegante copriletto rosa 200 x 220 cm, versatile come copriletto o copridivano, coperta per l",
    "precio": 40.2,
-   "antes": 699.01,
+   "antes": 699.0,
    "descuento": 94,
    "error": true,
    "categoria": "Casa e cucina",
    "url": "https://www.amazon.it/dp/B0CST1RVQ6",
    "keepa": "https://keepa.com/#!product/8-B0CST1RVQ6",
    "stock": 1000,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B00E8KKL7A",
@@ -84,14 +84,14 @@
    "mercado": "ES",
    "titulo": "Siemens - Bloque diferencial 6/63a 30ma",
    "precio": 170.19,
-   "antes": 771.61,
+   "antes": 762.22,
    "descuento": 78,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B00E8KKL7A",
    "keepa": "https://keepa.com/#!product/9-B00E8KKL7A",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B01F4OK9WK",
@@ -99,14 +99,14 @@
    "mercado": "ES",
    "titulo": "Siemens sirius atc - Plaquita 27x27mm negro letra blanco inscripción ein",
    "precio": 27.48,
-   "antes": 508.42,
+   "antes": 501.84,
    "descuento": 95,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B01F4OK9WK",
    "keepa": "https://keepa.com/#!product/9-B01F4OK9WK",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B01F4OKGGY",
@@ -114,14 +114,14 @@
    "mercado": "ES",
    "titulo": "Siemens sirius atc - Plaquita 27x27mm negro letra blanco inscripción betrieb",
    "precio": 27.48,
-   "antes": 508.42,
+   "antes": 501.84,
    "descuento": 95,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B01F4OKGGY",
    "keepa": "https://keepa.com/#!product/9-B01F4OKGGY",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B01F4OM6UI",
@@ -129,14 +129,14 @@
    "mercado": "ES",
    "titulo": "Siemens sirius atc - Plaquita 17,5x27mm pt.letra negro simbolo o unipolar",
    "precio": 27.33,
-   "antes": 459.64,
+   "antes": 453.72,
    "descuento": 94,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B01F4OM6UI",
    "keepa": "https://keepa.com/#!product/9-B01F4OM6UI",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "3:B0DTXPPBRP",
@@ -144,7 +144,7 @@
    "mercado": "DE",
    "titulo": "[DE] SKF Radaufhängung Lenker VKDCV 12024 Höhe 100mm Länge 609mm Breite 148mm - OE Qualität",
    "precio": 110.03,
-   "antes": 503.12,
+   "antes": 498.15,
    "descuento": 78,
    "error": true,
    "categoria": "Auto & Motorrad",
@@ -159,14 +159,14 @@
    "mercado": "FR",
    "titulo": "[FR] MONROE TRACK CONTROL ARM | L11A59 | FRONT RIGHT | FOR BMW X5 2013-2018 | OE-MATCHING QUALITY | STABLE STE",
    "precio": 64.8,
-   "antes": 347.73,
+   "antes": 344.03,
    "descuento": 81,
    "error": true,
    "categoria": "Auto et Moto",
    "url": "https://www.amazon.fr/dp/B0G3ML8Y4X",
    "keepa": "https://keepa.com/#!product/4-B0G3ML8Y4X",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "8:B0HJX611B4",
@@ -174,14 +174,14 @@
    "mercado": "IT",
    "titulo": "[IT] BaByliss Super-X Rifinitore di precisione 3 in 1 per uomo, Bronzo",
    "precio": 53.87,
-   "antes": 324.0,
+   "antes": 320.2,
    "descuento": 83,
    "error": true,
    "categoria": "Salute e cura della persona",
    "url": "https://www.amazon.it/dp/B0HJX611B4",
    "keepa": "https://keepa.com/#!product/8-B0HJX611B4",
    "stock": 1000,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B08GX2KMBV",
@@ -189,14 +189,14 @@
    "mercado": "ES",
    "titulo": "Cuchilla segmentada. | WGB Das Werkzeug",
    "precio": 22.9,
-   "antes": 273.05,
-   "descuento": 92,
+   "antes": 267.71,
+   "descuento": 91,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B08GX2KMBV",
    "keepa": "https://keepa.com/#!product/9-B08GX2KMBV",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B0BPJMX3XT",
@@ -204,14 +204,14 @@
    "mercado": "ES",
    "titulo": "Beck Arnley 0842241 Pastillas de freno de disco con sensor de desgaste",
    "precio": 50.17,
-   "antes": 240.4,
+   "antes": 236.4,
    "descuento": 79,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B0BPJMX3XT",
    "keepa": "https://keepa.com/#!product/9-B0BPJMX3XT",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B0GKS2SNQ4",
@@ -219,14 +219,14 @@
    "mercado": "ES",
    "titulo": "MAGNETI MARELLI Lüfter, Motorkühlung 069422903010",
    "precio": 62.03,
-   "antes": 248.8,
+   "antes": 245.91,
    "descuento": 75,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B0GKS2SNQ4",
    "keepa": "https://keepa.com/#!product/9-B0GKS2SNQ4",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B000EOF1DI",
@@ -234,14 +234,14 @@
    "mercado": "ES",
    "titulo": "Beck arnley 201 – 0288 Detener interruptor de la luz",
    "precio": 42.56,
-   "antes": 196.84,
+   "antes": 192.75,
    "descuento": 78,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B000EOF1DI",
    "keepa": "https://keepa.com/#!product/9-B000EOF1DI",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B0088OT94I",
@@ -249,7 +249,7 @@
    "mercado": "ES",
    "titulo": "DMC hilo perle de algodón tamaño 8 823 – por 10 gram bola",
    "precio": 38.24,
-   "antes": 184.74,
+   "antes": 182.84,
    "descuento": 79,
    "error": true,
    "categoria": "Hogar y cocina",
@@ -264,14 +264,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 148.08,
-   "descuento": 89,
+   "antes": 146.41,
+   "descuento": 88,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2ZCVZKP",
    "keepa": "https://keepa.com/#!product/9-B0C2ZCVZKP",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B0C2ZF41BT",
@@ -279,14 +279,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 144.99,
+   "antes": 142.39,
    "descuento": 88,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2ZF41BT",
    "keepa": "https://keepa.com/#!product/9-B0C2ZF41BT",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B0CR5Q59KT",
@@ -294,7 +294,7 @@
    "mercado": "ES",
    "titulo": "KELTARO Alaskan - Edredón tamaño King de 132 x 120 Pulgadas, Extra Grande, refrescante, para Todas Las Es",
    "precio": 23.46,
-   "antes": 131.02,
+   "antes": 130.98,
    "descuento": 82,
    "error": true,
    "categoria": "Hogar y cocina",
@@ -309,14 +309,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 117.6,
-   "descuento": 86,
+   "antes": 115.9,
+   "descuento": 85,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C39MYZZY",
    "keepa": "https://keepa.com/#!product/9-B0C39MYZZY",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B0C2ZC7J9G",
@@ -324,14 +324,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 115.89,
+   "antes": 114.4,
    "descuento": 85,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2ZC7J9G",
    "keepa": "https://keepa.com/#!product/9-B0C2ZC7J9G",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B077H2WYZ4",
@@ -339,14 +339,14 @@
    "mercado": "ES",
    "titulo": "ALKAR Spiegelglas, Außenspiegel 6451359 links,",
    "precio": 24.77,
-   "antes": 110.75,
-   "descuento": 78,
+   "antes": 109.4,
+   "descuento": 77,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B077H2WYZ4",
    "keepa": "https://keepa.com/#!product/9-B077H2WYZ4",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B0C2Z9NGX7",
@@ -354,14 +354,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 92.97,
+   "antes": 91.69,
    "descuento": 82,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2Z9NGX7",
    "keepa": "https://keepa.com/#!product/9-B0C2Z9NGX7",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B0BPZLXLR9",
@@ -369,14 +369,14 @@
    "mercado": "ES",
    "titulo": "Laura Ashley Forsythia - Mantel decorativo, resistente a las arrugas y a las manchas, repelente al agua, ",
    "precio": 21.5,
-   "antes": 91.77,
-   "descuento": 77,
+   "antes": 90.7,
+   "descuento": 76,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0BPZLXLR9",
    "keepa": "https://keepa.com/#!product/9-B0BPZLXLR9",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B0C2Z9K76C",
@@ -384,14 +384,14 @@
    "mercado": "ES",
    "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
    "precio": 16.95,
-   "antes": 85.37,
+   "antes": 84.44,
    "descuento": 80,
    "error": true,
    "categoria": "Hogar y cocina",
    "url": "https://www.amazon.es/dp/B0C2Z9K76C",
    "keepa": "https://keepa.com/#!product/9-B0C2Z9K76C",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B0B3SFMLKD",
@@ -399,29 +399,14 @@
    "mercado": "ES",
    "titulo": "TronX S40 Visera de casco de hockey ahumado teñido de corte ventilado (antiarañazos/antiempañamiento) Cer",
    "precio": 17.79,
-   "antes": 83.37,
-   "descuento": 79,
+   "antes": 82.16,
+   "descuento": 78,
    "error": true,
    "categoria": "Coche y moto",
    "url": "https://www.amazon.es/dp/B0B3SFMLKD",
    "keepa": "https://keepa.com/#!product/9-B0B3SFMLKD",
    "stock": null,
-   "stock_ts": 1794151679
-  },
-  {
-   "clave": "9:B0C2ZCP495",
-   "asin": "B0C2ZCP495",
-   "mercado": "ES",
-   "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
-   "precio": 16.95,
-   "antes": 69.95,
-   "descuento": 76,
-   "error": true,
-   "categoria": "Hogar y cocina",
-   "url": "https://www.amazon.es/dp/B0C2ZCP495",
-   "keepa": "https://keepa.com/#!product/9-B0C2ZCP495",
-   "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   },
   {
    "clave": "9:B075R8GF18",
@@ -429,14 +414,29 @@
    "mercado": "ES",
    "titulo": "ProPart Pigmento de 80 ml Compatible con SC-P800DES, P800SE, P800SP-Cian",
    "precio": 13.7,
-   "antes": 66.52,
+   "antes": 66.5,
    "descuento": 79,
    "error": true,
    "categoria": "Informática",
    "url": "https://www.amazon.es/dp/B075R8GF18",
    "keepa": "https://keepa.com/#!product/9-B075R8GF18",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
+  },
+  {
+   "clave": "9:B0C2ZCP495",
+   "asin": "B0C2ZCP495",
+   "mercado": "ES",
+   "titulo": "GBID Alfombra de Pasillo Larga,Alfombra de Pasillo Antideslizante,Alfombras de Pasillo por Metros,Alfombr",
+   "precio": 16.95,
+   "antes": 68.85,
+   "descuento": 75,
+   "error": true,
+   "categoria": "Hogar y cocina",
+   "url": "https://www.amazon.es/dp/B0C2ZCP495",
+   "keepa": "https://keepa.com/#!product/9-B0C2ZCP495",
+   "stock": null,
+   "stock_ts": 1794156301
   },
   {
    "clave": "4:B0FR7DTF9L",
@@ -444,14 +444,14 @@
    "mercado": "FR",
    "titulo": "[FR] FEBI BILSTEIN Vis à tête cylindrique 184668",
    "precio": 13.3,
-   "antes": 57.19,
-   "descuento": 77,
+   "antes": 56.17,
+   "descuento": 76,
    "error": true,
    "categoria": "Bricolage",
    "url": "https://www.amazon.fr/dp/B0FR7DTF9L",
    "keepa": "https://keepa.com/#!product/4-B0FR7DTF9L",
    "stock": null,
-   "stock_ts": 1794151679
+   "stock_ts": 1794156301
   }
  ]
 }
