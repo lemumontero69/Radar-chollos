@@ -24,7 +24,8 @@ STOCK_DESCONOCIDO_AVISAR = True   # True: avisa aunque Keepa no sepa el stock (l
 RECHEQUEO_STOCK = 3600       # segundos hasta volver a mirar el stock de un chollo ya visto
 EXIGIR_MES = True            # descarta productos sin al menos un mes de historial de precios
 LISTA_RATIO = 0.5            # si Amazon tiene "precio de lista" y el precio actual supera esta fraccion, no es error
-RANK_MAX = 200000            # descarta productos que casi nunca se venden (ranking medio peor que esto)
+AMAZON_RATIO = 0.5           # en ofertas de terceros: si el precio supera esta fraccion del precio de Amazon, se descarta
+RANK_MAX = 200000           # descarta productos que casi nunca se venden (ranking medio peor que esto)
 # --- modo continuo (--bucle): una sola ejecucion de GitHub vigila durante muchos minutos ---
 INTERVALO = 120              # segundos entre ciclos
 CICLO_COMPLETO = 300         # cada cuantos segundos se hace el ciclo completo (4 paises); entre medias, solo Espana
@@ -81,7 +82,12 @@ EXCLUIR_TITULO = [
     "housse", "b\u00e2che", "pare-soleil", "c\u00e2ble", "support", "nettoyant",
     "copriauto", "telo", "cavo", "supporto", "detergente", "custodia",
     "correa de", "correa para", "armband", "ersatzarmband", "uhrenarmband", "cinturino per",
-    "bracelet de rechange", "recambio"]
+    "bracelet de rechange", "recambio",
+    # material electrico industrial (disyuntores, diferenciales...): precios de referencia absurdos
+    "interruptor diferencial", "interruptor autom", "disyuntor", "rcbo", "rccb", "magnetot",
+    "diferencial", "guardamotor", "contactor", "fusible", "cuadro eléctrico", "5sv", "5sj",
+    "circuit breaker", "leistungsschalter", "fi-schalter", "sicherungsautomat", "schutzschalter",
+    "sicherung", "disjoncteur", "interrupteur diff", "interruttore magnet", "interruttore diff"]
 CATS = []    # ids de categorias del mercado actual (se descubren en cada ejecucion)
 
 NIVEL = 0   # consulta usada: 0 = completa, 1 = intermedia, 2 = minima
@@ -233,6 +239,12 @@ def main(rapido=False):
                     except (KeyError, IndexError, TypeError):
                         lista_p = -1
                     if lista_p and lista_p > 0 and cur > lista_p * LISTA_RATIO: continue
+                    if tipo == 1:   # oferta de otro vendedor: si Amazon lo vende a un precio parecido, no es un error
+                        try:
+                            amz = dl["current"][0]
+                        except (KeyError, IndexError, TypeError):
+                            amz = -1
+                        if amz and amz > 0 and cur > amz * AMAZON_RATIO: continue
                     try:
                         rangos = [dl["avg"][i][3] for i in (3, 2)]   # ranking medio de ventas
                     except (KeyError, IndexError, TypeError):
