@@ -24,7 +24,10 @@ STOCK_DESCONOCIDO_AVISAR = True   # True: avisa aunque Keepa no sepa el stock (l
 RECHEQUEO_STOCK = 3600       # segundos hasta volver a mirar el stock de un chollo ya visto
 EXIGIR_MES = True            # descarta productos sin al menos un mes de historial de precios
 LISTA_RATIO = 0.5            # si Amazon tiene "precio de lista" y el precio actual supera esta fraccion, no es error
-AMAZON_RATIO = 0.5           # en ofertas de terceros: si el precio supera esta fraccion del precio de Amazon, se descarta
+MIN_VENTAS_90 = 5            # descarta productos con menos de estas "ventas" (bajadas de ranking) en 90 dias: no se venden
+INCLUIR_TERCEROS = True      # False: ignora las ofertas de otros vendedores y solo mira lo que vende Amazon (menos ruido)
+DEMANDA = {}                 # (pais, asin) -> bajadas de ranking en 90 dias, segun Keepa
+AMAZON_RATIO = 0.5          # en ofertas de terceros: si el precio supera esta fraccion del precio de Amazon, se descarta
 RANK_MAX = 200000           # descarta productos que casi nunca se venden (ranking medio peor que esto)
 # --- modo continuo (--bucle): una sola ejecucion de GitHub vigila durante muchos minutos ---
 INTERVALO = 120              # segundos entre ciclos
@@ -87,7 +90,8 @@ EXCLUIR_TITULO = [
     "interruptor diferencial", "interruptor autom", "disyuntor", "rcbo", "rccb", "magnetot",
     "diferencial", "guardamotor", "contactor", "fusible", "cuadro eléctrico", "5sv", "5sj",
     "circuit breaker", "leistungsschalter", "fi-schalter", "sicherungsautomat", "schutzschalter",
-    "sicherung", "disjoncteur", "interrupteur diff", "interruttore magnet", "interruttore diff"]
+    "sicherung", "disjoncteur", "interrupteur diff", "interruttore magnet", "interruttore diff",
+    "transformador", "transformer", "wandler", "relais", "relé", "bornes", "variador"]
 CATS = []    # ids de categorias del mercado actual (se descubren en cada ejecucion)
 
 NIVEL = 0   # consulta usada: 0 = completa, 1 = intermedia, 2 = minima
@@ -147,7 +151,8 @@ def consultar_stock(dom, asins):
         for p in d.get("products") or []:
             st = p.get("stats") or {}
             a, b = st.get("stockAmazon"), st.get("stockBuyBox")
-            print("stock", p.get("asin"), "amazon:", a, "buybox:", b)
+            DEMANDA[(dom, p.get("asin"))] = st.get("salesRankDrops90")
+            print("stock", p.get("asin"), "amazon:", a, "buybox:", b, "ventas90:", st.get("salesRankDrops90"))
             vals = [v for v in (a, b) if isinstance(v, (int, float)) and v >= 0]
             if vals: res[p["asin"]] = int(max(vals))
         time.sleep(1)
@@ -203,6 +208,7 @@ def main(rapido=False):
     vistos, cats_vistas, ok = {}, {}, False
     global CATS
     for host, cod, dom, tipos, paginas in MERCADOS:
+        tipos = [t for t in tipos if INCLUIR_TERCEROS or t == 0]
         if rapido and cod != "ES": continue    # ciclo rapido: solo Espana y una pagina
         if rapido: paginas = 1
         if rapido and cod in CATS_CACHE:
@@ -297,9 +303,15 @@ def main(rapido=False):
         for a in asins:
             vistos[f"{dom}:{a}"]["stock"] = stocks.get(a)
             vistos[f"{dom}:{a}"]["stock_ts"] = ahora
+            vistos[f"{dom}:{a}"]["ventas90"] = DEMANDA.get((dom, a))
     for clave in list(vistos):
         s = vistos[clave].get("stock")
-        if s is None and not STOCK_DESCONOCIDO_AVISAR:
+        v = vistos[clave].get("ventas90")
+        if isinstance(v, (int, float)) and 0 <= v < MIN_VENTAS_90:
+            print("descartado por no venderse:", clave, "ventas90:", v)
+            descartados[clave] = ahora
+            del vistos[clave]
+        elif s is None and not STOCK_DESCONOCIDO_AVISAR:
             del vistos[clave]
         elif s is not None and s < STOCK_MIN:
             print("descartado por poco stock:", clave, s)
