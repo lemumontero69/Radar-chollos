@@ -1,6 +1,6 @@
 {
- "actualizado": "10/11/2026 13:30 UTC",
- "ts": 1794317411,
+ "actualizado": "10/11/2026 14:29 UTC",
+ "ts": 1794320940,
  "descartados": {
   "9:B0HM3RC9QQ": 1794317404,
   "9:B0C2Z9KYQZ": 1794317404,
@@ -40,7 +40,11 @@
   "8:B00829QP2S": 1794317404,
   "8:B00Q31VXOW": 1794317404,
   "8:B0FP9Y3MWR": 1794317404,
-  "8:B074S1ZRRG": 1794317404
+  "8:B074S1ZRRG": 1794317404,
+  "9:B0D3LNZP4W": 1794320937,
+  "9:B0G3XM8PG6": 1794320937,
+  "9:B01IDLQKNS": 1794320937,
+  "8:B078J5QXDG": 1794320937
  },
  "chollos": [
   {
@@ -49,15 +53,14 @@
    "mercado": "DE",
    "titulo": "[DE] VARTA Powersports AGM Active (TZ12S) 12V 11Ah 210A – vibrationsfeste Batterie für Motorrad, Motorroller, ",
    "precio": 94.14,
-   "antes": 747.55,
+   "antes": 733.34,
    "descuento": 87,
    "error": true,
    "categoria": "Auto & Motorrad",
    "url": "https://www.amazon.de/dp/B0GSWHPRX1",
    "keepa": "https://keepa.com/#!product/3-B0GSWHPRX1",
    "stock": 1000,
-   "stock_ts": 1794317404,
-   "ventas90": 9
+   "stock_ts": 1794317404
   }
  ]
 }
