@@ -19,7 +19,8 @@ ERROR_PRECIO = 75            # % desde el que se marca como posible error de pre
 PRECIO_MIN, PRECIO_MAX = 100, 600000    # en centimos: de 1 EUR a 6.000 EUR
 PRECIO_ANTES_MIN = 5000      # ignora productos cuyo precio normal sea menor de 50 EUR
 SOLO_CATEGORIAS = True       # pon False para vigilar todas las categorias
-STOCK_MIN = 2                # unidades minimas: si Keepa confirma menos, se descarta
+DESCUENTO_ULTIMA_UNIDAD = 95   # con este descuento o mas, se avisa aunque quede solo 1 unidad
+STOCK_MIN = 2               # unidades minimas: si Keepa confirma menos, se descarta
 STOCK_DESCONOCIDO_AVISAR = True   # True: avisa aunque Keepa no sepa el stock (lo marca "sin confirmar")
 RECHEQUEO_STOCK = 3600       # segundos hasta volver a mirar el stock de un chollo ya visto
 EXIGIR_MES = True            # descarta productos sin al menos un mes de historial de precios
@@ -160,7 +161,12 @@ def consultar_stock(dom, asins):
 
 def avisar(x):
     s = x.get("stock")
-    uds = f"Unidades: {s}" if s is not None else "Unidades: sin confirmar"
+    if s is None:
+        uds = "Unidades: sin confirmar"
+    elif s == 1:
+        uds = "⚠️ ÚLTIMA UNIDAD (1 en stock)"
+    else:
+        uds = f"Unidades: {s}"
     texto = f"{x['titulo']}\n{x['precio']:.2f} EUR (antes {x['antes']:.2f} EUR)\n{uds}"
     if x.get("keepa"):
         texto += f"\nHistorial de precios: {x['keepa']}"
@@ -313,7 +319,7 @@ def main(rapido=False):
             del vistos[clave]
         elif s is None and not STOCK_DESCONOCIDO_AVISAR:
             del vistos[clave]
-        elif s is not None and s < STOCK_MIN:
+        elif s is not None and s < STOCK_MIN and not (s >= 1 and vistos[clave]["descuento"] >= DESCUENTO_ULTIMA_UNIDAD):
             print("descartado por poco stock:", clave, s)
             descartados[clave] = ahora
             del vistos[clave]
