@@ -1,25 +1,35 @@
 name: Buscar chollos
 on:
-  schedule: [{cron: "*/5 * * * *"}]
+  schedule:
+    - cron: "7,37 * * * *"
   workflow_dispatch:
     inputs:
       prueba:
-        description: "Enviar solo un mensaje de prueba"
+        description: "Enviar mensaje de prueba"
         type: boolean
         default: false
 permissions:
   contents: write
-concurrency: chollos
+concurrency:
+  group: chollos
+  cancel-in-progress: false
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 58
     steps:
       - uses: actions/checkout@v4
-        with: {ref: main}
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: pip install requests
-      - run: python bot.py ${{ inputs.prueba && '--prueba' || '' }}
+      - name: Configurar git
+        run: |
+          git config user.name bot
+          git config user.email bot@users.noreply.github.com
+      - name: Vigilar chollos (52 minutos seguidos)
+        run: python bot.py ${{ inputs.prueba && '--prueba' || '--bucle 52' }}
         env:
           KEEPA_KEY: ${{ secrets.KEEPA_KEY }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
@@ -27,10 +37,3 @@ jobs:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           PUSHOVER_TOKEN: ${{ secrets.PUSHOVER_TOKEN }}
           PUSHOVER_USER: ${{ secrets.PUSHOVER_USER }}
-      - run: |
-          git config user.name bot
-          git config user.email bot@users.noreply.github.com
-          git add deals.json
-          git diff --cached --quiet || git commit -m "update"
-          git pull --rebase -X theirs
-          git push
