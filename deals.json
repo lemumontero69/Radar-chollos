@@ -1,6 +1,6 @@
 {
- "actualizado": "12/11/2026 07:15 UTC",
- "ts": 1794467712,
+ "actualizado": "12/11/2026 07:31 UTC",
+ "ts": 1794468687,
  "descartados": {
   "9:B09FZZ8KSG": 1794467695,
   "9:B0H4GNKZQL": 1794467695,
@@ -100,7 +100,8 @@
   "4:B0BG45T4HR": 1794467695,
   "4:B0G33MRQNB": 1794467695,
   "8:B0HD7C1N91": 1794467695,
-  "8:B075SF57C6": 1794467695
+  "8:B075SF57C6": 1794467695,
+  "9:B0DFYP81R6": 1794468685
  },
  "chollos": [
   {
@@ -109,15 +110,14 @@
    "mercado": "FR",
    "titulo": "[FR] 3M 389 Ruban Blazer Haute Performance, 25 mm x 50 m, 1 pièce, Noir",
    "precio": 36.3,
-   "antes": 271.66,
+   "antes": 269.57,
    "descuento": 87,
    "error": true,
    "categoria": "Bricolage",
    "url": "https://www.amazon.fr/dp/B00HW0WQP8",
    "keepa": "https://keepa.com/#!product/4-B00HW0WQP8",
    "stock": 1000,
-   "stock_ts": 1794467695,
-   "ventas90": 75
+   "stock_ts": 1794467695
   },
   {
    "clave": "9:B0FSLRD3B5",
@@ -125,15 +125,14 @@
    "mercado": "ES",
    "titulo": "Gafas Eclipse Solar Homologadas ISO 12312-2 CE EPI | Lentes para Eclipse Solar | Fabricante Europeo Recon",
    "precio": 24.99,
-   "antes": 116.99,
+   "antes": 116.41,
    "descuento": 79,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B0FSLRD3B5",
    "keepa": "https://keepa.com/#!product/9-B0FSLRD3B5",
    "stock": 10,
-   "stock_ts": 1794467695,
-   "ventas90": 10
+   "stock_ts": 1794467695
   }
  ]
 }
