@@ -1,6 +1,6 @@
 {
- "actualizado": "12/11/2026 16:21 UTC",
- "ts": 1794500519,
+ "actualizado": "12/11/2026 16:30 UTC",
+ "ts": 1794501005,
  "descartados": {
   "9:B0HK859BTT": 1794499923,
   "9:B0HG1JKCM1": 1794499923,
@@ -69,7 +69,8 @@
   "8:B0HD7C1N91": 1794499923,
   "8:B075SF57C6": 1794499923,
   "9:B0FDHPG7QY": 1794500282,
-  "9:B0HLTD29L6": 1794500517
+  "9:B0HLTD29L6": 1794500517,
+  "9:B00K836JUY": 1794501004
  },
  "chollos": [
   {
@@ -78,7 +79,7 @@
    "mercado": "FR",
    "titulo": "[FR] 3M 389 Ruban Blazer Haute Performance, 25 mm x 50 m, 1 pièce, Noir",
    "precio": 36.3,
-   "antes": 204.83,
+   "antes": 203.36,
    "descuento": 82,
    "error": true,
    "categoria": "Bricolage",
