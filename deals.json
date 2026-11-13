@@ -1,6 +1,6 @@
 {
- "actualizado": "13/11/2026 11:13 UTC",
- "ts": 1794568428,
+ "actualizado": "13/11/2026 11:33 UTC",
+ "ts": 1794569632,
  "descartados": {
   "9:B074S24DVQ": 1794567111,
   "9:B07YZS8512": 1794567111,
@@ -111,7 +111,7 @@
    "mercado": "ES",
    "titulo": "ViewSonic PX701HDH Full HD 3.500 lúmenes 12.000:1 Contrast TR 1.50-1.65 1.1x Optical Zoom Vertical Keysto",
    "precio": 138.0,
-   "antes": 849.81,
+   "antes": 849.27,
    "descuento": 84,
    "error": true,
    "categoria": "Electrónica",
@@ -119,22 +119,6 @@
    "keepa": "https://keepa.com/#!product/9-B09TQ26TGJ",
    "stock": 3,
    "stock_ts": 1794567111
-  },
-  {
-   "clave": "9:B0BS5VQDYG",
-   "asin": "B0BS5VQDYG",
-   "mercado": "ES",
-   "titulo": "NEEWER 74\" Trípode de Vídeo con Cabeza Fluida, QR Placa, Aluminio, TP74",
-   "precio": 9.99,
-   "antes": 148.86,
-   "descuento": 93,
-   "error": true,
-   "categoria": "Electrónica",
-   "url": "https://www.amazon.es/dp/B0BS5VQDYG",
-   "keepa": "https://keepa.com/#!product/9-B0BS5VQDYG",
-   "stock": 52,
-   "stock_ts": 1794568425,
-   "ventas90": 82
   }
  ]
 }
