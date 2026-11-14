@@ -1,6 +1,6 @@
 {
- "actualizado": "14/11/2026 06:17 UTC",
- "ts": 1794637067,
+ "actualizado": "14/11/2026 06:25 UTC",
+ "ts": 1794637547,
  "descartados": {
   "9:B074S24DVQ": 1794636591,
   "9:B01CKILUYY": 1794636591,
@@ -80,7 +80,8 @@
   "4:B0FP9YD4QQ": 1794636591,
   "4:B0GZQYGPQX": 1794636591,
   "4:B00DZJ34QA": 1794636591,
-  "9:B0796X2DKS": 1794637066
+  "9:B0796X2DKS": 1794637066,
+  "9:B0796X1JYD": 1794637546
  },
  "chollos": [
   {
@@ -89,7 +90,7 @@
    "mercado": "ES",
    "titulo": "ViewSonic PX701HDH Full HD 3.500 lúmenes 12.000:1 Contrast TR 1.50-1.65 1.1x Optical Zoom Vertical Keysto",
    "precio": 138.0,
-   "antes": 785.74,
+   "antes": 782.55,
    "descuento": 82,
    "error": true,
    "categoria": "Electrónica",
