@@ -1,6 +1,6 @@
 {
- "actualizado": "16/11/2026 09:33 UTC",
- "ts": 1794821586,
+ "actualizado": "16/11/2026 09:55 UTC",
+ "ts": 1794822910,
  "descartados": {
   "9:B004W7FRBY": 1794821471,
   "9:B01N9EA3M4": 1794821471,
@@ -94,22 +94,6 @@
  },
  "chollos": [
   {
-   "clave": "3:B0FG8FY3X6",
-   "asin": "B0FG8FY3X6",
-   "mercado": "DE",
-   "titulo": "[DE] Caffè Corsini – Lavazza A Modo Mio Kompatible Kaffeekapseln Classico Italiano, Kräftiger Geschmack, 300 K",
-   "precio": 20.99,
-   "antes": 93.0,
-   "descuento": 77,
-   "error": true,
-   "categoria": "Lebensmittel & Getränke",
-   "url": "https://www.amazon.de/dp/B0FG8FY3X6",
-   "keepa": "https://keepa.com/#!product/3-B0FG8FY3X6",
-   "stock": 10,
-   "stock_ts": 1794821471,
-   "ventas90": 40
-  },
-  {
    "clave": "8:B0C7RF327J",
    "asin": "B0C7RF327J",
    "mercado": "IT",
@@ -122,8 +106,7 @@
    "url": "https://www.amazon.it/dp/B0C7RF327J",
    "keepa": "https://keepa.com/#!product/8-B0C7RF327J",
    "stock": 1000,
-   "stock_ts": 1794821471,
-   "ventas90": 20
+   "stock_ts": 1794821471
   }
  ]
 }
