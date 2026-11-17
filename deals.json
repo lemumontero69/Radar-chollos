@@ -1,6 +1,6 @@
 {
- "actualizado": "17/11/2026 02:54 UTC",
- "ts": 1794884072,
+ "actualizado": "17/11/2026 03:00 UTC",
+ "ts": 1794884422,
  "descartados": {
   "9:B0796S4TVZ": 1794884060,
   "9:B01N9EA3M4": 1794884060,
@@ -97,7 +97,8 @@
   "9:B089RJJW38": 1794884060,
   "3:B07V1LM2R6": 1794884060,
   "3:B0FTQW321B": 1794884060,
-  "8:B003NQANK0": 1794884060
+  "8:B003NQANK0": 1794884060,
+  "9:B0784S4VBS": 1794884420
  },
  "chollos": [
   {
@@ -113,8 +114,7 @@
    "url": "https://www.amazon.it/dp/B0C7RF327J",
    "keepa": "https://keepa.com/#!product/8-B0C7RF327J",
    "stock": 1000,
-   "stock_ts": 1794884060,
-   "ventas90": 20
+   "stock_ts": 1794884060
   }
  ]
 }
