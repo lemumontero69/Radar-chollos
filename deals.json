@@ -1,6 +1,6 @@
 {
- "actualizado": "19/11/2026 18:44 UTC",
- "ts": 1795113895,
+ "actualizado": "19/11/2026 18:58 UTC",
+ "ts": 1795114730,
  "descartados": {
   "9:B0HQJP3H7J": 1795113534,
   "9:B0HH86VB8J": 1795113534,
@@ -44,7 +44,8 @@
   "4:B098K8RGFR": 1795113534,
   "8:B0HJGZGZF1": 1795113534,
   "8:B0788C4N1S": 1795113534,
-  "9:B0CSGBL4QM": 1795113894
+  "9:B0CSGBL4QM": 1795113894,
+  "9:B002IAP08C": 1795114729
  },
  "chollos": [
   {
@@ -68,7 +69,7 @@
    "mercado": "ES",
    "titulo": "CASCHO Reloj Inteligente Hombre Mujer,1.85\" HD Smartwatch con Llamadas y Voz de Al, Whatsapp Notificacion",
    "precio": 21.99,
-   "antes": 99.77,
+   "antes": 99.39,
    "descuento": 78,
    "error": true,
    "categoria": "Electrónica",
