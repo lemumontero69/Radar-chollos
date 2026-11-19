@@ -1,6 +1,6 @@
 {
- "actualizado": "19/11/2026 19:08 UTC",
- "ts": 1795115337,
+ "actualizado": "19/11/2026 19:26 UTC",
+ "ts": 1795116417,
  "descartados": {
   "9:B0HQJP3H7J": 1795113534,
   "9:B0HH86VB8J": 1795113534,
@@ -47,7 +47,14 @@
   "9:B0CSGBL4QM": 1795113894,
   "9:B002IAP08C": 1795114729,
   "9:B0C2Z7VMJ3": 1795115335,
-  "9:B007VHC382": 1795115335
+  "9:B007VHC382": 1795115335,
+  "9:B000VZEX98": 1795116415,
+  "9:B0CPY43XP4": 1795116415,
+  "9:B0HHF3DYNT": 1795116415,
+  "9:B005ET55HK": 1795116415,
+  "9:B07NF22SQF": 1795116415,
+  "9:B0006U58LA": 1795116415,
+  "9:B008OICJDG": 1795116415
  },
  "chollos": [
   {
@@ -56,7 +63,7 @@
    "mercado": "IT",
    "titulo": "[IT] TODAY Essential - Lenzuolo con angoli, 140 x 190 cm, 2 persone, 100% cotone, tinta unita, bronzo",
    "precio": 14.21,
-   "antes": 117.54,
+   "antes": 116.83,
    "descuento": 88,
    "error": true,
    "categoria": "Casa e cucina",
@@ -71,7 +78,7 @@
    "mercado": "ES",
    "titulo": "CASCHO Reloj Inteligente Hombre Mujer,1.85\" HD Smartwatch con Llamadas y Voz de Al, Whatsapp Notificacion",
    "precio": 21.99,
-   "antes": 99.12,
+   "antes": 98.64,
    "descuento": 78,
    "error": true,
    "categoria": "Electrónica",
