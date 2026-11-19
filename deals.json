@@ -1,6 +1,6 @@
 {
- "actualizado": "19/11/2026 01:32 UTC",
- "ts": 1795051935,
+ "actualizado": "19/11/2026 02:04 UTC",
+ "ts": 1795053858,
  "descartados": {
   "9:B0HQMSYXK5": 1795051697,
   "9:B0CPY43XP4": 1795051697,
@@ -51,7 +51,8 @@
   "8:B0FP9XHL3Z": 1795051697,
   "8:B008BMSHZ4": 1795051697,
   "8:B0FPBDQXTQ": 1795051697,
-  "9:B000VZEX98": 1795051933
+  "9:B000VZEX98": 1795051933,
+  "4:B098K8RGFR": 1795053857
  },
  "chollos": [
   {
@@ -60,15 +61,14 @@
    "mercado": "IT",
    "titulo": "[IT] OtterBox Cover Folio per iPad Air 10,9\" (4a Generazione), Bell Bottom",
    "precio": 19.8,
-   "antes": 83.08,
+   "antes": 83.07,
    "descuento": 76,
    "error": true,
    "categoria": "Informatica",
    "url": "https://www.amazon.it/dp/B0D8JWMPRK",
    "keepa": "https://keepa.com/#!product/8-B0D8JWMPRK",
    "stock": 18,
-   "stock_ts": 1795051697,
-   "ventas90": 15
+   "stock_ts": 1795051697
   },
   {
    "clave": "4:B0B63CL3GN",
@@ -76,15 +76,14 @@
    "mercado": "FR",
    "titulo": "[FR] SKULL & BONES PREMIUM, XBOX X",
    "precio": 14.99,
-   "antes": 63.02,
+   "antes": 62.03,
    "descuento": 76,
    "error": true,
    "categoria": "Jeux vidéo",
    "url": "https://www.amazon.fr/dp/B0B63CL3GN",
    "keepa": "https://keepa.com/#!product/4-B0B63CL3GN",
    "stock": 78,
-   "stock_ts": 1795051697,
-   "ventas90": 75
+   "stock_ts": 1795051697
   }
  ]
 }
