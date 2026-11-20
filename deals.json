@@ -1,6 +1,6 @@
 {
- "actualizado": "20/11/2026 09:24 UTC",
- "ts": 1795166646,
+ "actualizado": "20/11/2026 09:26 UTC",
+ "ts": 1795166770,
  "descartados": {
   "9:B016ZN7U30": 1795165689,
   "9:B0CTMXR8S4": 1795165689,
@@ -63,7 +63,8 @@
   "9:B0GHSGJW34": 1795166410,
   "9:B0FP9TNDCC": 1795166410,
   "9:B0GHYHBK1D": 1795166410,
-  "9:B0028YGFY6": 1795166645
+  "9:B0028YGFY6": 1795166645,
+  "9:B0DCNRSJVF": 1795166769
  },
  "chollos": [
   {
@@ -72,7 +73,7 @@
    "mercado": "IT",
    "titulo": "[IT] TODAY Essential - Lenzuolo con angoli, 140 x 190 cm, 2 persone, 100% cotone, tinta unita, bronzo",
    "precio": 14.21,
-   "antes": 83.97,
+   "antes": 83.74,
    "descuento": 83,
    "error": true,
    "categoria": "Casa e cucina",
