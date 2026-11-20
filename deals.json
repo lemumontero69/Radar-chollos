@@ -1,6 +1,6 @@
 {
- "actualizado": "20/11/2026 17:59 UTC",
- "ts": 1795197584,
+ "actualizado": "20/11/2026 18:17 UTC",
+ "ts": 1795198651,
  "descartados": {
   "9:B016ZN7U30": 1795197570,
   "9:B0CTMXR8S4": 1795197570,
@@ -76,7 +76,8 @@
   "3:B0D8PYBWYC": 1795197570,
   "4:B0FP9T9MVW": 1795197570,
   "8:B0HJGZGZF1": 1795197570,
-  "8:B0034U7K4C": 1795197570
+  "8:B0034U7K4C": 1795197570,
+  "9:B0HPNXPTQF": 1795198650
  },
  "chollos": [
   {
@@ -92,8 +93,7 @@
    "url": "https://www.amazon.it/dp/B002A012JQ",
    "keepa": "https://keepa.com/#!product/8-B002A012JQ",
    "stock": 1000,
-   "stock_ts": 1795197570,
-   "ventas90": 16
+   "stock_ts": 1795197570
   },
   {
    "clave": "8:B0BVFRYPS9",
@@ -101,15 +101,14 @@
    "mercado": "IT",
    "titulo": "[IT] TODAY Essential - Lenzuolo con angoli, 140 x 190 cm, 2 persone, 100% cotone, tinta unita, bronzo",
    "precio": 14.21,
-   "antes": 63.53,
-   "descuento": 78,
+   "antes": 62.82,
+   "descuento": 77,
    "error": true,
    "categoria": "Casa e cucina",
    "url": "https://www.amazon.it/dp/B0BVFRYPS9",
    "keepa": "https://keepa.com/#!product/8-B0BVFRYPS9",
    "stock": 1000,
-   "stock_ts": 1795197570,
-   "ventas90": 28
+   "stock_ts": 1795197570
   }
  ]
 }
