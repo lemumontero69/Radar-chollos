@@ -1,6 +1,6 @@
 {
- "actualizado": "20/11/2026 01:13 UTC",
- "ts": 1795137236,
+ "actualizado": "20/11/2026 01:19 UTC",
+ "ts": 1795137589,
  "descartados": {
   "9:B000VZEX98": 1795137228,
   "9:B011ODTOZ8": 1795137228,
@@ -40,7 +40,10 @@
   "4:B0FP9T9MVW": 1795137228,
   "4:B098K8RGFR": 1795137228,
   "8:B0HJGZGZF1": 1795137228,
-  "8:B0788C4N1S": 1795137228
+  "8:B0788C4N1S": 1795137228,
+  "9:B082KG26QH": 1795137344,
+  "9:B0DVCHRKT4": 1795137344,
+  "9:B0FP9S6J5B": 1795137588
  },
  "chollos": [
   {
@@ -49,15 +52,14 @@
    "mercado": "IT",
    "titulo": "[IT] TODAY Essential - Lenzuolo con angoli, 140 x 190 cm, 2 persone, 100% cotone, tinta unita, bronzo",
    "precio": 14.21,
-   "antes": 103.16,
+   "antes": 102.92,
    "descuento": 86,
    "error": true,
    "categoria": "Casa e cucina",
    "url": "https://www.amazon.it/dp/B0BVFRYPS9",
    "keepa": "https://keepa.com/#!product/8-B0BVFRYPS9",
    "stock": 1000,
-   "stock_ts": 1795137228,
-   "ventas90": 28
+   "stock_ts": 1795137228
   },
   {
    "clave": "9:B0GHMWL3S7",
@@ -65,15 +67,14 @@
    "mercado": "ES",
    "titulo": "CASCHO Reloj Inteligente Hombre Mujer,1.85\" HD Smartwatch con Llamadas y Voz de Al, Whatsapp Notificacion",
    "precio": 21.99,
-   "antes": 89.24,
+   "antes": 89.08,
    "descuento": 75,
    "error": true,
    "categoria": "Electrónica",
    "url": "https://www.amazon.es/dp/B0GHMWL3S7",
    "keepa": "https://keepa.com/#!product/9-B0GHMWL3S7",
    "stock": 3,
-   "stock_ts": 1795137228,
-   "ventas90": 5
+   "stock_ts": 1795137228
   }
  ]
 }
