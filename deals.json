@@ -1,6 +1,6 @@
 {
- "actualizado": "22/11/2026 01:14 UTC",
- "ts": 1795310058,
+ "actualizado": "22/11/2026 01:44 UTC",
+ "ts": 1795311853,
  "descartados": {
   "9:B0HR9GPG26": 1795310051,
   "9:B0HQBG4P35": 1795310051,
@@ -40,7 +40,8 @@
   "3:B0G3MFQ4RH": 1795310051,
   "3:B0FP9YRZ71": 1795310051,
   "8:B0F8SGVDF6": 1795310051,
-  "8:B078J6DSPB": 1795310051
+  "8:B078J6DSPB": 1795310051,
+  "9:B0GM13V9BJ": 1795311851
  },
  "chollos": [
   {
@@ -49,15 +50,14 @@
    "mercado": "ES",
    "titulo": "PD - Forro para bandeja de pintura de 9 pulgadas, paquete de 10",
    "precio": 16.99,
-   "antes": 73.68,
+   "antes": 73.67,
    "descuento": 77,
    "error": true,
    "categoria": "Bricolaje y herramientas",
    "url": "https://www.amazon.es/dp/B082F73SWB",
    "keepa": "https://keepa.com/#!product/9-B082F73SWB",
    "stock": 161,
-   "stock_ts": 1795310051,
-   "ventas90": 6
+   "stock_ts": 1795310051
   }
  ]
 }
